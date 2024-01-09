@@ -7,8 +7,6 @@
   },
   "rpcUrl": "https://rpc.cosmos.directory/rizon",
   "restUrl": "https://rest.cosmos.directory/rizon",
-  "rpcUrlDev": "https://api-junomint.ezstaking.dev/rpc/rizon",
-  "restUrlDev": "https://api-junomint.ezstaking.dev/lcd/rizon",
   "chainId": "titan-1",
   "bech32": "rizon",
   "denom": "atolo",
@@ -27,22 +25,6 @@
   "accountUrl": "https://ezstaking.app/rizon/account/",
   "coinGeckoId": "rizon",
   "gasPrice": "25000uatolo",
-  "defaultGas": {
-    "default": "250000",
-    "send": "250000",
-    "claim": "250000",
-    "setWithdrawAddr": "250000",
-    "deposit": "250000",
-    "submitProposal": "250000",
-    "vote": "250000",
-    "smartContract": "250000",
-    "delegate": "250000",
-    "redelegate": "250000",
-    "undelegate": "250000",
-    "createValidator": "250000",
-    "editValidator": "250000",
-    "unjail:": "250000"
-  },
   "chainInfo": {
     "cosmosSdkVersion": "0.45.16",
     "ibcGoVersion": "4.4.2"

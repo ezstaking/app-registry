@@ -7,8 +7,6 @@
   },
   "rpcUrl": "https://emoney.validator.network",
   "restUrl": "https://emoney.validator.network/api",
-  "rpcUrlDev": "https://rpc-emoney.ezstaking.dev",
-  "restUrlDev": "https://lcd-emoney.ezstaking.dev",
   "chainId": "emoney-3",
   "bech32": "emoney",
   "denom": "ngm",
@@ -27,22 +25,6 @@
   "accountUrl": "https://ezstaking.app/emoney/account/",
   "coinGeckoId": "e-money",
   "gasPrice": "25000ungm",
-  "defaultGas": {
-    "default": "250000",
-    "send": "250000",
-    "claim": "250000",
-    "setWithdrawAddr": "250000",
-    "deposit": "250000",
-    "submitProposal": "250000",
-    "vote": "250000",
-    "smartContract": "250000",
-    "delegate": "250000",
-    "redelegate": "250000",
-    "undelegate": "250000",
-    "createValidator": "250000",
-    "editValidator": "250000",
-    "unjail:": "250000"
-  },
   "chainInfo": {
     "cosmosSdkVersion": "0.42.11",
     "ibcGoVersion": "3.0.0"

@@ -8,8 +8,6 @@
   },
   "rpcUrl": "https://gravitychain.io:26657",
   "restUrl": "https://gravitychain.io:1317",
-  "rpcUrlDev": "https://rpc-gravity-bridge.ezstaking.dev",
-  "restUrlDev": "https://lcd-gravity-bridge.ezstaking.dev",
   "chainId": "gravity-bridge-3",
   "bech32": "gravity",
   "denom": "graviton",
@@ -28,22 +26,6 @@
   "accountUrl": "https://ezstaking.app/gravity-bridge/account/",
   "coinGeckoId": "graviton",
   "gasPrice": "0ugraviton",
-  "defaultGas": {
-    "default": "250000",
-    "send": "250000",
-    "claim": "250000",
-    "setWithdrawAddr": "250000",
-    "deposit": "250000",
-    "submitProposal": "250000",
-    "vote": "250000",
-    "smartContract": "250000",
-    "delegate": "250000",
-    "redelegate": "250000",
-    "undelegate": "250000",
-    "createValidator": "250000",
-    "editValidator": "250000",
-    "unjail:": "250000"
-  },
   "assets": [
     {
       "base": "0x07bac35846e5ed502aa91adf6a9e7aa210f2dcbe",

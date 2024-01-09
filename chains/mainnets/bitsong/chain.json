@@ -7,8 +7,6 @@
   },
   "rpcUrl": "https://rpc.explorebitsong.com",
   "restUrl": "https://lcd.explorebitsong.com",
-  "rpcUrlDev": "https://rpc-bitsong.ezstaking.dev",
-  "restUrlDev": "https://lcd-bitsong.ezstaking.dev",
   "chainId": "bitsong-2b",
   "bech32": "bitsong",
   "denom": "btsg",
@@ -27,22 +25,6 @@
   "accountUrl": "https://ezstaking.app/bitsong/account/",
   "coinGeckoId": "bitsong",
   "gasPrice": "15000ubtsg",
-  "defaultGas": {
-    "default": "250000",
-    "send": "250000",
-    "claim": "250000",
-    "setWithdrawAddr": "250000",
-    "deposit": "250000",
-    "submitProposal": "250000",
-    "vote": "250000",
-    "smartContract": "250000",
-    "delegate": "250000",
-    "redelegate": "250000",
-    "undelegate": "250000",
-    "createValidator": "250000",
-    "editValidator": "250000",
-    "unjail:": "250000"
-  },
   "chainInfo": {
     "cosmosSdkVersion": "0.45.11",
     "ibcGoVersion": "3.3.1"

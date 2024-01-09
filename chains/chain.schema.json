@@ -19,7 +19,6 @@
     "proposalUrl",
     "accountUrl",
     "coinGeckoId",
-    "defaultGas",
     "gasPrice",
     "chainInfo",
     "colors",
@@ -75,9 +74,6 @@
     },
     "coinGeckoId": {
       "type": "string"
-    },
-    "defaultGas": {
-      "type": "object"
     },
     "gasPrice": {
       "type": "string"

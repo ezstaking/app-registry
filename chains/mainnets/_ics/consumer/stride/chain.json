@@ -10,8 +10,6 @@
   "providerChain": "cosmoshub",
   "rpcUrl": "https://stride-fleet.main.stridenet.co",
   "restUrl": "https://stride-fleet.main.stridenet.co/api",
-  "rpcUrlDev": "https://rpc.cosmos.directory/stride",
-  "restUrlDev": "https://rest.cosmos.directory/stride",
   "chainId": "stride-1",
   "bech32": "stride",
   "denom": "strd",
@@ -30,22 +28,6 @@
   "accountUrl": "https://ezstaking.app/stride/account/",
   "coinGeckoId": "stride",
   "gasPrice": "0ustrd",
-  "defaultGas": {
-    "default": "250000",
-    "send": "250000",
-    "claim": "250000",
-    "setWithdrawAddr": "250000",
-    "deposit": "250000",
-    "submitProposal": "250000",
-    "vote": "250000",
-    "smartContract": "250000",
-    "delegate": "250000",
-    "redelegate": "250000",
-    "undelegate": "250000",
-    "createValidator": "250000",
-    "editValidator": "250000",
-    "unjail:": "250000"
-  },
   "chainInfo": {
     "cosmosSdkVersion": "0.47.4",
     "ibcGoVersion": "7.2.0"

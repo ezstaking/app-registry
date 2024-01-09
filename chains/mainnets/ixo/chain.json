@@ -5,8 +5,6 @@
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg"
   },
-  "rpcUrlDev": "https://rpc.cosmos.directory/ixo",
-  "restUrlDev": "https://rest.cosmos.directory/ixo",
   "rpcUrl": "https://rpc-ixo.ezstaking.dev",
   "restUrl": "https://lcd-ixo.ezstaking.dev",
   "chainId": "ixo-5",
@@ -27,22 +25,6 @@
   "accountUrl": "https://ezstaking.app/ixo/account/",
   "coinGeckoId": "ixo",
   "gasPrice": "25000uixo",
-  "defaultGas": {
-    "default": "250000",
-    "send": "250000",
-    "claim": "250000",
-    "setWithdrawAddr": "250000",
-    "deposit": "250000",
-    "submitProposal": "250000",
-    "vote": "250000",
-    "smartContract": "250000",
-    "delegate": "250000",
-    "redelegate": "250000",
-    "undelegate": "250000",
-    "createValidator": "250000",
-    "editValidator": "250000",
-    "unjail:": "250000"
-  },
   "chainInfo": {
     "cosmosSdkVersion": "0.45.16",
     "ibcGoVersion": "4.4.1"

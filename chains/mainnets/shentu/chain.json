@@ -7,8 +7,6 @@
   },
   "rpcUrl": "https://shenturpc.noopsbycertik.com",
   "restUrl": "https://chainfull.noopsbycertik.com",
-  "rpcUrlDev": "https://rpc-certik.ezstaking.dev",
-  "restUrlDev": "https://lcd-certik.ezstaking.dev",
   "chainId": "shentu-2.2",
   "bech32": "certik",
   "denom": "ctk",
@@ -27,22 +25,6 @@
   "accountUrl": "https://ezstaking.app/shentu/account/",
   "coinGeckoId": "certik",
   "gasPrice": "25000uctk",
-  "defaultGas": {
-    "default": "250000",
-    "send": "250000",
-    "claim": "250000",
-    "setWithdrawAddr": "250000",
-    "deposit": "250000",
-    "submitProposal": "250000",
-    "vote": "250000",
-    "smartContract": "250000",
-    "delegate": "250000",
-    "redelegate": "250000",
-    "undelegate": "250000",
-    "createValidator": "250000",
-    "editValidator": "250000",
-    "unjail:": "250000"
-  },
   "chainInfo": {
     "cosmosSdkVersion": "0.45.11",
     "ibcGoVersion": "4.2.1"

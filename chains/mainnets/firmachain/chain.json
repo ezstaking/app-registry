@@ -7,8 +7,6 @@
   },
   "rpcUrl": "https://lcd.firmachain.dev:26657",
   "restUrl": "https://lcd.firmachain.dev:1317",
-  "rpcUrlDev": "https://lcd-ezstaking.firmachain.dev:26657",
-  "restUrlDev": "https://lcd-ezstaking.firmachain.dev:1317",
   "chainId": "colosseum-1",
   "bech32": "firma",
   "denom": "fct",
@@ -27,22 +25,6 @@
   "accountUrl": "https://ezstaking.app/firmachain/account/",
   "coinGeckoId": "firmachain",
   "gasPrice": "10000ufct",
-  "defaultGas": {
-    "default": "250000",
-    "send": "250000",
-    "claim": "250000",
-    "setWithdrawAddr": "250000",
-    "deposit": "250000",
-    "submitProposal": "250000",
-    "vote": "250000",
-    "smartContract": "250000",
-    "delegate": "250000",
-    "redelegate": "250000",
-    "undelegate": "250000",
-    "createValidator": "250000",
-    "editValidator": "250000",
-    "unjail:": "250000"
-  },
   "chainInfo": {
     "cosmosSdkVersion": "0.45.9",
     "ibcGoVersion": "3.3.0"

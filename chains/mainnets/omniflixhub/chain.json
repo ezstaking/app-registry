@@ -7,8 +7,6 @@
   },
   "rpcUrl": "https://rpc.omniflix.network",
   "restUrl": "https://rest.omniflix.network",
-  "rpcUrlDev": "https://rpc-omniflix.ezstaking.dev",
-  "restUrlDev": "https://lcd-omniflix.ezstaking.dev",
   "chainId": "omniflixhub-1",
   "bech32": "omniflix",
   "denom": "flix",
@@ -27,22 +25,6 @@
   "accountUrl": "https://ezstaking.app/omniflixhub/account/",
   "coinGeckoId": "omniflix-network",
   "gasPrice": "1000uflix",
-  "defaultGas": {
-    "default": "250000",
-    "send": "250000",
-    "claim": "250000",
-    "setWithdrawAddr": "250000",
-    "deposit": "250000",
-    "submitProposal": "250000",
-    "vote": "250000",
-    "smartContract": "250000",
-    "delegate": "250000",
-    "redelegate": "250000",
-    "undelegate": "250000",
-    "createValidator": "250000",
-    "editValidator": "250000",
-    "unjail:": "250000"
-  },
   "chainInfo": {
     "cosmosSdkVersion": "0.45.16",
     "ibcGoVersion": "4.4.2"
