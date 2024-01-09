@@ -1,0 +1,251 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "EZ Staking App Registry",
+  "description": "EZ Staking App Registry",
+  "type": "object",
+  "required": [
+    "chainName",
+    "rpcUrl",
+    "restUrl",
+    "chainId",
+    "denom",
+    "denomUpper",
+    "sdenom",
+    "coinType",
+    "gasPriceStep",
+    "coinDecimals",
+    "features",
+    "explorerUrlToTx",
+    "proposalUrl",
+    "accountUrl",
+    "coinGeckoId",
+    "defaultGas",
+    "gasPrice",
+    "chainInfo",
+    "colors",
+    "links",
+    "isExplorerEnabled",
+    "isModuleEnabled"
+  ],
+  "properties": {
+    "chainName": {
+      "type": "string"
+    },
+    "rpcUrl": {
+      "type": "string"
+    },
+    "restUrl": {
+      "type": "string"
+    },
+    "chainId": {
+      "type": "string"
+    },
+    "bech32": {
+      "type": "string"
+    },
+    "denom": {
+      "type": "string"
+    },
+    "denomUpper": {
+      "type": "string"
+    },
+    "sdenom": {
+      "type": "string"
+    },
+    "coinType": {
+      "type": "number"
+    },
+    "gasPriceStep": {
+      "type": "object"
+    },
+    "coinDecimals": {
+      "type": "number"
+    },
+    "features": {
+      "type": "array"
+    },
+    "explorerUrlToTx": {
+      "type": "string"
+    },
+    "proposalUrl": {
+      "type": "string"
+    },
+    "accountUrl": {
+      "type": "string"
+    },
+    "coinGeckoId": {
+      "type": "string"
+    },
+    "defaultGas": {
+      "type": "object"
+    },
+    "gasPrice": {
+      "type": "string"
+    },
+    "chainInfo": {
+      "$ref": "#/$defs/chainInfo"
+    },
+    "colors": {
+      "$ref": "#/$defs/colors"
+    },
+    "links": {
+      "$ref": "#/$defs/links"
+    },
+    "isExplorerEnabled": {
+      "type": "boolean"
+    },
+    "isModuleEnabled": {
+      "$ref": "#/$defs/isModuleEnabled"
+    },
+    "isAProviderChain": {
+      "type": "boolean"
+    },
+    "isAConsumerChain": {
+      "type": "boolean"
+    },
+    "providerChain": {
+      "type": "string"
+    }
+  },
+  "$defs": {
+    "chainInfo": {
+      "type": "object",
+      "required": ["cosmosSdkVersion", "ibcGoVersion"],
+      "properties": {
+        "cosmosSdkVersion": {
+          "type": "string"
+        },
+        "ibcGoVersion": {
+          "type": "string"
+        }
+      }
+    },
+    "colors": {
+      "type": "object",
+      "required": [
+        "headerGradient",
+        "primary",
+        "secondary",
+        "tertiary",
+        "light"
+      ],
+      "properties": {
+        "headerGradient": {
+          "type": "string"
+        },
+        "primary": {
+          "type": "string"
+        },
+        "secondary": {
+          "type": "string"
+        },
+        "tertiary": {
+          "type": "string"
+        },
+        "light": {
+          "type": "string"
+        }
+      }
+    },
+    "image": {
+      "type": "object",
+      "oneOf": [
+        {
+          "required": ["url"]
+        },
+        {
+          "required": ["svg"]
+        },
+        {
+          "required": ["svgImg"]
+        },
+        {
+          "required": ["font"]
+        }
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "pattern": "^(https?|wss?|ftp)://"
+        },
+        "svg": {
+          "type": "string"
+        },
+        "svgImg": {
+          "type": "string"
+        },
+        "font": {
+          "type": "string"
+        }
+      }
+    },
+    "link": {
+      "type": "object",
+      "required": ["url", "title", "icon"],
+      "properties": {
+        "url": {
+          "type": "string",
+          "pattern": "^(https?|wss?|ftp)://"
+        },
+        "title": {
+          "type": "string"
+        },
+        "icon": {
+          "type": "object",
+          "$ref": "#/$defs/image"
+        }
+      },
+      "additionalProperties": false
+    },
+    "childLinks": {
+      "type": "object",
+      "required": ["title", "childs"],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "icon": {
+          "type": "object",
+          "$ref": "#/$defs/image"
+        },
+        "childs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/link"
+          },
+          "minItems": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "links": {
+      "type": "array",
+      "anyOf": [
+        {
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "#/$defs/link"
+              },
+              {
+                "$ref": "#/$defs/childLinks"
+              }
+            ]
+          }
+        }
+      ],
+      "minItems": 4,
+      "maxItems": 4,
+      "uniqueItems": true
+    },
+    "isModuleEnabled": {
+      "type": "object",
+      "required": ["governance"],
+      "properties": {
+        "governance": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "e-Money",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.svg"
+  },
+  "rpcUrl": "https://emoney.validator.network",
+  "restUrl": "https://emoney.validator.network/api",
+  "rpcUrlDev": "https://rpc-emoney.ezstaking.dev",
+  "restUrlDev": "https://lcd-emoney.ezstaking.dev",
+  "chainId": "emoney-3",
+  "bech32": "emoney",
+  "denom": "ngm",
+  "denomUpper": "NGM",
+  "sdenom": "ungm",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.025,
+    "average": 0.025,
+    "high": 0.025
+  },
+  "coinDecimals": 6,
+  "features": ["ibc-transfer"],
+  "explorerUrlToTx": "https://ezstaking.app/emoney/txs/{txHash}",
+  "proposalUrl": "https://ezstaking.app/emoney/proposals/",
+  "accountUrl": "https://ezstaking.app/emoney/account/",
+  "coinGeckoId": "e-money",
+  "gasPrice": "25000ungm",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.42.11",
+    "ibcGoVersion": "3.0.0"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #00282d, #035059 81%)",
+    "primary": "#035059",
+    "secondary": "#00282d",
+    "tertiary": "#86ccba",
+    "light": "#ffffff"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://e-money.com",
+      "icon": {
+        "svgImg": "chain/emoney"
+      }
+    },
+    {
+      "title": "e-Money Wallet",
+      "url": "https://app.e-money.com",
+      "icon": {
+        "font": "apps"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/e-money",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/e-money-com",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/emoney_com",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": false
+  }
+}

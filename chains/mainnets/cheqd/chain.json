@@ -1,0 +1,106 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "Cheqd",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cheqd/images/cheq.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cheqd/images/cheq.svg"
+  },
+  "rpcUrl": "https://rpc.cheqd.net",
+  "restUrl": "https://api.cheqd.net",
+  "rpcUrlDev": "https://rpc-cheqd.ezstaking.dev",
+  "restUrlDev": "https://lcd-cheqd.ezstaking.dev",
+  "chainId": "cheqd-mainnet-1",
+  "bech32": "cheqd",
+  "denom": "cheq",
+  "denomUpper": "CHEQ",
+  "sdenom": "ncheq",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 25,
+    "average": 25,
+    "high": 25
+  },
+  "coinDecimals": 9,
+  "features": ["stargate", "ibc-transfer"],
+  "explorerUrlToTx": "https://ezstaking.app/cheqd/txs/{txHash}",
+  "proposalUrl": "https://ezstaking.app/cheqd/proposals/",
+  "accountUrl": "https://ezstaking.app/cheqd/accounts/",
+  "coinGeckoId": "cheqd-network",
+  "gasPrice": "2500000ncheq",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.46.10",
+    "ibcGoVersion": "6.1.1"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #C8770F, #D18F12 81%)",
+    "primary": "#A2271E",
+    "secondary": "#D18F12",
+    "tertiary": "#C8770F",
+    "light": "#FFFFFF"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://cheqd.io",
+      "icon": {
+        "svgImg": "chain/cheqd"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://learn.cheqd.io",
+      "icon": {
+        "font": "article"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/cheqd",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "Medium",
+          "url": "https://blog.cheqd.io",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/cheqd_io",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

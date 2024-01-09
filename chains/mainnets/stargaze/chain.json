@@ -1,0 +1,127 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "Stargaze",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
+  },
+  "rpcUrl": "https://rpc.stargaze-apis.com",
+  "restUrl": "https://rest.stargaze-apis.com",
+  "rpcUrlDev": "https://rpc-stargaze.ezstaking.dev",
+  "restUrlDev": "https://api-stargaze.ezstaking.dev",
+  "chainId": "stargaze-1",
+  "bech32": "stars",
+  "denom": "stars",
+  "denomUpper": "STARS",
+  "sdenom": "ustars",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.000001,
+    "average": 0.000011,
+    "high": 0.000012
+  },
+  "coinDecimals": 6,
+  "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
+  "explorerUrlToTx": "https://ezstaking.app/stargaze/txs/{txHash}",
+  "proposalUrl": "https://ezstaking.app/stargaze/proposals/",
+  "accountUrl": "https://ezstaking.app/stargaze/account/",
+  "coinGeckoId": "stargaze",
+  "gasPrice": "1ustars",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.16",
+    "ibcGoVersion": "4.4.2"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #0b0340, #3d3584 81%)",
+    "primary": "#e38cd4",
+    "secondary": "#e38cd4",
+    "tertiary": "#e38cd4",
+    "light": "#faedf7"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.stargaze.zone",
+      "icon": {
+        "svgImg": "chain/stargaze"
+      }
+    },
+    {
+      "title": "Stargaze Launchpad",
+      "url": "https://app.stargaze.zone/launchpad",
+      "icon": {
+        "font": "apps"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.stargaze.zone",
+      "icon": {
+        "font": "article"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/stargaze-protocol",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/stargazezone",
+          "icon": {
+            "svg": "twitter"
+          }
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.gg/stargaze",
+          "icon": {
+            "svg": "discord"
+          }
+        },
+        {
+          "title": "Telegram",
+          "url": "https://t.me/stargazezone",
+          "icon": {
+            "svg": "telegram"
+          }
+        },
+        {
+          "title": "GitHub",
+          "url": "https://github.com/public-awesome",
+          "icon": {
+            "svg": "github"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

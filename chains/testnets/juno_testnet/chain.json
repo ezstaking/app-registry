@@ -1,0 +1,155 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "Juno Testnet",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg"
+  },
+  "rpcUrl": "https://rpc-testnet-juno.ezstaking.dev",
+  "restUrl": "https://lcd-testnet-juno.ezstaking.dev",
+  "chainId": "uni-6",
+  "denom": "juno",
+  "denomUpper": "JUNOX",
+  "sdenom": "ujunox",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.025,
+    "average": 0.025,
+    "high": 0.025
+  },
+  "coinDecimals": 6,
+  "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
+  "explorerUrlToTx": "https://testnet.ezstaking.app/juno-testnet/txs/{txHash}",
+  "proposalUrl": "https://testnet.ezstaking.app/juno-testnet/proposals/",
+  "accountUrl": "https://testnet.ezstaking.app/juno-testnet/account/",
+  "coinGeckoId": "",
+  "gasPrice": "25000ujunox",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "assets": [
+    {
+      "base": "ujunox",
+      "coingecko_id": "",
+      "denom_units": [
+        {
+          "denom": "ujunox",
+          "exponent": 0
+        },
+        {
+          "denom": "junox",
+          "exponent": 6
+        }
+      ],
+      "description": "The native staking and governance token of the Juno Network.",
+      "display": "junox",
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg"
+      },
+      "name": "JUNOX",
+      "symbol": "JUNOX"
+    }
+  ],
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.15",
+    "ibcGoVersion": "4.3.0"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #c5585a, #f0827d 81%)",
+    "primary": "#c5585a",
+    "secondary": "#f0827d",
+    "tertiary": "#f0827d",
+    "light": "#fdf0ef"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.junonetwork.io",
+      "icon": {
+        "svgImg": "chain/juno"
+      }
+    },
+    {
+      "title": "DApp",
+      "icon": {
+        "font": "apps"
+      },
+      "childs": [
+        {
+          "title": "JunoSwap",
+          "url": "https://junoswap.com",
+          "icon": {
+            "svgImg": "dapp/junoswap"
+          }
+        },
+        {
+          "title": "DAODAO",
+          "url": "https://daodao.zone/",
+          "icon": {
+            "svg": "twitter"
+          }
+        },
+        {
+          "title": "JunoMint",
+          "url": "https://junomint.com/",
+          "icon": {
+            "svgImg": "dapp/junomint"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.junonetwork.io",
+      "icon": {
+        "font": "article"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "GitHub",
+          "url": "https://github.com/CosmosContracts",
+          "icon": {
+            "svg": "github"
+          }
+        },
+        {
+          "title": "Medium",
+          "url": "https://medium.com/@JunoNetwork",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/JunoNetwork",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

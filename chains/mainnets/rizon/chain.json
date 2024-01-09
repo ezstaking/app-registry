@@ -1,0 +1,106 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "Rizon Atolo",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rizon/images/atolo.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rizon/images/atolo.svg"
+  },
+  "rpcUrl": "https://rpc.cosmos.directory/rizon",
+  "restUrl": "https://rest.cosmos.directory/rizon",
+  "rpcUrlDev": "https://api-junomint.ezstaking.dev/rpc/rizon",
+  "restUrlDev": "https://api-junomint.ezstaking.dev/lcd/rizon",
+  "chainId": "titan-1",
+  "bech32": "rizon",
+  "denom": "atolo",
+  "denomUpper": "ATOLO",
+  "sdenom": "uatolo",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.025,
+    "average": 0.025,
+    "high": 0.025
+  },
+  "coinDecimals": 6,
+  "features": ["stargate", "ibc-transfer"],
+  "explorerUrlToTx": "https://ezstaking.app/rizon/txs/{txHash}",
+  "proposalUrl": "https://ezstaking.app/rizon/proposals/",
+  "accountUrl": "https://ezstaking.app/rizon/account/",
+  "coinGeckoId": "rizon",
+  "gasPrice": "25000uatolo",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.16",
+    "ibcGoVersion": "4.4.2"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #291d51, #59588d 81%)",
+    "primary": "#8c8af2",
+    "secondary": "#8c8af2",
+    "tertiary": "#8c8af2",
+    "light": "#f0f0f7"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://rizon.world",
+      "icon": {
+        "svgImg": "chain/rizon"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.rizon.world",
+      "icon": {
+        "font": "article"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/rizon-world/rizon",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/hdac",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/hdac_rizon",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

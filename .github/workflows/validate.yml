@@ -1,0 +1,32 @@
+name: Validate JSON
+
+on:
+  push:
+    paths:
+      - '**.json'
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  verify-json-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: scheduleonce/lint-filenames@v2.0.0
+        name: Validating filenames
+        with:
+          path: '!(*.schema.json|README*|.gitignore)'
+          pattern: '^[a-zA-Z0-9._-]*[^\.]$'
+
+      - name: Validate chains.json schema
+        uses: walbo/validate-json@v1.1.0
+        with:
+          files: chains/**/**/chain.json
+          schema: chains/chain.schema.json
+          schema-version: draft-07
+          fail-on-missing-schema: true
+          print-valid-files: true
+          strict: false
+          allow-matching-properties: false
+          allow-union-types: true

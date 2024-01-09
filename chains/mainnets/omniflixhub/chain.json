@@ -1,0 +1,113 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "OmniFlix",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg"
+  },
+  "rpcUrl": "https://rpc.omniflix.network",
+  "restUrl": "https://rest.omniflix.network",
+  "rpcUrlDev": "https://rpc-omniflix.ezstaking.dev",
+  "restUrlDev": "https://lcd-omniflix.ezstaking.dev",
+  "chainId": "omniflixhub-1",
+  "bech32": "omniflix",
+  "denom": "flix",
+  "denomUpper": "FLIX",
+  "sdenom": "uflix",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.001,
+    "average": 0.001,
+    "high": 0.001
+  },
+  "coinDecimals": 6,
+  "features": ["stargate", "ibc-transfer"],
+  "explorerUrlToTx": "https://ezstaking.app/omniflixhub/txs/{txHash}",
+  "proposalUrl": "https://ezstaking.app/omniflixhub/proposals/",
+  "accountUrl": "https://ezstaking.app/omniflixhub/account/",
+  "coinGeckoId": "omniflix-network",
+  "gasPrice": "1000uflix",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.16",
+    "ibcGoVersion": "4.4.2"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #0d0843, #060322 81%)",
+    "primary": "#6c63ff",
+    "secondary": "#6c63ff",
+    "tertiary": "#6c63ff",
+    "light": "#f0efff"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.omniflix.network",
+      "icon": {
+        "svgImg": "chain/omniflixhub"
+      }
+    },
+    {
+      "title": "OmniFlix Studio",
+      "url": "https://app.omniflix.studio",
+      "icon": {
+        "font": "apps"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.omniflix.network",
+      "icon": {
+        "font": "article"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "GitHub",
+          "url": "https://github.com/OmniFlix",
+          "icon": {
+            "svg": "github"
+          }
+        },
+        {
+          "title": "Medium",
+          "url": "https://blog.omniflix.network",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/OmniFlixNetwork",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

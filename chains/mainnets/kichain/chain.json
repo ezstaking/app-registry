@@ -1,0 +1,114 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "KiChain",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.svg"
+  },
+  "rpcUrl": "https://rpc-mainnet.blockchain.ki",
+  "restUrl": "https://api-mainnet.blockchain.ki",
+  "rpcUrlDev": "https://rpc-kichain.ezstaking.dev",
+  "restUrlDev": "https://lcd-kichain.ezstaking.dev",
+  "chainId": "kichain-2",
+  "denom": "xki",
+  "denomUpper": "XKI",
+  "sdenom": "uxki",
+  "bech32": "ki",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.025,
+    "average": 0.025,
+    "high": 0.025
+  },
+  "coinDecimals": 6,
+  "features": ["stargate", "ibc-transfer", "cosmwasm"],
+  "explorerUrlToTx": "https://ezstaking.app/kichain/txs/{txHash}",
+  "proposalUrl": "https://ezstaking.app/kichain/proposals/",
+  "accountUrl": "https://ezstaking.app/kichain/account/",
+  "coinGeckoId": "ki",
+  "gasPrice": "25000uxki",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.12",
+    "ibcGoVersion": "3.3.1"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #000000, #383838 81%)",
+    "primary": "#3756fc",
+    "secondary": "#3756fc",
+    "tertiary": "#3756fc",
+    "light": "#eaeaea"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://foundation.ki",
+      "icon": {
+        "svgImg": "chain/kichain"
+      }
+    },
+    {
+      "title": "DApp",
+      "icon": {
+        "font": "apps"
+      },
+      "childs": [
+        {
+          "title": "Cosmon",
+          "url": "https://cosmon.ki/",
+          "icon": {
+            "svgImg": "dapp/cosmon"
+          }
+        }
+      ]
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/KiFoundation",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/ki-foundation",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/Ki_Foundation",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

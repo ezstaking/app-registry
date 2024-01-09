@@ -1,0 +1,106 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "Desmos",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/desmos/images/dsm.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/desmos/images/dsm.svg"
+  },
+  "rpcUrl": "https://rpc.mainnet.desmos.network",
+  "restUrl": "https://api.mainnet.desmos.network",
+  "rpcUrlDev": "https://rpc-desmos.ezstaking.dev",
+  "restUrlDev": "https://lcd-desmos.ezstaking.dev",
+  "chainId": "desmos-mainnet",
+  "bech32": "desmos",
+  "denom": "dsm",
+  "denomUpper": "DSM",
+  "sdenom": "udsm",
+  "coinType": 852,
+  "gasPriceStep": {
+    "low": 0.001,
+    "average": 0.01,
+    "high": 0.025
+  },
+  "coinDecimals": 6,
+  "features": ["stargate", "ibc-transfer"],
+  "explorerUrlToTx": "https://ezstaking.app/desmos/txs/{txHash}",
+  "proposalUrl": "https://ezstaking.app/desmos/proposals/",
+  "accountUrl": "https://ezstaking.app/desmos/account/",
+  "coinGeckoId": "desmos",
+  "gasPrice": "10000udsm",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.47.4",
+    "ibcGoVersion": "7.2.0"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #d9583f, #ff996e 81%)",
+    "primary": "#d9583f",
+    "secondary": "#ff996e",
+    "tertiary": "#ed6c53",
+    "light": "#ffefec"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.desmos.network",
+      "icon": {
+        "svgImg": "chain/desmos"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.desmos.network",
+      "icon": {
+        "font": "article"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/desmos-labs",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/desmosnetwork",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/DesmosNetwork",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

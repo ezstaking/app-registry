@@ -1,0 +1,106 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "Shentu",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shentu/images/ctk.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shentu/images/ctk.svg"
+  },
+  "rpcUrl": "https://shenturpc.noopsbycertik.com",
+  "restUrl": "https://chainfull.noopsbycertik.com",
+  "rpcUrlDev": "https://rpc-certik.ezstaking.dev",
+  "restUrlDev": "https://lcd-certik.ezstaking.dev",
+  "chainId": "shentu-2.2",
+  "bech32": "certik",
+  "denom": "ctk",
+  "denomUpper": "CTK",
+  "sdenom": "uctk",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.025,
+    "average": 0.025,
+    "high": 0.025
+  },
+  "coinDecimals": 6,
+  "features": [],
+  "explorerUrlToTx": "https://ezstaking.app/shentu/txs/{txHash}",
+  "proposalUrl": "https://ezstaking.app/shentu/proposals/",
+  "accountUrl": "https://ezstaking.app/shentu/account/",
+  "coinGeckoId": "certik",
+  "gasPrice": "25000uctk",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.11",
+    "ibcGoVersion": "4.2.1"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #e0a94a, #e1aa4c 81%)",
+    "primary": "#e1aa4c",
+    "secondary": "#e1aa4c",
+    "tertiary": "#e1aa4c",
+    "light": "#f8f2e9"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://shentu.technology",
+      "icon": {
+        "svgImg": "chain/shentu"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ShentuChain",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Medium",
+      "url": "https://medium.com/shentu-foundation",
+      "icon": {
+        "svg": "medium"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/ShentuChain",
+          "icon": {
+            "svg": "twitter"
+          }
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.com/invite/7D62sHx6aZ",
+          "icon": {
+            "svg": "discord"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

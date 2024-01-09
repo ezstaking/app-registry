@@ -1,0 +1,113 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "FirmaChain",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/firmachain/images/fct.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/firmachain/images/fct.svg"
+  },
+  "rpcUrl": "https://lcd.firmachain.dev:26657",
+  "restUrl": "https://lcd.firmachain.dev:1317",
+  "rpcUrlDev": "https://lcd-ezstaking.firmachain.dev:26657",
+  "restUrlDev": "https://lcd-ezstaking.firmachain.dev:1317",
+  "chainId": "colosseum-1",
+  "bech32": "firma",
+  "denom": "fct",
+  "denomUpper": "FCT",
+  "sdenom": "ufct",
+  "coinType": 7777777,
+  "gasPriceStep": {
+    "low": 0.01,
+    "average": 0.01,
+    "high": 0.01
+  },
+  "coinDecimals": 6,
+  "features": ["stargate", "ibc-transfer", "cosmwasm"],
+  "explorerUrlToTx": "https://ezstaking.app/firmachain/txs/{txHash}",
+  "proposalUrl": "https://ezstaking.app/firmachain/proposals/",
+  "accountUrl": "https://ezstaking.app/firmachain/account/",
+  "coinGeckoId": "firmachain",
+  "gasPrice": "10000ufct",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.9",
+    "ibcGoVersion": "3.3.0"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #000000, #374350 81%)",
+    "primary": "#eef2f6",
+    "secondary": "#a3b0bd",
+    "tertiary": "#a3b0bd",
+    "light": "#fff"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://firmachain.org",
+      "icon": {
+        "svgImg": "chain/firmachain"
+      }
+    },
+    {
+      "title": "Whitepaper",
+      "url": "https://firmachain.org/whitepaper_EN.pdf",
+      "icon": {
+        "font": "article"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/FirmaChain",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/firmachain",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/firmachain",
+          "icon": {
+            "svg": "twitter"
+          }
+        },
+        {
+          "title": "Telegram",
+          "url": "https://t.me/firmachain_announcement",
+          "icon": {
+            "svg": "telegram"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

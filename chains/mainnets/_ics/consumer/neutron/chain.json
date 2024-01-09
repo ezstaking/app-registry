@@ -1,0 +1,129 @@
+{
+  "$schema": "../../../../chain.schema.json",
+  "chainName": "Neutron",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/ntrn.svg"
+  },
+  "isAConsumerChain": true,
+  "providerChain": "cosmoshub",
+  "rpcUrl": "https://rpc-neutron-testnet.ezstaking.dev",
+  "restUrl": "https://lcd-neutron-testnet.ezstaking.dev",
+  "chainId": "neutron-1",
+  "bech32": "neutron",
+  "denom": "neutron",
+  "denomUpper": "NTRN",
+  "sdenom": "untrn",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.025,
+    "average": 0.025,
+    "high": 0.025
+  },
+  "coinDecimals": 6,
+  "features": ["stargate", "ibc-transfer", "cosmwasm"],
+  "explorerUrlToTx": "https://ezstaking.app/neutron/txs/{txHash}",
+  "proposalUrl": "https://ezstaking.app/neutron/proposals/",
+  "accountUrl": "https://ezstaking.app/neutron/account/",
+  "coinGeckoId": "",
+  "gasPrice": "25000untrn",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "assets": [
+    {
+      "base": "untrn",
+      "coingecko_id": null,
+      "denom_units": [
+        {
+          "denom": "ntrn",
+          "exponent": 0
+        },
+        {
+          "denom": "untrn",
+          "exponent": 6
+        }
+      ],
+      "description": "The native staking and governance token of the ntrn Network.",
+      "display": "ntrn",
+      "logo_URIs": {
+        "svg": "~/ui/assets/svg/chain/neutron.svg"
+      },
+      "name": "NTRN",
+      "symbol": "NTRN"
+    }
+  ],
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.15",
+    "ibcGoVersion": "4.3.1"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #000, #646464 81%)",
+    "primary": "#000",
+    "secondary": "#000",
+    "tertiary": "#43ad6b",
+    "light": "#fff"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://neutron.org",
+      "icon": {
+        "svgImg": "chain/neutron"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/neutron-org",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Twitter",
+      "url": "https://twitter.com/Neutron_org",
+      "icon": {
+        "svg": "twitter"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "Discord",
+          "url": "https://discord.com/invite/zRT2ZkQsxA",
+          "icon": {
+            "svg": "discord"
+          }
+        },
+        {
+          "title": "Telegram",
+          "url": "https://t.me/neutron_community",
+          "icon": {
+            "svg": "telegram"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

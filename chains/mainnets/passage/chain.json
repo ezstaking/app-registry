@@ -1,0 +1,102 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "Passage",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/passage/images/pasg.png"
+  },
+  "rpcUrl": "https://rpc.passage.vitwit.com",
+  "restUrl": "https://api.passage.vitwit.com",
+  "chainId": "passage-2",
+  "denom": "pasg",
+  "denomUpper": "PASG",
+  "sdenom": "upasg",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0,
+    "average": 0.0025,
+    "high": 0.01
+  },
+  "coinDecimals": 6,
+  "features": ["ibc-transfer", "ibc-go"],
+  "explorerUrlToTx": "https://ezstaking.app/passage/txs/{txHash}",
+  "proposalUrl": "https://ezstaking.app/passage/proposals/",
+  "accountUrl": "https://ezstaking.app/passage/account/",
+  "coinGeckoId": "passage",
+  "gasPrice": "0upasg",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.16",
+    "ibcGoVersion": "4.4.2"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #5793e9, #60dbc7 81%)",
+    "primary": "#5da5fb",
+    "secondary": "#5da5fb",
+    "tertiary": "#5da5fb",
+    "light": "#e9f1fc"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.passage.io",
+      "icon": {
+        "svgImg": "chain/passage"
+      }
+    },
+    {
+      "title": "Blog",
+      "url": "https://www.passage.io/blog",
+      "icon": {
+        "svg": "medium"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/envadiv",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/passageio",
+          "icon": {
+            "svg": "twitter"
+          }
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.gg/passage",
+          "icon": {
+            "svg": "discord"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

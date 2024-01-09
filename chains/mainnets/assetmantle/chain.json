@@ -1,0 +1,107 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "assetmantle",
+  "chainName": "AssetMantle",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/AM_Logo.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/AM_Logo_Dark.svg"
+  },
+  "rpcUrlDev": "https://rpc.assetmantle.one",
+  "restUrlDev": "https://rest.assetmantle.one",
+  "rpcUrl": "https://rpc-assetmantle.ezstaking.dev",
+  "restUrl": "https://lcd-assetmantle.ezstaking.dev",
+  "chainId": "mantle-1",
+  "bech32": "mantle",
+  "denom": "mntl",
+  "denomUpper": "MNTL",
+  "sdenom": "umntl",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0,
+    "average": 0,
+    "high": 0
+  },
+  "coinDecimals": 6,
+  "features": ["stargate", "ibc-transfer"],
+  "explorerUrlToTx": "https://ezstaking.app/assetmantle/txs/{txHash}",
+  "proposalUrl": "https://ezstaking.app/assetmantle/proposals/",
+  "accountUrl": "https://ezstaking.app/assetmantle/account/",
+  "coinGeckoId": "assetmantle",
+  "gasPrice": "0umntl",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.16",
+    "ibcGoVersion": "4.4.2"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #1b1b1b, #414141 81%)",
+    "primary": "#f3b519",
+    "secondary": "#f3b519",
+    "tertiary": "#f3b519",
+    "light": "#f6f3e9"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://assetmantle.one",
+      "icon": {
+        "svgImg": "chain/assetmantle"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.assetmantle.one",
+      "icon": {
+        "font": "article"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/AssetMantle",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "Medium",
+          "url": "https://blog.assetmantle.one",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/AssetMantle",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "BitSong",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/btsg.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitsong/images/btsg.svg"
+  },
+  "rpcUrl": "https://rpc.explorebitsong.com",
+  "restUrl": "https://lcd.explorebitsong.com",
+  "rpcUrlDev": "https://rpc-bitsong.ezstaking.dev",
+  "restUrlDev": "https://lcd-bitsong.ezstaking.dev",
+  "chainId": "bitsong-2b",
+  "bech32": "bitsong",
+  "denom": "btsg",
+  "denomUpper": "BTSG",
+  "sdenom": "ubtsg",
+  "coinType": 639,
+  "gasPriceStep": {
+    "low": 0.015,
+    "average": 0.015,
+    "high": 0.015
+  },
+  "coinDecimals": 6,
+  "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
+  "explorerUrlToTx": "https://ezstaking.app/bitsong/txs/{txHash}",
+  "proposalUrl": "https://ezstaking.app/bitsong/proposals/",
+  "accountUrl": "https://ezstaking.app/bitsong/account/",
+  "coinGeckoId": "bitsong",
+  "gasPrice": "15000ubtsg",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.11",
+    "ibcGoVersion": "3.3.1"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #15132a, #201a5e 81%)",
+    "primary": "#ff005c",
+    "secondary": "#ff005c",
+    "tertiary": "#201a5e",
+    "light": "#fbe9f1"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://bitsong.io",
+      "icon": {
+        "svgImg": "chain/bitsong"
+      }
+    },
+    {
+      "title": "BitSong Music Player",
+      "url": "https://play.bitsong.io",
+      "icon": {
+        "font": "apps"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.bitsong.io",
+      "icon": {
+        "font": "article"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "GitHub",
+          "url": "https://github.com/bitsongofficial",
+          "icon": {
+            "svg": "github"
+          }
+        },
+        {
+          "title": "Medium",
+          "url": "https://bitsongofficial.medium.com",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/bitsongofficial",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

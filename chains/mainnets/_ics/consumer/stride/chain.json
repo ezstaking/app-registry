@@ -1,0 +1,116 @@
+{
+  "$schema": "../../../../chain.schema.json",
+  "name": "stride",
+  "chainName": "Stride",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.svg"
+  },
+  "isAConsumerChain": true,
+  "providerChain": "cosmoshub",
+  "rpcUrl": "https://stride-fleet.main.stridenet.co",
+  "restUrl": "https://stride-fleet.main.stridenet.co/api",
+  "rpcUrlDev": "https://rpc.cosmos.directory/stride",
+  "restUrlDev": "https://rest.cosmos.directory/stride",
+  "chainId": "stride-1",
+  "bech32": "stride",
+  "denom": "strd",
+  "denomUpper": "STRD",
+  "sdenom": "ustrd",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.025,
+    "average": 0.025,
+    "high": 0.025
+  },
+  "coinDecimals": 6,
+  "features": ["ibc-transfer", "ibc-go"],
+  "explorerUrlToTx": "https://ezstaking.app/stride/txs/{txHash}",
+  "proposalUrl": "https://ezstaking.app/stride/proposals/",
+  "accountUrl": "https://ezstaking.app/stride/account/",
+  "coinGeckoId": "stride",
+  "gasPrice": "0ustrd",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.47.4",
+    "ibcGoVersion": "7.2.0"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #0e0e0e, #4a4a4a 81%)",
+    "primary": "#e91179",
+    "secondary": "#e91179",
+    "tertiary": "#e91179",
+    "light": "#fef1f7"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://stride.zone",
+      "icon": {
+        "svgImg": "chain/stride"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.stride.zone",
+      "icon": {
+        "font": "article"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Stride-Labs/stride",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "Medium",
+          "url": "https://stride.zone/blog",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/stride_zone",
+          "icon": {
+            "svg": "twitter"
+          }
+        },
+        {
+          "title": "Discord",
+          "url": "https://stride.zone/discord",
+          "icon": {
+            "svg": "discord"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "teritori",
+  "chainName": "Teritori",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/chain.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/chain.svg"
+  },
+  "rpcUrl": "https://rpc.mainnet.teritori.com",
+  "restUrl": "https://rest.mainnet.teritori.com",
+  "chainId": "teritori-1",
+  "bech32": "tori",
+  "denom": "tori",
+  "denomUpper": "TORI",
+  "sdenom": "utori",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0,
+    "average": 0,
+    "high": 0
+  },
+  "coinDecimals": 6,
+  "features": ["stargate", "ibc-transfer", "cosmwasm"],
+  "explorerUrlToTx": "https://ezstaking.app/teritori/txs/{txHash}",
+  "proposalUrl": "https://ezstaking.app/teritori/proposals/",
+  "accountUrl": "https://ezstaking.app/teritori/account/",
+  "coinGeckoId": "teritori",
+  "gasPrice": "0utori",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.10",
+    "ibcGoVersion": "3.4.0"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, var(--chain-primary), var(--chain-secondary) 60%)",
+    "primary": "#8b52ff",
+    "secondary": "#925cff",
+    "tertiary": "#925cff",
+    "light": "#ffffff"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://teritori.com",
+      "icon": {
+        "svgImg": "chain/teritori"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://teritori.gitbook.io",
+      "icon": {
+        "font": "article"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/TERITORI",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/teritori",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/TeritoriNetwork",
+          "icon": {
+            "svg": "twitter"
+          }
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.gg/teritori",
+          "icon": {
+            "svg": "discord"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

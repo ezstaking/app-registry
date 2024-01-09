@@ -1,0 +1,113 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "IXO",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg"
+  },
+  "rpcUrlDev": "https://rpc.cosmos.directory/ixo",
+  "restUrlDev": "https://rest.cosmos.directory/ixo",
+  "rpcUrl": "https://rpc-ixo.ezstaking.dev",
+  "restUrl": "https://lcd-ixo.ezstaking.dev",
+  "chainId": "ixo-5",
+  "bech32": "ixo",
+  "denom": "ixo",
+  "denomUpper": "IXO",
+  "sdenom": "uixo",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.025,
+    "average": 0.025,
+    "high": 0.025
+  },
+  "coinDecimals": 6,
+  "features": ["ibc-transfer"],
+  "explorerUrlToTx": "https://ezstaking.app/ixo/txs/{txHash}",
+  "proposalUrl": "https://ezstaking.app/ixo/proposals/",
+  "accountUrl": "https://ezstaking.app/ixo/account/",
+  "coinGeckoId": "ixo",
+  "gasPrice": "25000uixo",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.16",
+    "ibcGoVersion": "4.4.1"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #0043b1, #00d2ff 81%)",
+    "primary": "#06b7dd",
+    "secondary": "#29A7C3",
+    "tertiary": "#11819A",
+    "light": "#e7f3ff"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.ixo.world",
+      "icon": {
+        "svgImg": "chain/ixo"
+      }
+    },
+    {
+      "title": "Launchpad",
+      "url": "https://launchpad.ixo.world",
+      "icon": {
+        "font": "apps"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.ixo.foundation/ixo",
+      "icon": {
+        "font": "article"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "GitHub",
+          "url": "https://github.com/ixofoundation",
+          "icon": {
+            "svg": "github"
+          }
+        },
+        {
+          "title": "Medium",
+          "url": "https://medium.com/ixo-blog",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/ixoworld",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

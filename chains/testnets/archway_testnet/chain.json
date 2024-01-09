@@ -1,0 +1,141 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "Archway Testnet",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/archwaytestnet/images/ArchwayBrandmark.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/archwaytestnet/images/ArchwayBrandmark.svg"
+  },
+  "rpcUrl": "https://rpc-testnet-archway.ezstaking.dev",
+  "restUrl": "https://lcd-testnet-archway.ezstaking.dev",
+  "chainId": "constantine-3",
+  "denom": "const",
+  "denomUpper": "CONST",
+  "sdenom": "aconst",
+  "bech32": "archway",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.000001,
+    "average": 0.0000015,
+    "high": 0.000002
+  },
+  "coinDecimals": 18,
+  "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
+  "explorerUrlToTx": "https://testnet.ezstaking.app/archway-testnet/txs/{txHash}",
+  "proposalUrl": "https://testnet.ezstaking.app/archway-testnet/proposals/",
+  "accountUrl": "https://testnet.ezstaking.app/archway-testnet/account/",
+  "coinGeckoId": "",
+  "gasPrice": "1000000000000aconst",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "assets": [
+    {
+      "base": "aconst",
+      "coingecko_id": "",
+      "denom_units": [
+        {
+          "denom": "aconst",
+          "exponent": 18
+        },
+        {
+          "denom": "aconst",
+          "exponent": 0
+        }
+      ],
+      "description": "The native staking and governance token of the Archway Network.",
+      "display": "aconst",
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.svg"
+      },
+      "name": "CONST",
+      "symbol": "CONST"
+    }
+  ],
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.16",
+    "ibcGoVersion": "4.3.1"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #f05a27, #ff9470 81%)",
+    "primary": "#ff8f69",
+    "secondary": "#ff8f69",
+    "tertiary": "#ff8f69",
+    "light": "#fef3f0"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://archway.io",
+      "icon": {
+        "svgImg": "chain/archway"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.archway.io",
+      "icon": {
+        "font": "article"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/archway-network",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "Medium",
+          "url": "https://blog.archway.io",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/archwayhq",
+          "icon": {
+            "svg": "twitter"
+          }
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.gg/5FVvx3WGfa",
+          "icon": {
+            "svg": "discord"
+          }
+        },
+        {
+          "title": "Telegram",
+          "url": "https://t.me/archway_hq",
+          "icon": {
+            "svg": "telegram"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

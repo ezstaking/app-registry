@@ -1,0 +1,126 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "Nois Testnet",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png"
+  },
+  "rpcUrl": "https://rpc-testnet-nois.ezstaking.dev",
+  "restUrl": "https://lcd-testnet-nois.ezstaking.dev",
+  "chainId": "nois-testnet-004",
+  "bech32": "nois",
+  "denom": "nois",
+  "denomUpper": "NOIS",
+  "sdenom": "unois",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.05,
+    "average": 0.08,
+    "high": 0.1
+  },
+  "coinDecimals": 6,
+  "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
+  "explorerUrlToTx": "https://testnet.ezstaking.app/nois-testnet/txs/{txHash}",
+  "proposalUrl": "https://testnet.ezstaking.app/nois-testnet/proposals/",
+  "accountUrl": "https://testnet.ezstaking.app/nois-testnet/account/",
+  "coinGeckoId": "",
+  "gasPrice": "50000unois",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "assets": [
+    {
+      "base": "unois",
+      "coingecko_id": null,
+      "denom_units": [
+        {
+          "denom": "unois",
+          "exponent": 0
+        },
+        {
+          "denom": "nois",
+          "exponent": 6
+        }
+      ],
+      "description": "The native staking and governance token of the Nois Network.",
+      "display": "nois",
+      "logo_URIs": {
+        "svg": "~/ui/assets/svg/chain/nois-testnet.svg"
+      },
+      "name": "NOIS",
+      "symbol": "NOIS"
+    }
+  ],
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.14",
+    "ibcGoVersion": "4.3.0"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #161130, #0B0914 81%)",
+    "primary": "#0B0914",
+    "secondary": "#161130",
+    "tertiary": "#161130",
+    "light": "#e5e7eb"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://nois.network",
+      "icon": {
+        "svgImg": "chain/nois"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.nois.network",
+      "icon": {
+        "font": "article"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/noislabs",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/NoisNetwork",
+          "icon": {
+            "svg": "twitter"
+          }
+        },
+        {
+          "title": "Discord",
+          "url": "https://chat.nois.network",
+          "icon": {
+            "svg": "discord"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "KYVE",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve.svg"
+  },
+  "rpcUrl": "https://rpc-kyve.ezstaking.dev",
+  "restUrl": "https://lcd-kyve.ezstaking.dev",
+  "chainId": "kyve-1",
+  "bech32": "kyve",
+  "denom": "kyve",
+  "denomUpper": "KYVE",
+  "sdenom": "ukyve",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.02,
+    "average": 0.02,
+    "high": 0.02
+  },
+  "coinDecimals": 6,
+  "features": ["stargate", "ibc-transfer"],
+  "explorerUrlToTx": "https://ezstaking.app/kyve/txs/{txHash}",
+  "proposalUrl": "https://ezstaking.app/kyve/proposals/",
+  "accountUrl": "https://ezstaking.app/kyve/account/",
+  "coinGeckoId": "kyve-network",
+  "gasPrice": "200ukyve",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "assets": [
+    {
+      "base": "ukyve",
+      "coingecko_id": "kyve",
+      "denom_units": [
+        {
+          "denom": "ukyve",
+          "exponent": 0
+        },
+        {
+          "denom": "kyve",
+          "exponent": 6
+        }
+      ],
+      "description": "The native staking and governance token of the KYVE Network.",
+      "display": "kyve",
+      "logo_URIs": {
+        "svg": "~/ui/assets/svg/chain/kyve.svg"
+      },
+      "name": "KYVE",
+      "symbol": "KYVE"
+    }
+  ],
+  "chainInfo": {
+    "cosmosSdkVersion": "0.46.13",
+    "ibcGoVersion": "6.1.1"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #2C5B52, #141F1D 81%)",
+    "primary": "#2C5B52",
+    "secondary": "#141F1D",
+    "tertiary": "#141F1D",
+    "light": "#FFFFFF"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.kyve.network",
+      "icon": {
+        "svgImg": "chain/kyve"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.kyve.network",
+      "icon": {
+        "font": "article"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/KYVENetwork",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "Medium",
+          "url": "https://blog.kyve.network",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/KYVENetwork",
+          "icon": {
+            "svg": "twitter"
+          }
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.com/invite/kyve",
+          "icon": {
+            "svg": "discord"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "Comdex",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/comdex/images/cmdx.svg"
+  },
+  "rpcUrl": "https://rpc.comdex.one",
+  "restUrl": "https://rest.comdex.one",
+  "chainId": "comdex-1",
+  "denom": "cmdx",
+  "denomUpper": "CMDX",
+  "sdenom": "ucmdx",
+  "bech32": "comdex",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.025,
+    "average": 0.025,
+    "high": 0.025
+  },
+  "coinDecimals": 6,
+  "features": ["ibc-transfer", "ibc-go", "cosmwasm"],
+  "explorerUrlToTx": "https://ezstaking.app/comdex/txs/{txHash}",
+  "proposalUrl": "https://ezstaking.app/comdex/proposals/",
+  "accountUrl": "https://ezstaking.app/comdex/account/",
+  "coinGeckoId": "comdex",
+  "gasPrice": "25000ucmdx",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.46.11",
+    "ibcGoVersion": "4.4.2"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #082045, #2c3e5a 81%)",
+    "primary": "#fe4350",
+    "secondary": "#082045",
+    "tertiary": "#2c3e5a",
+    "light": "#ffecee"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://comdex.one",
+      "icon": {
+        "svgImg": "chain/comdex"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.comdex.one",
+      "icon": {
+        "font": "article"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/comdex-official",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "Medium",
+          "url": "https://blog.comdex.one",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/ComdexOfficial",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}
