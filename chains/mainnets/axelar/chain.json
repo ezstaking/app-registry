@@ -1,0 +1,91 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "Axelar",
+  "rpcUrl": "https://rpc.cosmos.directory/axelar",
+  "restUrl": "https://rest.cosmos.directory/axelar",
+  "chainId": "axelar-dojo-1",
+  "bech32": "axelar",
+  "denom": "axl",
+  "denomUpper": "AXL",
+  "sdenom": "uaxl",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.025,
+    "average": 0.025,
+    "high": 0.025
+  },
+  "coinDecimals": 6,
+  "features": [
+    "ibc-transfer",
+    "ibc-go"
+  ],
+  "coinGeckoId": "e-money",
+  "gasPrice": "0uaxl",
+  "chainInfo": {
+    "cosmosSdkVersion": "",
+    "ibcGoVersion": "3.0.0"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #000000, #383838 81%)",
+    "primary": "#b2b6bc",
+    "secondary": "#000000",
+    "tertiary": "#b2b6bc",
+    "light": "#eaeaea"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://axelar.network",
+      "icon": {
+        "svgImg": "chain/axelar"
+      }
+    },
+    {
+      "title": "Satellite",
+      "url": "https://satellite.axelar.network",
+      "icon": {
+        "font": "apps"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.axelar.dev",
+      "icon": {
+        "svg": "article"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "GitHub",
+          "url": "https://github.com/axelarnetwork/axelar-core",
+          "icon": {
+            "svg": "github"
+          }
+        },
+        {
+          "title": "Medium",
+          "url": "https://axelar.network/blog",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/axelarcore",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": false,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

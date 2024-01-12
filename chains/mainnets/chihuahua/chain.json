@@ -1,0 +1,86 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "Chihuahua",
+  "rpcUrl": "https://rpc.chihuahua.wtf",
+  "restUrl": "https://api.chihuahua.wtf",
+  "chainId": "chihuahua-1",
+  "denom": "huahua",
+  "denomUpper": "HUAHUA",
+  "bech32": "chihuahua",
+  "sdenom": "uhuahua",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.0025,
+    "average": 0.0025,
+    "high": 0.0025
+  },
+  "coinDecimals": 6,
+  "features": [
+    "ibc-transfer",
+    "ibc-go",
+    "cosmwasm",
+    "wasmd_0.24+"
+  ],
+  "coinGeckoId": "chihuahua-token",
+  "gasPrice": "2500uhuahua",
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.11",
+    "ibcGoVersion": "3.4.0"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #323232, #6f6f6f 81%)",
+    "primary": "#f4b330",
+    "secondary": "#f4b330",
+    "tertiary": "#f4b330",
+    "light": "#f1f1f2"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.chihuahua.wtf",
+      "icon": {
+        "svgImg": "chain/chihuahua"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://github.com/ChihuahuaChain/mainnet",
+      "icon": {
+        "font": "article"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ChihuahuaChain/mainnet",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "Medium",
+          "url": "https://chihuahuachain.medium.com",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/ChihuahuaChain",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

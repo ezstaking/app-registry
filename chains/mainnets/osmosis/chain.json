@@ -1,0 +1,113 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "Osmosis",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.svg"
+  },
+  "rpcUrlDev": "https://rpc.cosmos.directory/osmosis",
+  "restUrlDev": "https://rest.cosmos.directory/osmosis",
+  "rpcUrl": "https://api-junomint.ezstaking.dev/rpc/osmosis",
+  "restUrl": "https://api-junomint.ezstaking.dev/lcd/osmosis",
+  "chainId": "osmosis-1",
+  "bech32": "osmo",
+  "denom": "osmo",
+  "denomUpper": "OSMO",
+  "sdenom": "uosmo",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.0025,
+    "average": 0.005,
+    "high": 0.01
+  },
+  "coinDecimals": 6,
+  "features": ["ibc-transfer", "ibc-go", "cosmwasm"],
+  "explorerUrlToTx": "https://ezstaking.app/osmosis/txs/{txHash}",
+  "proposalUrl": "https://ezstaking.app/osmosis/proposals/",
+  "accountUrl": "https://ezstaking.app/osmosis/account/",
+  "coinGeckoId": "osmosis",
+  "gasPrice": "2500uosmo",
+  "defaultGas": {
+    "default": "250000",
+    "send": "250000",
+    "claim": "250000",
+    "setWithdrawAddr": "250000",
+    "deposit": "250000",
+    "submitProposal": "250000",
+    "vote": "250000",
+    "smartContract": "250000",
+    "delegate": "250000",
+    "redelegate": "250000",
+    "undelegate": "250000",
+    "createValidator": "250000",
+    "editValidator": "250000",
+    "unjail:": "250000"
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.47.5",
+    "ibcGoVersion": "4.3.1"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #390368, #5e12a0 81%)",
+    "primary": "#812cd6",
+    "secondary": "#812cd6",
+    "tertiary": "#812cd6",
+    "light": "#f7f1ff"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://osmosis.zone",
+      "icon": {
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png"
+      }
+    },
+    {
+      "title": "Osmosis App",
+      "url": "https://app.osmosis.zone",
+      "icon": {
+        "font": "apps"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.osmosis.zone",
+      "icon": {
+        "font": "article"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "GitHub",
+          "url": "https://github.com/osmosis-labs",
+          "icon": {
+            "svg": "github"
+          }
+        },
+        {
+          "title": "Medium",
+          "url": "https://medium.com/@Osmosis",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/osmosiszone",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}

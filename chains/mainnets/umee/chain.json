@@ -1,0 +1,40 @@
+{
+  "$schema": "../../chain.schema.json",
+  "chainName": "Umee",
+  "rpcUrl": "https://rpc.aphrodite.main.network.umee.cc",
+  "restUrl": "https://lcd-umee.cosmostation.io",
+  "chainId": "umee-1",
+  "bech32": "umee",
+  "denom": "umee",
+  "denomUpper": "UMEE",
+  "sdenom": "uumee",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.0001,
+    "average": 0.0001,
+    "high": 0.0001
+  },
+  "coinDecimals": 6,
+  "features": [
+    "ibc-transfer",
+    "ibc-go"
+  ],
+  "coinGeckoId": "umee",
+  "gasPrice": "0uumee",
+  "chainInfo": {
+    "cosmosSdkVersion": "",
+    "ibcGoVersion": "3.0.0"
+  },
+  "colors": {
+    "headerGradient": "linear-gradient(to right, #161a3b, #242c6f 81%)",
+    "primary": "#bb90f8",
+    "secondary": "#bb90f8",
+    "tertiary": "#bb90f8",
+    "light": "#f2ecfb"
+  },
+  "links": [],
+  "isExplorerEnabled": false,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}
