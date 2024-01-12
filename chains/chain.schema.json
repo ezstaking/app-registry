@@ -3,6 +3,7 @@
   "title": "EZ Staking App Registry",
   "description": "EZ Staking App Registry",
   "type": "object",
+  "additionalProperties": false,
   "required": [
     "chainName",
     "rpcUrl",
@@ -24,6 +25,9 @@
     "isModuleEnabled"
   ],
   "properties": {
+    "$schema": {
+      "type": "string"
+    },
     "chainName": {
       "type": "string"
     },
