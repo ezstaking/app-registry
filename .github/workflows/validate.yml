@@ -27,6 +27,6 @@ jobs:
           schema-version: draft-07
           fail-on-missing-schema: true
           print-valid-files: true
-          strict: false
+          strict: true
           allow-matching-properties: false
           allow-union-types: true
