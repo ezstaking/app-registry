@@ -5,7 +5,7 @@
 Managed automatically by a robot. The resources are available on the following github repository [validators-keybase-logo](https://github.com/EZStaking/validators-keybase-logo) <i>(the file name corresponds to the keybase identity defined for your validator)</i>.
 
 <details>
-<summary><h2 style="display: inline; padding-left: 5px;">Add a chain</h2></summary>
+<summary><h2 style="display: inline; padding-left: 15px;">Add a chain</h2></summary>
 
 1. Create a folder in `./chains/mainnets/` or `./chains/testnets`, let's say akash for example, so `./chains/mainnets/akash/`
 2. Create a chain.json in your folder `./chains/mainnets/akash/chain.json`
