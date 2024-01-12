@@ -20,9 +20,6 @@
   },
   "coinDecimals": 6,
   "features": ["stargate", "ibc-transfer", "cosmwasm"],
-  "explorerUrlToTx": "https://ezstaking.app/firmachain/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/firmachain/proposals/",
-  "accountUrl": "https://ezstaking.app/firmachain/account/",
   "coinGeckoId": "firmachain",
   "gasPrice": "10000ufct",
   "chainInfo": {

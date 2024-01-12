@@ -19,9 +19,6 @@
   },
   "coinDecimals": 6,
   "features": ["stargate", "ibc-transfer", "cosmwasm"],
-  "explorerUrlToTx": "https://ezstaking.app/gravitybridge/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/gravitybridge/proposals/",
-  "accountUrl": "https://ezstaking.app/gravitybridge/account/",
   "coinGeckoId": "",
   "gasPrice": "25000unyx",
   "chainInfo": {

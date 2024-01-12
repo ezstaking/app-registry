@@ -20,9 +20,6 @@
   },
   "coinDecimals": 6,
   "features": ["secretwasm", "ibc-go", "ibc-transfer"],
-  "explorerUrlToTx": "https://ezstaking.app/secretnetwork/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/secretnetwork/proposals/",
-  "accountUrl": "https://ezstaking.app/secretnetwork/accounts/",
   "coinGeckoId": "secret",
   "gasPrice": "300000uscrt",
   "chainInfo": {

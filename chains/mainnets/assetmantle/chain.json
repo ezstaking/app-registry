@@ -21,9 +21,6 @@
   },
   "coinDecimals": 6,
   "features": ["stargate", "ibc-transfer"],
-  "explorerUrlToTx": "https://ezstaking.app/assetmantle/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/assetmantle/proposals/",
-  "accountUrl": "https://ezstaking.app/assetmantle/account/",
   "coinGeckoId": "assetmantle",
   "gasPrice": "0umntl",
   "chainInfo": {

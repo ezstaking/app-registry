@@ -23,9 +23,6 @@
   },
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go"],
-  "explorerUrlToTx": "https://ezstaking.app/stride/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/stride/proposals/",
-  "accountUrl": "https://ezstaking.app/stride/account/",
   "coinGeckoId": "stride",
   "gasPrice": "0ustrd",
   "chainInfo": {

@@ -19,9 +19,6 @@
   },
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
-  "explorerUrlToTx": "https://ezstaking.app/bitcanna/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/bitcanna/proposals/",
-  "accountUrl": "https://ezstaking.app/bitcanna/account/",
   "coinGeckoId": "bitcanna",
   "gasPrice": "25000ubcna",
   "chainInfo": {

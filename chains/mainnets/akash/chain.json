@@ -21,9 +21,6 @@
   },
   "coinDecimals": 6,
   "features": ["ibc-transfer"],
-  "explorerUrlToTx": "https://ezstaking.app/akash/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/akash/proposals/",
-  "accountUrl": "https://ezstaking.app/akash/account/",
   "coinGeckoId": "akash-network",
   "gasPrice": "25000uakash",
   "chainInfo": {

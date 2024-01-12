@@ -20,9 +20,6 @@
   },
   "coinDecimals": 9,
   "features": ["stargate", "ibc-transfer"],
-  "explorerUrlToTx": "https://ezstaking.app/cheqd/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/cheqd/proposals/",
-  "accountUrl": "https://ezstaking.app/cheqd/accounts/",
   "coinGeckoId": "cheqd-network",
   "gasPrice": "2500000ncheq",
   "chainInfo": {

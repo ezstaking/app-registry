@@ -19,9 +19,6 @@
   },
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
-  "explorerUrlToTx": "https://ezstaking.app/juno/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/juno/proposals/",
-  "accountUrl": "https://ezstaking.app/juno/account/",
   "coinGeckoId": "juno-network",
   "gasPrice": "2500ujuno",
   "chainInfo": {

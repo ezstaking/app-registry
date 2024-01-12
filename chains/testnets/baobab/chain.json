@@ -16,9 +16,6 @@
   },
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
-  "explorerUrlToTx": "https://testnet.ezstaking.app/baobab/txs/{txHash}",
-  "proposalUrl": "https://testnet.ezstaking.app/baobab/proposals/",
-  "accountUrl": "https://testnet.ezstaking.app/baobab/account/",
   "coinGeckoId": "",
   "gasPrice": "25000ubaobab",
   "assets": [

@@ -18,9 +18,6 @@
   },
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go"],
-  "explorerUrlToTx": "https://ezstaking.app/passage/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/passage/proposals/",
-  "accountUrl": "https://ezstaking.app/passage/account/",
   "coinGeckoId": "passage",
   "gasPrice": "0upasg",
   "chainInfo": {

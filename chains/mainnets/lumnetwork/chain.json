@@ -19,9 +19,6 @@
   },
   "coinDecimals": 6,
   "features": ["stargate", "ibc-transfer"],
-  "explorerUrlToTx": "https://ezstaking.app/lumnetwork/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/lumnetwork/proposals/",
-  "accountUrl": "https://ezstaking.app/lumnetwork/account/",
   "coinGeckoId": "lum-network",
   "gasPrice": "1000ulum",
   "chainInfo": {

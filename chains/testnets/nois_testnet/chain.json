@@ -19,9 +19,6 @@
   },
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
-  "explorerUrlToTx": "https://testnet.ezstaking.app/nois-testnet/txs/{txHash}",
-  "proposalUrl": "https://testnet.ezstaking.app/nois-testnet/proposals/",
-  "accountUrl": "https://testnet.ezstaking.app/nois-testnet/account/",
   "coinGeckoId": "",
   "gasPrice": "50000unois",
   "assets": [

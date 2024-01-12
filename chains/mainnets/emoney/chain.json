@@ -20,9 +20,6 @@
   },
   "coinDecimals": 6,
   "features": ["ibc-transfer"],
-  "explorerUrlToTx": "https://ezstaking.app/emoney/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/emoney/proposals/",
-  "accountUrl": "https://ezstaking.app/emoney/account/",
   "coinGeckoId": "e-money",
   "gasPrice": "25000ungm",
   "chainInfo": {

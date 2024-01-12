@@ -20,9 +20,6 @@
   },
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
-  "explorerUrlToTx": "https://ezstaking.app/bitsong/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/bitsong/proposals/",
-  "accountUrl": "https://ezstaking.app/bitsong/account/",
   "coinGeckoId": "bitsong",
   "gasPrice": "15000ubtsg",
   "chainInfo": {

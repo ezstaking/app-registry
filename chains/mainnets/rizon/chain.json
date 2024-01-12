@@ -20,9 +20,6 @@
   },
   "coinDecimals": 6,
   "features": ["stargate", "ibc-transfer"],
-  "explorerUrlToTx": "https://ezstaking.app/rizon/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/rizon/proposals/",
-  "accountUrl": "https://ezstaking.app/rizon/account/",
   "coinGeckoId": "rizon",
   "gasPrice": "25000uatolo",
   "chainInfo": {

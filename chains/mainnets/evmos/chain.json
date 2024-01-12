@@ -20,9 +20,6 @@
   },
   "coinDecimals": 18,
   "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
-  "explorerUrlToTx": "https://ezstaking.app/evmos/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/evmos/proposals/",
-  "accountUrl": "https://ezstaking.app/evmos/account/",
   "coinGeckoId": "evmos",
   "gasPrice": "20000000000aevmos",
   "chainInfo": {

@@ -20,9 +20,6 @@
   },
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go", "cosmwasm"],
-  "explorerUrlToTx": "https://ezstaking.app/comdex/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/comdex/proposals/",
-  "accountUrl": "https://ezstaking.app/comdex/account/",
   "coinGeckoId": "comdex",
   "gasPrice": "25000ucmdx",
   "chainInfo": {

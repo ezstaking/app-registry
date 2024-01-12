@@ -20,9 +20,6 @@
   },
   "coinDecimals": 18,
   "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
-  "explorerUrlToTx": "https://ezstaking.app/archway/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/archway/proposals/",
-  "accountUrl": "https://ezstaking.app/archway/account/",
   "coinGeckoId": "archway",
   "gasPrice": "1000000000000aarch",
   "assets": [

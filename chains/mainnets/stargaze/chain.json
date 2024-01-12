@@ -20,9 +20,6 @@
   },
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
-  "explorerUrlToTx": "https://ezstaking.app/stargaze/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/stargaze/proposals/",
-  "accountUrl": "https://ezstaking.app/stargaze/account/",
   "coinGeckoId": "stargaze",
   "gasPrice": "1ustars",
   "chainInfo": {

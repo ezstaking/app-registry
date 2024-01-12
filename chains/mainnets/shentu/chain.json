@@ -20,9 +20,6 @@
   },
   "coinDecimals": 6,
   "features": [],
-  "explorerUrlToTx": "https://ezstaking.app/shentu/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/shentu/proposals/",
-  "accountUrl": "https://ezstaking.app/shentu/account/",
   "coinGeckoId": "certik",
   "gasPrice": "25000uctk",
   "chainInfo": {

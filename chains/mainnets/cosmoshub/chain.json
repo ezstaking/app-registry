@@ -21,9 +21,6 @@
   },
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go"],
-  "explorerUrlToTx": "https://ezstaking.app/cosmoshub/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/cosmoshub/proposals/",
-  "accountUrl": "https://ezstaking.app/cosmoshub/account/",
   "coinGeckoId": "cosmos",
   "gasPrice": "2500uatom",
   "chainInfo": {

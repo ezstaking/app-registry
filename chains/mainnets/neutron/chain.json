@@ -22,9 +22,6 @@
   },
   "coinDecimals": 6,
   "features": ["stargate", "ibc-transfer", "cosmwasm"],
-  "explorerUrlToTx": "https://ezstaking.app/neutron/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/neutron/proposals/",
-  "accountUrl": "https://ezstaking.app/neutron/account/",
   "coinGeckoId": "",
   "gasPrice": "25000untrn",
   "assets": [

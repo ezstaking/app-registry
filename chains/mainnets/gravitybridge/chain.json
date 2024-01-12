@@ -21,9 +21,6 @@
   },
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go"],
-  "explorerUrlToTx": "https://ezstaking.app/gravity-bridge/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/gravity-bridge/proposals/",
-  "accountUrl": "https://ezstaking.app/gravity-bridge/account/",
   "coinGeckoId": "graviton",
   "gasPrice": "0ugraviton",
   "assets": [

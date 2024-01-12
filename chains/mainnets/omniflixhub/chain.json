@@ -20,9 +20,6 @@
   },
   "coinDecimals": 6,
   "features": ["stargate", "ibc-transfer"],
-  "explorerUrlToTx": "https://ezstaking.app/omniflixhub/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/omniflixhub/proposals/",
-  "accountUrl": "https://ezstaking.app/omniflixhub/account/",
   "coinGeckoId": "omniflix-network",
   "gasPrice": "1000uflix",
   "chainInfo": {

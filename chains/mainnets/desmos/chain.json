@@ -20,9 +20,6 @@
   },
   "coinDecimals": 6,
   "features": ["stargate", "ibc-transfer"],
-  "explorerUrlToTx": "https://ezstaking.app/desmos/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/desmos/proposals/",
-  "accountUrl": "https://ezstaking.app/desmos/account/",
   "coinGeckoId": "desmos",
   "gasPrice": "10000udsm",
   "chainInfo": {

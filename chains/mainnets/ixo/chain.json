@@ -20,9 +20,6 @@
   },
   "coinDecimals": 6,
   "features": ["ibc-transfer"],
-  "explorerUrlToTx": "https://ezstaking.app/ixo/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/ixo/proposals/",
-  "accountUrl": "https://ezstaking.app/ixo/account/",
   "coinGeckoId": "ixo",
   "gasPrice": "25000uixo",
   "chainInfo": {

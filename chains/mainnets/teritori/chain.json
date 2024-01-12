@@ -21,9 +21,6 @@
   },
   "coinDecimals": 6,
   "features": ["stargate", "ibc-transfer", "cosmwasm"],
-  "explorerUrlToTx": "https://ezstaking.app/teritori/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/teritori/proposals/",
-  "accountUrl": "https://ezstaking.app/teritori/account/",
   "coinGeckoId": "teritori",
   "gasPrice": "0utori",
   "chainInfo": {

@@ -21,9 +21,6 @@
   },
   "coinDecimals": 6,
   "features": [],
-  "explorerUrlToTx": "https://ezstaking.app/irisnet/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/irisnet/proposals/",
-  "accountUrl": "https://ezstaking.app/irisnet/account/",
   "coinGeckoId": "iris-network",
   "gasPrice": "2500uiris",
   "chainInfo": {

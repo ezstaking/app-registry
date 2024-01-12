@@ -20,9 +20,6 @@
   },
   "coinDecimals": 6,
   "features": ["stargate", "ibc-transfer"],
-  "explorerUrlToTx": "https://ezstaking.app/kyve/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/kyve/proposals/",
-  "accountUrl": "https://ezstaking.app/kyve/account/",
   "coinGeckoId": "kyve-network",
   "gasPrice": "200ukyve",
   "assets": [

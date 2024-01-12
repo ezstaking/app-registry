@@ -20,9 +20,6 @@
   },
   "coinDecimals": 6,
   "features": ["stargate", "ibc-transfer", "cosmwasm"],
-  "explorerUrlToTx": "https://ezstaking.app/kichain/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/kichain/proposals/",
-  "accountUrl": "https://ezstaking.app/kichain/account/",
   "coinGeckoId": "ki",
   "gasPrice": "25000uxki",
   "chainInfo": {
