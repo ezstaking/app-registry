@@ -136,18 +136,24 @@
     },
     "image": {
       "type": "object",
-      "oneOf": [
+      "anyOf": [
         {
-          "required": ["url"]
-        },
-        {
-          "required": ["svg"]
-        },
-        {
-          "required": ["svgImg"]
-        },
-        {
-          "required": ["font"]
+          "items": {
+            "oneOf": [
+              {
+                "required": ["url"]
+              },
+              {
+                "required": ["svg"]
+              },
+              {
+                "required": ["svgImg"]
+              },
+              {
+                "required": ["font"]
+              }
+            ]
+          }
         }
       ],
       "properties": {
