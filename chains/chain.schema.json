@@ -6,6 +6,7 @@
   "additionalProperties": false,
   "required": [
     "chainName",
+    "logo_URIs",
     "rpcUrl",
     "restUrl",
     "chainId",
@@ -30,6 +31,12 @@
     },
     "chainName": {
       "type": "string"
+    },
+    "shortChainName": {
+      "type": "string"
+    },
+    "logo_URIs": {
+      "$ref": "#/$defs/logo"
     },
     "rpcUrl": {
       "$ref": "#/$defs/url"
@@ -62,16 +69,20 @@
       "type": "number"
     },
     "features": {
-      "type": "array"
-    },
-    "explorerUrlToTx": {
-      "$ref": "#/$defs/url"
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"]
+      }
     },
     "coinGeckoId": {
       "type": "string"
     },
     "gasPrice": {
       "type": "string"
+    },
+    "assets": {
+      "type": "array"
     },
     "chainInfo": {
       "$ref": "#/$defs/chainInfo"
@@ -139,6 +150,20 @@
         },
         "light": {
           "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "logo": {
+      "type": "object",
+      "properties": {
+        "png": {
+          "type": "string",
+          "pattern": "^https://raw\\.githubusercontent\\.com/cosmos/chain-registry/master/(|testnets/|_non-cosmos/)[a-z0-9]+/images/.+\\.png$"
+        },
+        "svg": {
+          "type": "string",
+          "pattern": "^https://raw\\.githubusercontent\\.com/cosmos/chain-registry/master/(|testnets/|_non-cosmos/)[a-z0-9]+/images/.+\\.svg$"
         }
       },
       "additionalProperties": false
