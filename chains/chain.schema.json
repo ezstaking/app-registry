@@ -28,10 +28,10 @@
       "type": "string"
     },
     "rpcUrl": {
-      "type": "string"
+      "$ref": "#/$defs/url"
     },
     "restUrl": {
-      "type": "string"
+      "$ref": "#/$defs/url"
     },
     "chainId": {
       "type": "string"
@@ -61,7 +61,7 @@
       "type": "array"
     },
     "explorerUrlToTx": {
-      "type": "string"
+      "$ref": "#/$defs/url"
     },
     "coinGeckoId": {
       "type": "string"
@@ -95,6 +95,10 @@
     }
   },
   "$defs": {
+    "url": {
+      "type": "string",
+      "pattern": "^(https?|wss?|ipfs)://"
+    },
     "chainInfo": {
       "type": "object",
       "required": ["cosmosSdkVersion", "ibcGoVersion"],
@@ -132,59 +136,61 @@
         "light": {
           "type": "string"
         }
-      }
+      },
+      "additionalProperties": false
     },
     "image": {
       "type": "object",
-      "anyOf": [
+      "oneOf" : [
         {
-          "items": {
-            "oneOf": [
-              {
-                "required": ["url"]
-              },
-              {
-                "required": ["svg"]
-              },
-              {
-                "required": ["svgImg"]
-              },
-              {
-                "required": ["font"]
-              }
-            ]
-          }
+          "type" : "object",
+          "properties": {
+            "url": {
+              "$ref": "#/$defs/url"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type" : "object",
+          "properties": {
+            "svg": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type" : "object",
+          "properties": {
+            "svgImg": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type" : "object",
+          "properties": {
+            "font": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
         }
-      ],
-      "properties": {
-        "url": {
-          "type": "string",
-          "pattern": "^(https?|wss?|ftp)://"
-        },
-        "svg": {
-          "type": "string"
-        },
-        "svgImg": {
-          "type": "string"
-        },
-        "font": {
-          "type": "string"
-        }
-      }
+      ]
     },
     "link": {
       "type": "object",
       "required": ["url", "title", "icon"],
       "properties": {
         "url": {
-          "type": "string",
-          "pattern": "^(https?|wss?|ftp)://"
+          "$ref": "#/$defs/url"
         },
         "title": {
           "type": "string"
         },
         "icon": {
-          "type": "object",
           "$ref": "#/$defs/image"
         }
       },
@@ -192,7 +198,7 @@
     },
     "childLinks": {
       "type": "object",
-      "required": ["title", "childs"],
+      "required": ["title", "icon", "childs"],
       "properties": {
         "title": {
           "type": "string"
@@ -213,20 +219,16 @@
     },
     "links": {
       "type": "array",
-      "anyOf": [
-        {
-          "items": {
-            "oneOf": [
-              {
-                "$ref": "#/$defs/link"
-              },
-              {
-                "$ref": "#/$defs/childLinks"
-              }
-            ]
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "#/$defs/link"
+          },
+          {
+            "$ref": "#/$defs/childLinks"
           }
-        }
-      ],
+        ]
+      },
       "minItems": 4,
       "maxItems": 4,
       "uniqueItems": true
@@ -238,7 +240,8 @@
         "governance": {
           "type": "boolean"
         }
-      }
+      },
+      "additionalProperties": false
     }
   }
 }

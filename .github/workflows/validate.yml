@@ -29,4 +29,4 @@ jobs:
           print-valid-files: true
           strict: true
           allow-matching-properties: false
-          allow-union-types: true
+          allow-union-types: false
