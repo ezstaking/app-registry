@@ -72,7 +72,7 @@
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"]
+        "enum": ["stargate", "ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"]
       }
     },
     "coinGeckoId": {
@@ -82,7 +82,7 @@
       "type": "string"
     },
     "assets": {
-      "type": "array"
+      "$ref": "#/$defs/assets"
     },
     "chainInfo": {
       "$ref": "#/$defs/chainInfo"
@@ -112,7 +112,45 @@
   "$defs": {
     "url": {
       "type": "string",
-      "pattern": "^(https?|wss?|ipfs)://"
+      "pattern": "^(https?|ipfs)://"
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "base": {
+            "type": "string"
+          },
+          "coingecko_id": {
+            "type": "string"
+          },
+          "denom_units": {
+            "type": "array"
+          },
+          "description": {
+            "type": "string"
+          },
+          "display": {
+            "type": "string"
+          },
+          "logo_URIs": {
+            "$ref": "#/$defs/logo"
+          },
+          "name": {
+            "type": "string"
+          },
+          "symbol": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "base", "coingecko_id", "denom_units",
+          "description", "display", "logo_URIs",
+          "name", "symbol"
+        ],
+        "additionalProperties": false
+      }
     },
     "chainInfo": {
       "type": "object",
@@ -124,7 +162,8 @@
         "ibcGoVersion": {
           "type": "string"
         }
-      }
+      },
+      "additionalProperties": false
     },
     "colors": {
       "type": "object",
@@ -158,12 +197,10 @@
       "type": "object",
       "properties": {
         "png": {
-          "type": "string",
-          "pattern": "^https://raw\\.githubusercontent\\.com/cosmos/chain-registry/master/(|testnets/|_non-cosmos/)[a-z0-9]+/images/.+\\.png$"
+          "$ref": "#/$defs/url"
         },
         "svg": {
-          "type": "string",
-          "pattern": "^https://raw\\.githubusercontent\\.com/cosmos/chain-registry/master/(|testnets/|_non-cosmos/)[a-z0-9]+/images/.+\\.svg$"
+          "$ref": "#/$defs/url"
         }
       },
       "additionalProperties": false
