@@ -12,7 +12,6 @@ Managed automatically by a robot. The resources are available on the following g
 3. Copy/paste the below template in `./chains/mainnets/akash/chain.json`
 ```{
   "$schema": "../../chain.schema.json",
-  "name": "akash",
   "chainName": "Akash",
   "logo_URIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
@@ -33,9 +32,6 @@ Managed automatically by a robot. The resources are available on the following g
   },
   "coinDecimals": 6,
   "features": ["ibc-transfer"],
-  "explorerUrlToTx": "https://ezstaking.app/akash/txs/{txHash}",
-  "proposalUrl": "https://ezstaking.app/akash/proposals/",
-  "accountUrl": "https://ezstaking.app/akash/account/",
   "coinGeckoId": "akash-network",
   "gasPrice": "25000uakash",
   "chainInfo": {
@@ -101,6 +97,4 @@ Managed automatically by a robot. The resources are available on the following g
 }
 ```
 4. Update the Akash values with yours
-
-‼️ Please ensure the name of the folder is the same as defined in the name property of the chain.json content file.
 </details>
