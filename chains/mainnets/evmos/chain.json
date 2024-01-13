@@ -23,8 +23,8 @@
   "coinGeckoId": "evmos",
   "gasPrice": "20000000000aevmos",
   "chainInfo": {
-    "cosmosSdkVersion": "0.46.12",
-    "ibcGoVersion": "6.2.0"
+    "cosmosSdkVersion": "0.47.5",
+    "ibcGoVersion": "7.3.1"
   },
   "colors": {
     "headerGradient": "linear-gradient(to right, #171717, #414141 81%)",

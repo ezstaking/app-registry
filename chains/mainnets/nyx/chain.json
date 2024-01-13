@@ -22,8 +22,8 @@
   "coinGeckoId": "",
   "gasPrice": "25000unyx",
   "chainInfo": {
-    "cosmosSdkVersion": "0.45.9",
-    "ibcGoVersion": "2.2.0"
+    "cosmosSdkVersion": "0.47.5",
+    "ibcGoVersion": "7.3.0"
   },
   "colors": {
     "headerGradient": "linear-gradient(to right, #161f31, #1c2d4f 81%)",

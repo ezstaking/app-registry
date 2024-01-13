@@ -24,8 +24,8 @@
   "coinGeckoId": "iris-network",
   "gasPrice": "2500uiris",
   "chainInfo": {
-    "cosmosSdkVersion": "0.46.13",
-    "ibcGoVersion": "5.2.1"
+    "cosmosSdkVersion": "0.47.4",
+    "ibcGoVersion": "7.3.0"
   },
   "colors": {
     "headerGradient": "linear-gradient(to right, #0492dc, #51bdf6 81%)",

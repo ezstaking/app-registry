@@ -24,7 +24,7 @@
   "gasPrice": "2500uosmo",
   "chainInfo": {
     "cosmosSdkVersion": "0.47.5",
-    "ibcGoVersion": "4.3.1"
+    "ibcGoVersion": "7.3.1"
   },
   "colors": {
     "headerGradient": "linear-gradient(to right, #390368, #5e12a0 81%)",

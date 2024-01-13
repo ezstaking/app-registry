@@ -23,8 +23,8 @@
   "coinGeckoId": "comdex",
   "gasPrice": "25000ucmdx",
   "chainInfo": {
-    "cosmosSdkVersion": "0.46.11",
-    "ibcGoVersion": "4.4.2"
+    "cosmosSdkVersion": "0.47.5",
+    "ibcGoVersion": "7.3.1"
   },
   "colors": {
     "headerGradient": "linear-gradient(to right, #082045, #2c3e5a 81%)",

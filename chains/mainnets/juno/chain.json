@@ -22,8 +22,8 @@
   "coinGeckoId": "juno-network",
   "gasPrice": "2500ujuno",
   "chainInfo": {
-    "cosmosSdkVersion": "0.47.4",
-    "ibcGoVersion": "7.2.0"
+    "cosmosSdkVersion": "0.47.5",
+    "ibcGoVersion": "7.3.1"
   },
   "colors": {
     "headerGradient": "linear-gradient(to right, #c5585a, #f0827d 81%)",
