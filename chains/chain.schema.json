@@ -59,6 +59,12 @@
     "sdenom": {
       "type": "string"
     },
+    "bech32PrefixAcc": {
+      "type": "string"
+    },
+    "bech32PrefixVal": {
+      "type": "string"
+    },
     "coinType": {
       "type": "number"
     },
@@ -72,11 +78,16 @@
       "type": "array",
       "items": {
         "type": "string",
-        "enum": ["stargate", "ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"]
+        "enum": [
+          "stargate", "ibc-transfer", "ibc-go",
+          "cosmwasm", "wasmd_0.24+",
+          "eth-address-gen", "eth-key-sign",
+          "secretwasm"
+        ]
       }
     },
     "coinGeckoId": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "gasPrice": {
       "type": "string"
@@ -111,8 +122,7 @@
   },
   "$defs": {
     "url": {
-      "type": "string",
-      "pattern": "^(https?|ipfs)://"
+      "type": "string"
     },
     "assets": {
       "type": "array",
@@ -123,7 +133,7 @@
             "type": "string"
           },
           "coingecko_id": {
-            "type": "string"
+            "type": ["string", "null"]
           },
           "denom_units": {
             "type": "array"
