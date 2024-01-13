@@ -36,7 +36,58 @@
     "tertiary": "#bb90f8",
     "light": "#f2ecfb"
   },
-  "links": [],
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://osmosis.zone",
+      "icon": {
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png"
+      }
+    },
+    {
+      "title": "Osmosis App",
+      "url": "https://app.osmosis.zone",
+      "icon": {
+        "font": "apps"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.osmosis.zone",
+      "icon": {
+        "font": "article"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "childs": [
+        {
+          "title": "GitHub",
+          "url": "https://github.com/osmosis-labs",
+          "icon": {
+            "svg": "github"
+          }
+        },
+        {
+          "title": "Medium",
+          "url": "https://medium.com/@Osmosis",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/osmosiszone",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
   "isExplorerEnabled": false,
   "isModuleEnabled": {
     "governance": true
