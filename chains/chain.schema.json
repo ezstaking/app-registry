@@ -169,10 +169,10 @@
       "required": ["cosmosSdkVersion", "ibcGoVersion"],
       "properties": {
         "cosmosSdkVersion": {
-          "type": "string"
+          "$ref": "#/$defs/semver"
         },
         "ibcGoVersion": {
-          "type": "string"
+          "$ref": "#/$defs/semver"
         }
       },
       "additionalProperties": false
@@ -320,6 +320,12 @@
         }
       },
       "additionalProperties": false
+    },
+    "semver": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 14,
+      "pattern": "^(?:0|[1-9]\\d*)\\.(?:0|[1-9]\\d*)\\.(?:0|[1-9]\\d*)$"
     }
   }
 }

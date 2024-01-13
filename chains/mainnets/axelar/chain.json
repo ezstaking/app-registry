@@ -26,8 +26,8 @@
   "coinGeckoId": "e-money",
   "gasPrice": "0uaxl",
   "chainInfo": {
-    "cosmosSdkVersion": "",
-    "ibcGoVersion": "3.0.0"
+    "cosmosSdkVersion": "0.45.16",
+    "ibcGoVersion": "4.4.1"
   },
   "colors": {
     "headerGradient": "linear-gradient(to right, #000000, #383838 81%)",
@@ -55,7 +55,7 @@
       "title": "Docs",
       "url": "https://docs.axelar.dev",
       "icon": {
-        "svg": "article"
+        "font": "article"
       }
     },
     {
@@ -88,7 +88,7 @@
       ]
     }
   ],
-  "isExplorerEnabled": false,
+  "isExplorerEnabled": true,
   "isModuleEnabled": {
     "governance": true
   }

@@ -28,8 +28,8 @@
   "coinGeckoId": "chihuahua-token",
   "gasPrice": "2500uhuahua",
   "chainInfo": {
-    "cosmosSdkVersion": "0.45.11",
-    "ibcGoVersion": "3.4.0"
+    "cosmosSdkVersion": "0.47.5",
+    "ibcGoVersion": "7.3.0"
   },
   "colors": {
     "headerGradient": "linear-gradient(to right, #323232, #6f6f6f 81%)",
