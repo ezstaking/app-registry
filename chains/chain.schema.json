@@ -5,6 +5,7 @@
   "type": "object",
   "additionalProperties": false,
   "required": [
+    "$schema",
     "chainName",
     "logo_URIs",
     "rpcUrl",
@@ -27,7 +28,8 @@
   ],
   "properties": {
     "$schema": {
-      "type": "string"
+      "type": "string",
+      "enum": ["../../chain.schema.json"]
     },
     "chainName": {
       "type": "string"
