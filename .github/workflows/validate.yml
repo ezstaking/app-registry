@@ -26,7 +26,7 @@ jobs:
           schema: chains/chain.schema.json
           schema-version: draft-07
           fail-on-missing-schema: true
-          print-valid-files: false
+          print-valid-files: true
           strict: true
           allow-matching-properties: false
           allow-union-types: false
