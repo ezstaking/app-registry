@@ -23,8 +23,8 @@
   "coinGeckoId": "ixo",
   "gasPrice": "25000uixo",
   "chainInfo": {
-    "cosmosSdkVersion": "0.45.16",
-    "ibcGoVersion": "4.4.1"
+    "cosmosSdkVersion": "0.47.4",
+    "ibcGoVersion": "7.3.0"
   },
   "colors": {
     "headerGradient": "linear-gradient(to right, #0043b1, #00d2ff 81%)",

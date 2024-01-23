@@ -23,8 +23,8 @@
   "coinGeckoId": "omniflix-network",
   "gasPrice": "1000uflix",
   "chainInfo": {
-    "cosmosSdkVersion": "0.45.16",
-    "ibcGoVersion": "4.4.2"
+    "cosmosSdkVersion": "0.47.5",
+    "ibcGoVersion": "7.3.1"
   },
   "colors": {
     "headerGradient": "linear-gradient(to right, #0d0843, #060322 81%)",

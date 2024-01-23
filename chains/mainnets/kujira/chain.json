@@ -23,8 +23,8 @@
   "coinGeckoId": "kujira",
   "gasPrice": "3400ukuji",
   "chainInfo": {
-    "cosmosSdkVersion": "0.46.11",
-    "ibcGoVersion": "4.4.2"
+    "cosmosSdkVersion": "0.47.5",
+    "ibcGoVersion": "7.3.0"
   },
   "colors": {
     "headerGradient": "linear-gradient(to right, #111111, #353535 81%)",
