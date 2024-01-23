@@ -20,7 +20,10 @@
     "high": 0
   },
   "coinDecimals": 6,
-  "features": ["ibc-transfer", "ibc-go"],
+  "features": [
+    "ibc-transfer",
+    "ibc-go"
+  ],
   "coinGeckoId": "graviton",
   "gasPrice": "0ugraviton",
   "assets": [
@@ -44,19 +47,27 @@
     },
     {
       "base": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
-      "coingecko_id": "",
+      "coingecko_id": "wrapped-bitcoin",
       "denom_units": [
         {
-          "denom": "WBTC",
+          "denom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+          "exponent": 0,
+          "aliases": [
+            "wbtc-satoshi"
+          ]
+        },
+        {
+          "denom": "wbtc",
           "exponent": 8
         }
       ],
-      "description": "Wrapped BTC",
-      "display": "WBTC",
+      "description": "Wrapped Bitcoin (WBTC) is an ERC20 token backed 1:1 with Bitcoin. Completely transparent. 100% verifiable. Community led.",
+      "display": "wbtc",
       "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wbtc.svg"
       },
-      "name": "WBTC",
+      "name": "Wrapped Bitcoin",
       "symbol": "WBTC"
     },
     {
@@ -64,25 +75,33 @@
       "coingecko_id": "dogecoin",
       "denom_units": [
         {
-          "denom": "doge",
+          "denom": "wdoge",
           "exponent": 18
         }
       ],
-      "description": "Wrapped DogeCoin (by YoBit Exchange)",
-      "display": "doge",
+      "description": "Wrapped DogeCoin",
+      "display": "WDOGE",
       "logo_URIs": {
         "svg": "https://assets.coingecko.com/coins/images/5/small/dogecoin.png"
       },
-      "name": "DOGE",
-      "symbol": "DOGE"
+      "name": "WDOGE",
+      "symbol": "WDOGE"
     },
     {
       "base": "0x44017598f2af1bd733f9d87b5017b4e7c1b28dde",
       "coingecko_id": "stkatom",
       "denom_units": [
         {
-          "denom": "stkATOM",
-          "exponent": 6
+          "denom": "stk/uatom",
+          "exponent": 0,
+          "aliases": []
+        },
+        {
+          "denom": "stkatom",
+          "exponent": 6,
+          "aliases": [
+            "stk/atom"
+          ]
         }
       ],
       "description": "PSTAKE Liquid-Staked ATOM",
@@ -99,6 +118,10 @@
       "coingecko_id": "pax-gold",
       "denom_units": [
         {
+          "denom": "cw20:terra1uux6gwd6pzr0gfzrru5kne55cxex9d0700c72r",
+          "exponent": 0
+        },
+        {
           "denom": "paxg",
           "exponent": 18
         }
@@ -106,9 +129,9 @@
       "description": "Paxos Gold",
       "display": "paxg",
       "logo_URIs": {
-        "png": "https://assets.coingecko.com/coins/images/9519/small/paxg.PNG"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/paxg.png"
       },
-      "name": "PAXG",
+      "name": "Paxos Gold (Portal)",
       "symbol": "PAXG"
     },
     {
@@ -116,17 +139,24 @@
       "coingecko_id": "axelar",
       "denom_units": [
         {
+          "denom": "ibc/D934516FBE457F3A98AFABD87E0EFF7F95A15325C191EA8CDD7763C702FDDEC2",
+          "exponent": 0,
+          "aliases": [
+            "uaxl"
+          ]
+        },
+        {
           "denom": "axl",
           "exponent": 6
         }
       ],
-      "description": "The native token of Axelar",
+      "description": "Axelar",
       "display": "axl",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/axelar/images/axl.svg"
       },
-      "name": "AXL",
+      "name": "Axelar AXL Token",
       "symbol": "AXL"
     },
     {
@@ -135,118 +165,220 @@
       "denom_units": [
         {
           "denom": "orai",
-          "exponent": 18
+          "exponent": 0
+        },
+        {
+          "denom": "ORAI",
+          "exponent": 6
         }
       ],
-      "description": "Oraichain Token",
-      "display": "orai",
+      "description": "The native token of Oraichain",
+      "display": "ORAI",
       "logo_URIs": {
-        "png": "https://assets.coingecko.com/coins/images/12931/small/orai.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-white.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/oraichain/images/orai-white.svg"
       },
-      "name": "ORAI",
+      "name": "Oraichain",
       "symbol": "ORAI"
     },
     {
       "base": "0x514910771af9ca656af840dff83e8264ecf986ca",
-      "coingecko_id": "",
+      "coingecko_id": "chainlink",
       "denom_units": [
         {
-          "denom": "LINK",
+          "denom": "0x514910771af9ca656af840dff83e8264ecf986ca",
+          "exponent": 0,
+          "aliases": [
+            "link-wei"
+          ]
+        },
+        {
+          "denom": "link",
           "exponent": 18
         }
       ],
-      "description": "ChainLink Token",
-      "display": "LINK",
+      "description": "A blockchain-based middleware, acting as a bridge between cryptocurrency smart contracts, data feeds, APIs and traditional bank account payments.",
+      "display": "link",
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/link.svg"
       },
-      "name": "LINK",
+      "name": "Chainlink",
       "symbol": "LINK"
     },
     {
-      "base": "0x6b175474e89094c44da98b954eedeac495271d0f",
-      "coingecko_id": "",
+      "base": "0x6982508145454ce325ddbe47a25d4ec3d2311933",
+      "coingecko_id": "pepe",
       "denom_units": [
         {
-          "denom": "DAI",
+          "denom": "0x6982508145454Ce325dDbE47a25d4ec3d2311933",
+          "exponent": 0,
+          "aliases": [
+            "pepe-wei"
+          ]
+        },
+        {
+          "denom": "pepe",
           "exponent": 18
         }
       ],
-      "description": "Dai Stablecoin",
-      "display": "DAI",
+      "description": "Pepe",
+      "display": "pepe",
       "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/dai.svg"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/pepe.svg"
       },
-      "name": "DAI",
+      "name": "Pepe",
+      "symbol": "PEPE"
+    },
+    {
+      "base": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "coingecko_id": "dai",
+      "denom_units": [
+        {
+          "denom": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "exponent": 0,
+          "aliases": [
+            "dai-wei"
+          ]
+        },
+        {
+          "denom": "dai",
+          "exponent": 18
+        }
+      ],
+      "description": "Multi-Collateral Dai, brings a lot of new and exciting features, such as support for new CDP collateral types and Dai Savings Rate.",
+      "display": "dai",
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/dai.svg"
+      },
+      "name": "Dai Stablecoin",
       "symbol": "DAI"
     },
     {
       "base": "0x77e06c9eccf2e797fd462a92b6d7642ef85b0a44",
-      "coingecko_id": "wrapped-tao",
+      "coingecko_id": "",
       "denom_units": [
         {
-          "denom": "wTAO",
+          "denom": "wtao",
           "exponent": 9
         }
       ],
       "description": "Wrapped TAO",
-      "display": "wTAO",
+      "display": "",
+      "logo_URIs": {},
+      "name": "wtao",
+      "symbol": "wtao"
+    },
+    {
+      "base": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+      "coingecko_id": "wrapped-steth",
+      "denom_units": [
+        {
+          "denom": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+          "exponent": 0,
+          "aliases": [
+            "wsteth-wei"
+          ]
+        },
+        {
+          "denom": "wsteth",
+          "exponent": 18
+        }
+      ],
+      "description": "wstETH is a wrapped version of stETH. As some DeFi protocols require a constant balance mechanism for tokens, wstETH keeps your balance of stETH fixed and uses an underlying share system to reflect your earned staking rewards.",
+      "display": "wsteth",
       "logo_URIs": {
-        "png": "https://assets.coingecko.com/coins/images/29087/small/wtao.png"
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/wsteth.svg"
       },
-      "name": "wTAO",
-      "symbol": "wTAO"
+      "name": "Wrapped Lido Staked Ether",
+      "symbol": "wstETH"
     },
     {
       "base": "0x817bbdbc3e8a1204f3691d14bb44992841e3db35",
       "coingecko_id": "",
       "denom_units": [
         {
-          "denom": "CUDOS",
-          "exponent": 18
+          "denom": "acudos",
+          "exponent": 0,
+          "aliases": [
+            "attocudos"
+          ]
+        },
+        {
+          "denom": "cudos",
+          "exponent": 18,
+          "aliases": []
         }
       ],
-      "description": "CudosToken",
-      "display": "CUDOS",
+      "description": "The native token of the Cudos blockchain",
+      "display": "cudos",
       "logo_URIs": {
-        "png": "https://assets.coingecko.com/coins/images/13651/small/CudosIconTransparent.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/cudostestnet/images/cudos.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/cudostestnet/images/cudos.svg"
       },
-      "name": "CUDOS",
+      "name": "Cudos",
       "symbol": "CUDOS"
     },
     {
-      "base": "0x93581991f68dbae1ea105233b67f7fa0d6bdee7b",
-      "coingecko_id": "evmos",
+      "base": "0x8d983cb9388eac77af0474fa441c4815500cb7bb",
+      "coingecko_id": "",
       "denom_units": [
         {
-          "denom": "evmos",
+          "denom": "uatom",
+          "exponent": 0
+        },
+        {
+          "denom": "atom",
+          "exponent": 6
+        }
+      ],
+      "description": "The native staking and governance token of the Replicated Security Testnet.",
+      "display": "atom",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+      },
+      "name": "Cosmos",
+      "symbol": "ATOM"
+    },
+    {
+      "base": "0x93581991f68dbae1ea105233b67f7fa0d6bdee7b",
+      "coingecko_id": "",
+      "denom_units": [
+        {
+          "denom": "wevmos",
           "exponent": 18
         }
       ],
       "description": "Wrapped Evmos",
-      "display": "evmos",
-      "logo_URIs": {
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg",
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png"
-      },
-      "name": "EVMOS",
-      "symbol": "EVMOS"
+      "display": "",
+      "logo_URIs": {},
+      "name": "wevmos",
+      "symbol": "wevmos"
     },
     {
       "base": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
       "coingecko_id": "shiba-inu",
       "denom_units": [
         {
-          "denom": "SHIB",
+          "denom": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+          "exponent": 0,
+          "aliases": [
+            "shib-wei"
+          ]
+        },
+        {
+          "denom": "shib",
           "exponent": 18
         }
       ],
-      "description": "SHIBA INU",
-      "display": "SHIB",
+      "description": "SHIBA INU is a 100% decentralized community experiment with it claims that 1/2 the tokens have been sent to Vitalik and the other half were locked to a Uniswap pool and the keys burned.",
+      "display": "shib",
       "logo_URIs": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/shib.svg"
       },
-      "name": "SHIB",
+      "name": "Shiba Inu",
       "symbol": "SHIB"
     },
     {
@@ -254,16 +386,23 @@
       "coingecko_id": "crypto-com-chain",
       "denom_units": [
         {
-          "denom": "CRO",
+          "denom": "ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1",
+          "exponent": 0,
+          "aliases": [
+            "basecro"
+          ]
+        },
+        {
+          "denom": "cro",
           "exponent": 8
         }
       ],
-      "description": "Cronos Coin",
-      "display": "CRO",
+      "description": "CRO is the native token of the Crypto.org Chain, referred to as Native CRO.",
+      "display": "cro",
       "logo_URIs": {
-        "png": "https://assets.coingecko.com/coins/images/7310/small/cro_token_logo.png"
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg"
       },
-      "name": "CRO",
+      "name": "Cronos",
       "symbol": "CRO"
     },
     {
@@ -271,175 +410,244 @@
       "coingecko_id": "usd-coin",
       "denom_units": [
         {
-          "denom": "USDC",
+          "denom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "exponent": 0,
+          "aliases": [
+            "uusdc"
+          ]
+        },
+        {
+          "denom": "usdc",
           "exponent": 6
         }
       ],
-      "description": "USD Coin",
-      "display": "USDC",
+      "description": "USDC is a fully collateralized US Dollar stablecoin developed by CENTRE, the open source project with Circle being the first of several forthcoming issuers.",
+      "display": "usdc",
       "logo_URIs": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.svg"
       },
-      "name": "USDC",
+      "name": "USD Coin",
       "symbol": "USDC"
-    },
-    {
-      "base": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-      "coingecko_id": "",
-      "denom_units": [
-        {
-          "denom": "WETH",
-          "exponent": 18
-        }
-      ],
-      "description": "Wrapped Ether",
-      "display": "WETH",
-      "logo_URIs": {
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg"
-      },
-      "name": "WETH",
-      "symbol": "WETH"
-    },
-    {
-      "base": "0xea5a82b35244d9e5e48781f00b11b14e627d2951",
-      "coingecko_id": "cosmos",
-      "denom_units": [
-        {
-          "denom": "ATOM",
-          "exponent": 6
-        }
-      ],
-      "description": "Cosmos",
-      "display": "ATOM",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
-      },
-      "name": "ATOM",
-      "symbol": "ATOM"
     },
     {
       "base": "0xa670d7237398238de01267472c6f13e5b8010fd1",
       "coingecko_id": "sommelier",
       "denom_units": [
         {
+          "denom": "usomm",
+          "exponent": 0,
+          "aliases": [
+            "microsomm"
+          ]
+        },
+        {
+          "denom": "msomm",
+          "exponent": 3,
+          "aliases": [
+            "millisomm"
+          ]
+        },
+        {
           "denom": "somm",
           "exponent": 6
         }
       ],
-      "description": "somm",
+      "description": "Somm Token (SOMM) is the native staking token of the Sommelier Chain",
       "display": "somm",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.svg"
       },
-      "name": "SOMM",
+      "name": "Sommelier",
       "symbol": "SOMM"
+    },
+    {
+      "base": "0xaa6e8127831c9de45ae56bb1b0d4d4da6e5665bd",
+      "coingecko_id": "",
+      "denom_units": [
+        {
+          "denom": "eth2x-fli",
+          "exponent": 18
+        }
+      ],
+      "description": "ETH 2x Flexible Leverage Index",
+      "display": "",
+      "logo_URIs": {},
+      "name": "eth2x-fli",
+      "symbol": "eth2x-fli"
     },
     {
       "base": "0xaea46a60368a7bd060eec7df8cba43b7ef41ad85",
       "coingecko_id": "fetch-ai",
       "denom_units": [
         {
-          "denom": "FET",
+          "denom": "atestfet",
+          "exponent": 0
+        },
+        {
+          "denom": "testfet",
           "exponent": 18
         }
       ],
       "description": "The native staking and governance token of the Fetch Hub.",
-      "display": "FET",
+      "display": "fet",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png",
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg"
       },
-      "name": "FET",
+      "name": "fetch-ai",
       "symbol": "FET"
+    },
+    {
+      "base": "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55",
+      "coingecko_id": "band-protocol",
+      "denom_units": [
+        {
+          "denom": "uband",
+          "exponent": 0
+        },
+        {
+          "denom": "band",
+          "exponent": 6
+        }
+      ],
+      "description": "The native token of BandChain",
+      "display": "band",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bandchain/images/band.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bandchain/images/band.svg"
+      },
+      "name": "Band Protocol",
+      "symbol": "BAND"
+    },
+    {
+      "base": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "coingecko_id": "weth",
+      "denom_units": [
+        {
+          "denom": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "exponent": 0,
+          "aliases": [
+            "weth-wei"
+          ]
+        },
+        {
+          "denom": "weth",
+          "exponent": 18
+        }
+      ],
+      "description": "wETH is 'wrapped ETH'",
+      "display": "weth",
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/weth.svg"
+      },
+      "name": "Wrapped Ether",
+      "symbol": "WETH"
     },
     {
       "base": "0xc0a4df35568f116c370e6a6a6022ceb908eeddac",
       "coingecko_id": "umee",
       "denom_units": [
         {
-          "denom": "UMEE",
+          "denom": "uumee",
+          "exponent": 0
+        },
+        {
+          "denom": "umee",
           "exponent": 6
         }
       ],
       "description": "The native token of Umee",
-      "display": "UMEE",
+      "display": "umee",
       "logo_URIs": {
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg",
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg"
       },
-      "name": "UMEE",
+      "name": "Umee",
       "symbol": "UMEE"
     },
     {
       "base": "0xd23ed8ca350ce2631f7ecdc5e6bf80d0a1debb7b",
-      "coingecko_id": "planq",
+      "coingecko_id": "",
       "denom_units": [
         {
-          "denom": "PLQ",
+          "denom": "plq",
           "exponent": 18
         }
       ],
       "description": "PlanQ",
-      "display": "PLQ",
-      "logo_URIs": {
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.svg",
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/planq/images/planq.png"
-      },
-      "name": "PLQ",
-      "symbol": "PLQ"
+      "display": "",
+      "logo_URIs": {},
+      "name": "plq",
+      "symbol": "plq"
     },
     {
       "base": "0xd2877702675e6ceb975b4a1dff9fb7baf4c91ea9",
-      "coingecko_id": "terra-luna",
-      "denom_units": [
-        {
-          "denom": "luna",
-          "exponent": 18
-        }
-      ],
-      "description": "The native staking token of Terra Classic.",
-      "display": "luna",
-      "logo_URIs": {
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.svg",
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.png"
-      },
-      "name": "Luna Classic",
-      "symbol": "LUNC"
-    },
-    {
-      "base": "0xd3e4ba569045546d09cf021ecc5dfe42b1d7f6e4",
-      "coingecko_id": "morpheus-network",
-      "denom_units": [
-        {
-          "denom": "MNW",
-          "exponent": 18
-        }
-      ],
-      "description": "Morpheus Network",
-      "display": "MNW",
-      "logo_URIs": {
-        "png": "https://assets.coingecko.com/coins/images/2379/small/MRPH_CoinGecko.png"
-      },
-      "name": "MNW",
-      "symbol": "MNW"
-    },
-    {
-      "base": "0xdac17f958d2ee523a2206206994597c13d831ec7",
       "coingecko_id": "",
       "denom_units": [
         {
-          "denom": "USDT",
+          "denom": "lunc",
+          "exponent": 18
+        }
+      ],
+      "description": "Wrapped LUNC Token",
+      "display": "",
+      "logo_URIs": {},
+      "name": "lunc",
+      "symbol": "lunc"
+    },
+    {
+      "base": "0xd3d2e2692501a5c9ca623199d38826e513033a17",
+      "coingecko_id": "",
+      "denom_units": [
+        {
+          "denom": "uni-v2",
+          "exponent": 18
+        }
+      ],
+      "description": "Uniswap V2",
+      "display": "",
+      "logo_URIs": {},
+      "name": "uni-v2",
+      "symbol": "uni-v2"
+    },
+    {
+      "base": "0xd3e4ba569045546d09cf021ecc5dfe42b1d7f6e4",
+      "coingecko_id": "",
+      "denom_units": [
+        {
+          "denom": "mnw",
+          "exponent": 18
+        }
+      ],
+      "description": "Morpheus.Network",
+      "display": "",
+      "logo_URIs": {},
+      "name": "mnw",
+      "symbol": "mnw"
+    },
+    {
+      "base": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "coingecko_id": "tether",
+      "denom_units": [
+        {
+          "denom": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+          "exponent": 0,
+          "aliases": [
+            "uusdt"
+          ]
+        },
+        {
+          "denom": "usdt",
           "exponent": 6
         }
       ],
-      "description": "Tether USD",
-      "display": "USDT",
+      "description": "Tether gives you the joint benefits of open blockchain technology and traditional currency by converting your cash into a stable digital currency equivalent.",
+      "display": "usdt",
       "logo_URIs": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdt.svg"
       },
-      "name": "USDT",
+      "name": "Tether USD",
       "symbol": "USDT"
     },
     {
@@ -448,27 +656,60 @@
       "denom_units": [
         {
           "denom": "inj",
+          "exponent": 0
+        },
+        {
+          "denom": "INJ",
           "exponent": 18
         }
       ],
-      "description": "Injective Token",
-      "display": "inj",
+      "description": "The INJ token is the native governance token for the Injective chain.",
+      "display": "INJ",
       "logo_URIs": {
-        "png": "https://assets.coingecko.com/coins/images/12882/small/Secondary_Symbol.png"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.svg"
       },
-      "name": "INJ",
+      "name": "Injective",
       "symbol": "INJ"
+    },
+    {
+      "base": "0xea5a82b35244d9e5e48781f00b11b14e627d2951",
+      "coingecko_id": "",
+      "denom_units": [
+        {
+          "denom": "uatom",
+          "exponent": 0
+        },
+        {
+          "denom": "atom",
+          "exponent": 6
+        }
+      ],
+      "description": "The native staking and governance token of the Replicated Security Testnet.",
+      "display": "atom",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
+      },
+      "name": "Cosmos",
+      "symbol": "ATOM"
     },
     {
       "base": "0xfb5c6815ca3ac72ce9f5006869ae67f18bf77006",
       "coingecko_id": "pstake-finance",
       "denom_units": [
         {
+          "denom": "0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006",
+          "exponent": 0,
+          "aliases": []
+        },
+        {
           "denom": "pstake",
-          "exponent": 18
+          "exponent": 18,
+          "aliases": []
         }
       ],
-      "description": "pSTAKE is a liquid staking protocol unlocking the liquidity of staked assets.",
+      "description": "pSTAKE is a liquid staking protocol unlocking the liquidity of staked assets. Stakers of PoS tokens can stake their assets while maintaining the liquidity of these assets. Users earn staking rewards + receive 1:1 pegged staked representative tokens which can be used to generate additional yield.",
       "display": "pstake",
       "logo_URIs": {
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/pstake.png",
@@ -476,41 +717,6 @@
       },
       "name": "pSTAKE Finance",
       "symbol": "PSTAKE"
-    },
-    {
-      "base": "factory:kujira1qk00h5atutpsv900x202pxx42npjr9thg58dnqpa72f2p7m2luase444a7:uusk",
-      "coingecko_id": "usk",
-      "denom_units": [
-        {
-          "denom": "usk",
-          "exponent": 6
-        }
-      ],
-      "description": "The native over-collateralized stablecoin from the Kujira chain.",
-      "display": "USK",
-      "logo_URIs": {
-        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/usk.png",
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/usk.svg"
-      },
-      "name": "USK",
-      "symbol": "USK"
-    },
-    {
-      "base": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
-      "coingecko_id": "wrapped-steth",
-      "denom_units": [
-        {
-          "denom": "wstETH",
-          "exponent": 18
-        }
-      ],
-      "description": "Wrapped liquid staked Ether 2.0",
-      "display": "wstETH",
-      "logo_URIs": {
-        "png": "https://assets.coingecko.com/coins/images/18834/small/wstETH.png"
-      },
-      "name": "wstETH",
-      "symbol": "wstETH"
     }
   ],
   "chainInfo": {
