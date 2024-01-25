@@ -81,7 +81,7 @@
       "items": {
         "type": "string",
         "enum": [
-          "stargate", "ibc-transfer", "ibc-go",
+          "ibc-transfer", "ibc-go",
           "cosmwasm", "wasmd_0.24+",
           "eth-address-gen", "eth-key-sign",
           "secretwasm"

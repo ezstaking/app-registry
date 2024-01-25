@@ -19,7 +19,7 @@
     "high": 0.02
   },
   "coinDecimals": 6,
-  "features": ["stargate", "ibc-transfer"],
+  "features": ["ibc-transfer"],
   "coinGeckoId": "kyve-network",
   "gasPrice": "200ukyve",
   "assets": [

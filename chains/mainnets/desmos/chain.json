@@ -19,7 +19,7 @@
     "high": 0.025
   },
   "coinDecimals": 6,
-  "features": ["stargate", "ibc-transfer"],
+  "features": ["ibc-transfer"],
   "coinGeckoId": "desmos",
   "gasPrice": "10000udsm",
   "chainInfo": {

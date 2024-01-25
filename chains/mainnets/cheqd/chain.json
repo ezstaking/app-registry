@@ -19,7 +19,7 @@
     "high": 25
   },
   "coinDecimals": 9,
-  "features": ["stargate", "ibc-transfer"],
+  "features": ["ibc-transfer"],
   "coinGeckoId": "cheqd-network",
   "gasPrice": "2500000ncheq",
   "chainInfo": {

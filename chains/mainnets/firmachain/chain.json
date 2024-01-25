@@ -19,7 +19,7 @@
     "high": 0.01
   },
   "coinDecimals": 6,
-  "features": ["stargate", "ibc-transfer", "cosmwasm"],
+  "features": ["ibc-transfer", "cosmwasm"],
   "coinGeckoId": "firmachain",
   "gasPrice": "10000ufct",
   "chainInfo": {

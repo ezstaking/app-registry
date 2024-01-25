@@ -19,7 +19,7 @@
     "high": 0.001
   },
   "coinDecimals": 6,
-  "features": ["stargate", "ibc-transfer"],
+  "features": ["ibc-transfer"],
   "coinGeckoId": "omniflix-network",
   "gasPrice": "1000uflix",
   "chainInfo": {
