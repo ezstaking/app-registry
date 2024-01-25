@@ -1,5 +1,6 @@
 {
   "$schema": "../../chain.schema.json",
+  "name": "juno_testnet",
   "chainName": "Juno Testnet",
   "logo_URIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",

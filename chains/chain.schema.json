@@ -6,6 +6,7 @@
   "additionalProperties": false,
   "required": [
     "$schema",
+    "name",
     "chainName",
     "logo_URIs",
     "rpcUrl",
@@ -30,6 +31,9 @@
     "$schema": {
       "type": "string",
       "enum": ["../../chain.schema.json"]
+    },
+    "name": {
+      "type": "string"
     },
     "chainName": {
       "type": "string"

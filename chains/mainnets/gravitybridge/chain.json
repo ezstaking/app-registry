@@ -1,5 +1,6 @@
 {
   "$schema": "../../chain.schema.json",
+  "name": "gravitybridge",
   "chainName": "Gravity-Bridge",
   "shortChainName": "G-Bridge",
   "logo_URIs": {

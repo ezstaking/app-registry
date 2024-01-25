@@ -1,5 +1,6 @@
 {
   "$schema": "../../chain.schema.json",
+  "name": "stargaze",
   "chainName": "Stargaze",
   "logo_URIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",

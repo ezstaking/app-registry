@@ -1,5 +1,6 @@
 {
   "$schema": "../../chain.schema.json",
+  "name": "archway",
   "chainName": "Archway",
   "logo_URIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png",
