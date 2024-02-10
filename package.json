@@ -1,0 +1,19 @@
+{
+  "name": "app-registry",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "utils:gen:config": "NODE_OPTIONS='--experimental-specifier-resolution=node --loader ts-node/esm --experimental-modules' node scripts/genconfig.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EZStaking/app-registry"
+  },
+  "private": true,
+  "devDependencies": {
+    "dotenv": "^16.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
