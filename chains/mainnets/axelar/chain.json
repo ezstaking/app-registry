@@ -31,40 +31,41 @@
     "ibcGoVersion": "4.4.1"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #000000, #383838 81%)",
-    "primary": "#b2b6bc",
-    "secondary": "#000000",
-    "tertiary": "#b2b6bc",
-    "light": "#eaeaea"
+    "primaryOnLight": "#b2b6bc",
+    "primaryOnDark": "#eaeaea",
+    "lighterOnLight": "#eaeaea",
+    "lighterOnDark": "#eaeaea",
+    "darkerOnLight": "#eaeaea",
+    "darkerOnDark": "#eaeaea"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://axelar.network",
       "icon": {
-        "svgImg": "chain/axelar"
+        "svg": "web"
       }
     },
     {
       "title": "Satellite",
       "url": "https://satellite.axelar.network",
       "icon": {
-        "font": "apps"
+        "svg": "apps"
       }
     },
     {
       "title": "Docs",
       "url": "https://docs.axelar.dev",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "GitHub",
           "url": "https://github.com/axelarnetwork/axelar-core",

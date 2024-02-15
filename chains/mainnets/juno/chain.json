@@ -27,26 +27,27 @@
     "ibcGoVersion": "7.3.1"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #c5585a, #f0827d 81%)",
-    "primary": "#c5585a",
-    "secondary": "#f0827d",
-    "tertiary": "#f0827d",
-    "light": "#fdf0ef"
+    "primaryOnLight": "#f0827d",
+    "primaryOnDark": "#f0827d",
+    "darkerOnLight": "#c5585a",
+    "darkerOnDark": "#c5585a",
+    "lighterOnLight": "#fdf0ef",
+    "lighterOnDark": "#fdf0ef"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://www.junonetwork.io",
       "icon": {
-        "svgImg": "chain/juno"
+        "svg": "web"
       }
     },
     {
       "title": "DApp",
       "icon": {
-        "font": "apps"
+        "svg": "apps"
       },
-      "childs": [
+      "children": [
         {
           "title": "JunoSwap",
           "url": "https://junoswap.com",
@@ -74,15 +75,15 @@
       "title": "Docs",
       "url": "https://docs.junonetwork.io",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "GitHub",
           "url": "https://github.com/CosmosContracts",

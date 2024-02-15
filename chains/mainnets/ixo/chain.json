@@ -28,40 +28,41 @@
     "ibcGoVersion": "7.3.0"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #0043b1, #00d2ff 81%)",
-    "primary": "#06b7dd",
-    "secondary": "#29A7C3",
-    "tertiary": "#11819A",
-    "light": "#e7f3ff"
+    "primaryOnLight": "#06b7dd",
+    "primaryOnDark": "#06b7dd",
+    "darkerOnLight": "#29A7C3",
+    "darkerOnDark": "#29A7C3",
+    "lighterOnLight": "#e7f3ff",
+    "lighterOnDark": "#e7f3ff"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://www.ixo.world",
       "icon": {
-        "svgImg": "chain/ixo"
+        "svg": "web"
       }
     },
     {
       "title": "Launchpad",
       "url": "https://launchpad.ixo.world",
       "icon": {
-        "font": "apps"
+        "svg": "apps"
       }
     },
     {
       "title": "Docs",
       "url": "https://docs.ixo.foundation/ixo",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "GitHub",
           "url": "https://github.com/ixofoundation",

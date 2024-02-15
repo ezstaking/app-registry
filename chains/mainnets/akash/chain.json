@@ -6,8 +6,8 @@
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg"
   },
-  "rpcUrl": "https://rpc.akash.forbole.com:443",
-  "restUrl": "https://akash.c29r3.xyz:443/api",
+  "rpcUrl": "https://akash.c29r3.xyz/rpc",
+  "restUrl": "https://akash.c29r3.xyz/api",
   "chainId": "akashnet-2",
   "bech32": "akash",
   "denom": "akt",
@@ -28,25 +28,26 @@
     "ibcGoVersion": "4.4.2"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #cb262a, #ed3324 49%)",
-    "primary": "#cb262a",
-    "secondary": "#ed3324",
-    "tertiary": "#ed3324",
-    "light": "#fae7e5"
+    "primaryOnLight": "#cb262a",
+    "primaryOnDark": "#cb262a",
+    "lighterOnLight": "#ed3324",
+    "lighterOnDark": "#ed3324",
+    "darkerOnLight": "#ed3324",
+    "darkerOnDark": "#ed3324"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://akash.network",
       "icon": {
-        "svgImg": "chain/akash"
+        "svg": "web"
       }
     },
     {
       "title": "Docs",
       "url": "https://docs.akash.network",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
@@ -59,9 +60,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Medium",
           "url": "https://akash.network/blog",

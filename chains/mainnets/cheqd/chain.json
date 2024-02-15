@@ -28,25 +28,26 @@
     "ibcGoVersion": "6.1.1"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #C8770F, #D18F12 81%)",
-    "primary": "#A2271E",
-    "secondary": "#D18F12",
-    "tertiary": "#C8770F",
-    "light": "#FFFFFF"
+    "primaryOnLight": "#D18F12",
+    "primaryOnDark": "#D18F12",
+    "lighterOnLight": "#A2271E",
+    "lighterOnDark": "#A2271E",
+    "darkerOnLight": "#C8770F",
+    "darkerOnDark": "#C8770F"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://cheqd.io",
       "icon": {
-        "svgImg": "chain/cheqd"
+        "svg": "web"
       }
     },
     {
       "title": "Docs",
       "url": "https://learn.cheqd.io",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
@@ -59,9 +60,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Medium",
           "url": "https://blog.cheqd.io",

@@ -725,25 +725,26 @@
     "ibcGoVersion": "4.3.1"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #16003d, #016ca9 81%)",
-    "primary": "#007bb5",
-    "secondary": "#007bb5",
-    "tertiary": "#007bb5",
-    "light": "#e8f4fc"
+    "primaryOnLight": "#007bb5",
+    "primaryOnDark": "#007bb5",
+    "lighterOnLight": "#e8f4fc",
+    "lighterOnDark": "#e8f4fc",
+    "darkerOnLight": "#007bb5",
+    "darkerOnDark": "#007bb5"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://www.gravitybridge.net",
       "icon": {
-        "svgImg": "chain/gravitybridge"
+        "svg": "web"
       }
     },
     {
       "title": "SpaceStation",
       "url": "https://spacestation.zone",
       "icon": {
-        "font": "apps"
+        "svg": "apps"
       }
     },
     {
@@ -756,9 +757,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Medium",
           "url": "https://www.gravitybridge.net/blog",

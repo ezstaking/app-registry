@@ -28,25 +28,26 @@
     "ibcGoVersion": "7.3.0"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #d9583f, #ff996e 81%)",
-    "primary": "#d9583f",
-    "secondary": "#ff996e",
-    "tertiary": "#ed6c53",
-    "light": "#ffefec"
+    "primaryOnLight": "#d9583f",
+    "primaryOnDark": "#d9583f",
+    "lighterOnLight": "#ff996e",
+    "lighterOnDark": "#ff996e",
+    "darkerOnLight": "#ed6c53",
+    "darkerOnDark": "#ed6c53"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://www.desmos.network",
       "icon": {
-        "svgImg": "chain/desmos"
+        "svg": "web"
       }
     },
     {
       "title": "Docs",
       "url": "https://docs.desmos.network",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
@@ -59,9 +60,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Medium",
           "url": "https://medium.com/desmosnetwork",

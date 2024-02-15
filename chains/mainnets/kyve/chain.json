@@ -51,25 +51,26 @@
     "ibcGoVersion": "7.3.0"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #2C5B52, #141F1D 81%)",
-    "primary": "#2C5B52",
-    "secondary": "#141F1D",
-    "tertiary": "#141F1D",
-    "light": "#FFFFFF"
+    "primaryOnLight": "#2C5B52",
+    "primaryOnDark": "#2C5B52",
+    "lighterOnLight": "#FFFFFF",
+    "lighterOnDark": "#FFFFFF",
+    "darkerOnLight": "#141F1D",
+    "darkerOnDark": "#141F1D"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://www.kyve.network",
       "icon": {
-        "svgImg": "chain/kyve"
+        "svg": "web"
       }
     },
     {
       "title": "Docs",
       "url": "https://docs.kyve.network",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
@@ -82,9 +83,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Medium",
           "url": "https://blog.kyve.network",

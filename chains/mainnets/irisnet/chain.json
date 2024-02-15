@@ -29,25 +29,26 @@
     "ibcGoVersion": "7.3.0"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #0492dc, #51bdf6 81%)",
-    "primary": "#0492dc",
-    "secondary": "#0492dc",
-    "tertiary": "#0492dc",
-    "light": "#e0f2fb"
+    "primaryOnLight": "#0492dc",
+    "primaryOnDark": "#0492dc",
+    "darkerOnLight": "#0492dc",
+    "darkerOnDark": "#0492dc",
+    "lighterOnLight": "#e0f2fb",
+    "lighterOnDark": "#e0f2fb"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://www.irisnet.org",
       "icon": {
-        "svgImg": "chain/irisnet"
+        "svg": "web"
       }
     },
     {
       "title": "Docs",
       "url": "https://www.irisnet.org/docs",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
@@ -60,9 +61,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Medium",
           "url": "https://medium.com/irisnet-blog",

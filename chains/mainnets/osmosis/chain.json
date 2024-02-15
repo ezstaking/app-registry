@@ -28,40 +28,41 @@
     "ibcGoVersion": "7.3.1"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #390368, #5e12a0 81%)",
-    "primary": "#812cd6",
-    "secondary": "#812cd6",
-    "tertiary": "#812cd6",
-    "light": "#f7f1ff"
+    "primaryOnLight": "#812cd6",
+    "primaryOnDark": "#812cd6",
+    "lighterOnLight": "#f7f1ff",
+    "lighterOnDark": "#f7f1ff",
+    "darkerOnLight": "#812cd6",
+    "darkerOnDark": "#812cd6"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://osmosis.zone",
       "icon": {
-        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png"
+        "svg": "web"
       }
     },
     {
       "title": "Osmosis App",
       "url": "https://app.osmosis.zone",
       "icon": {
-        "font": "apps"
+        "svg": "apps"
       }
     },
     {
       "title": "Docs",
       "url": "https://docs.osmosis.zone",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "GitHub",
           "url": "https://github.com/osmosis-labs",

@@ -28,40 +28,41 @@
     "ibcGoVersion": "4.4.2"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #0b0340, #3d3584 81%)",
-    "primary": "#e38cd4",
-    "secondary": "#e38cd4",
-    "tertiary": "#e38cd4",
-    "light": "#faedf7"
+    "primaryOnLight": "#e38cd4",
+    "primaryOnDark": "#e38cd4",
+    "lighterOnLight": "#faedf7",
+    "lighterOnDark": "#faedf7",
+    "darkerOnLight": "#e38cd4",
+    "darkerOnDark": "#e38cd4"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://www.stargaze.zone",
       "icon": {
-        "svgImg": "chain/stargaze"
+        "svg": "web"
       }
     },
     {
       "title": "Stargaze Launchpad",
       "url": "https://app.stargaze.zone/launchpad",
       "icon": {
-        "font": "apps"
+        "svg": "apps"
       }
     },
     {
       "title": "Docs",
       "url": "https://docs.stargaze.zone",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Medium",
           "url": "https://medium.com/stargaze-protocol",

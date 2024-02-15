@@ -30,25 +30,26 @@
     "ibcGoVersion": "7.3.1"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #0e0e0e, #4a4a4a 81%)",
-    "primary": "#e91179",
-    "secondary": "#e91179",
-    "tertiary": "#e91179",
-    "light": "#fef1f7"
+    "primaryOnLight": "#e91179",
+    "primaryOnDark": "#e91179",
+    "lighterOnLight": "#fef1f7",
+    "lighterOnDark": "#fef1f7",
+    "darkerOnLight": "#e91179",
+    "darkerOnDark": "#e91179"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://stride.zone",
       "icon": {
-        "svgImg": "chain/stride"
+        "svg": "web"
       }
     },
     {
       "title": "Docs",
       "url": "https://docs.stride.zone",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
@@ -61,9 +62,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Medium",
           "url": "https://stride.zone/blog",

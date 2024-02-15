@@ -51,25 +51,26 @@
     "ibcGoVersion": "4.3.1"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #f05a27, #ff9470 81%)",
-    "primary": "#ff8f69",
-    "secondary": "#ff8f69",
-    "tertiary": "#ff8f69",
-    "light": "#fef3f0"
+    "primaryOnLight": "#ff8f69",
+    "primaryOnDark": "#ff8f69",
+    "lighterOnLight": "#fef3f0",
+    "lighterOnDark": "#fef3f0",
+    "darkerOnLight": "#fef3f0",
+    "darkerOnDark": "#fef3f0"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://archway.io",
       "icon": {
-        "svgImg": "chain/archway"
+        "svg": "web"
       }
     },
     {
       "title": "Docs",
       "url": "https://docs.archway.io",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
@@ -82,9 +83,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Medium",
           "url": "https://blog.archway.io",

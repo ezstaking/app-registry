@@ -59,11 +59,9 @@ const writeConfig = (content, path) => {
       protocolsStyles: {
         // @important: any changes here should be replicated to `./assets/root.sass`
         default: {
-          headerGradient: "#424242",
           primary: "#424242",
-          secondary: "#424242",
-          tertiary: "#424242",
-          light: "#424242",
+          light: "#FFF",
+          dark: "#000",
         },
       },
       networks: getNetworks(

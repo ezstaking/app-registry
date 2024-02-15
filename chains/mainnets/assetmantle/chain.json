@@ -28,25 +28,26 @@
     "ibcGoVersion": "4.4.2"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #1b1b1b, #414141 81%)",
-    "primary": "#f3b519",
-    "secondary": "#f3b519",
-    "tertiary": "#f3b519",
-    "light": "#f6f3e9"
+    "primaryOnLight": "#f3b519",
+    "primaryOnDark": "#f3b519",
+    "lighterOnLight": "#f6f3e9",
+    "lighterOnDark": "#f6f3e9",
+    "darkerOnLight": "#f6f3e9",
+    "darkerOnDark": "#f6f3e9"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://assetmantle.one",
       "icon": {
-        "svgImg": "chain/assetmantle"
+        "svg": "web"
       }
     },
     {
       "title": "Docs",
       "url": "https://docs.assetmantle.one",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
@@ -59,9 +60,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Medium",
           "url": "https://blog.assetmantle.one",

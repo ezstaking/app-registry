@@ -9,11 +9,13 @@ Managed automatically by a robot. The resources are available on the following g
 <details>
 <summary><h3 style="display: inline; padding-left: 15px;line-height: initial;">Schema</h3></summary>
 
+
 **Properties**
 
 |Name|Type|Description|Required|
 |----|----|-----------|--------|
 |**$schema**|`string`|Enum: `"../../chain.schema.json"`<br/>|yes|
+|**name**|`string`||yes|
 |**chainName**|`string`||yes|
 |**shortChainName**|`string`||no|
 |[**logo\_URIs**](#logo_uris)|`object`||yes|
@@ -41,13 +43,15 @@ Managed automatically by a robot. The resources are available on the following g
 |**isAProviderChain**|`boolean`||no|
 |**isAConsumerChain**|`boolean`||no|
 |**providerChain**|`string`||no|
+|**gasModifier**|`number`|If the gas calculation is wrong, you can change the multiplier.<br/>Default: `1.3`<br/>|no|
 
 **Additional Properties:** not allowed  
 **Example**
 
 ```json
 {
-    "gasPriceStep": {}
+  "gasPriceStep": {},
+  "gasModifier": 1.3
 }
 ```
 
@@ -73,7 +77,7 @@ Managed automatically by a robot. The resources are available on the following g
 **Items**
 
 **Item Type:** `string`  
-**Item Enum:** `"stargate"`, `"ibc-transfer"`, `"ibc-go"`, `"cosmwasm"`, `"wasmd_0.24+"`, `"eth-address-gen"`, `"eth-key-sign"`, `"secretwasm"`  
+**Item Enum:** `"ibc-transfer"`, `"ibc-go"`, `"cosmwasm"`, `"wasmd_0.24+"`, `"eth-address-gen"`, `"eth-key-sign"`, `"secretwasm"`  
 <a name="assets"></a>
 ## assets: array
 
@@ -97,7 +101,7 @@ Managed automatically by a robot. The resources are available on the following g
 
 ```json
 [
-    {}
+  {}
 ]
 ```
 
@@ -135,11 +139,12 @@ Managed automatically by a robot. The resources are available on the following g
 
 |Name|Type|Description|Required|
 |----|----|-----------|--------|
-|**headerGradient**|`string`||yes|
-|**primary**|`string`||yes|
-|**secondary**|`string`||yes|
-|**tertiary**|`string`||yes|
-|**light**|`string`||yes|
+|**primaryOnLight**|`color`|Primary color for light theme.<br/>|yes|
+|**primaryOnDark**|`color`|Primary color for dark theme.<br/>|yes|
+|**lighterOnLight**|`color`|Lighter color than the primary one and for light theme.<br/>|yes|
+|**lighterOnDark**|`color`|Lighter color than the primary one and for dark theme.<br/>|yes|
+|**darkerOnLight**|`color`|Darker color than the primary one and for light theme.<br/>|yes|
+|**darkerOnDark**|`color`|Darker color than the primary one and for dark theme.<br/>|yes|
 
 **Additional Properties:** not allowed  
 <a name="links"></a>
@@ -178,13 +183,14 @@ Managed automatically by a robot. The resources are available on the following g
 3. Copy/paste the below template in `./chains/mainnets/akash/chain.json`
 ```{
   "$schema": "../../chain.schema.json",
+  "name": "akash",
   "chainName": "Akash",
   "logo_URIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg"
   },
-  "rpcUrl": "https://rpc.akash.forbole.com:443",
-  "restUrl": "https://api.akash.forbole.com:443",
+  "rpcUrl": "https://akash.c29r3.xyz/rpc",
+  "restUrl": "https://akash.c29r3.xyz/api",
   "chainId": "akashnet-2",
   "bech32": "akash",
   "denom": "akt",
@@ -205,25 +211,26 @@ Managed automatically by a robot. The resources are available on the following g
     "ibcGoVersion": "4.4.2"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #cb262a, #ed3324 49%)",
-    "primary": "#cb262a",
-    "secondary": "#ed3324",
-    "tertiary": "#ed3324",
-    "light": "#fae7e5"
+    "primaryOnLight": "#cb262a",
+    "primaryOnDark": "#cb262a",
+    "lighterOnLight": "#ed3324",
+    "lighterOnDark": "#ed3324",
+    "darkerOnLight": "#ed3324",
+    "darkerOnDark": "#ed3324"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://akash.network",
       "icon": {
-        "svgImg": "chain/akash"
+        "svg": "web"
       }
     },
     {
       "title": "Docs",
       "url": "https://docs.akash.network",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
@@ -236,9 +243,9 @@ Managed automatically by a robot. The resources are available on the following g
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Medium",
           "url": "https://akash.network/blog",

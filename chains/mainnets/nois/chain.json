@@ -50,25 +50,26 @@
     "ibcGoVersion": "4.3.0"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #161130, #0B0914 81%)",
-    "primary": "#0B0914",
-    "secondary": "#161130",
-    "tertiary": "#161130",
-    "light": "#e5e7eb"
+    "primaryOnLight": "#0B0914",
+    "primaryOnDark": "#e5e7eb",
+    "lighterOnLight": "#e5e7eb",
+    "lighterOnDark": "#e5e7eb",
+    "darkerOnLight": "#161130",
+    "darkerOnDark": "#161130"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://nois.network",
       "icon": {
-        "svgImg": "chain/nois"
+        "svg": "web"
       }
     },
     {
       "title": "Docs",
       "url": "https://docs.nois.network",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
@@ -81,9 +82,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Twitter",
           "url": "https://twitter.com/NoisNetwork",

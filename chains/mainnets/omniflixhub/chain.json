@@ -28,40 +28,41 @@
     "ibcGoVersion": "7.3.1"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #0d0843, #060322 81%)",
-    "primary": "#6c63ff",
-    "secondary": "#6c63ff",
-    "tertiary": "#6c63ff",
-    "light": "#f0efff"
+    "primaryOnLight": "#6c63ff",
+    "primaryOnDark": "#6c63ff",
+    "lighterOnLight": "#f0efff",
+    "lighterOnDark": "#f0efff",
+    "darkerOnLight": "#6c63ff",
+    "darkerOnDark": "#6c63ff"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://www.omniflix.network",
       "icon": {
-        "svgImg": "chain/omniflixhub"
+        "svg": "web"
       }
     },
     {
       "title": "OmniFlix Studio",
       "url": "https://app.omniflix.studio",
       "icon": {
-        "font": "apps"
+        "svg": "apps"
       }
     },
     {
       "title": "Docs",
       "url": "https://docs.omniflix.network",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "GitHub",
           "url": "https://github.com/OmniFlix",
