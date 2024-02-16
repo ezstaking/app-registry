@@ -6,7 +6,7 @@
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.svg"
   },
-  "rpcUrl": "https://akash.c29r3.xyz/rpc",
+  "rpcUrl": "https://rpc.akash.forbole.com",
   "restUrl": "https://akash.c29r3.xyz/api",
   "chainId": "akashnet-2",
   "bech32": "akash",
