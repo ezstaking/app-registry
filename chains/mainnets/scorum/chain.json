@@ -6,8 +6,8 @@
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scorum.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scorum.svg"
   },
-  "rpcUrl": "https://scorum-blockchain-mainnet-rpc-1.scorum.com:443",
-  "restUrl": "https://scorum-blockchain-mainnet-api-1.scorum.com:443",
+  "rpcUrl": "https://scorum-blockchain-mainnet-rpc-1.scorum.com",
+  "restUrl": "https://scorum-blockchain-mainnet-api-1.scorum.com",
   "chainId": "scorum-1",
   "bech32": "scorum",
   "denom": "sp",
@@ -72,11 +72,12 @@
     "ibcGoVersion": "6.1.0"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #cb262a, #ed3324 49%)",
-    "primary": "#cb262a",
-    "secondary": "#ed3324",
-    "tertiary": "#ed3324",
-    "light": "#fae7e5"
+    "primaryOnLight": "#cb262a",
+    "primaryOnDark": "#cb262a",
+    "lighterOnLight": "#ed3324",
+    "lighterOnDark": "#ed3324",
+    "darkerOnLight": "#ed3324",
+    "darkerOnDark": "#ed3324"
   },
   "links": [
     {
@@ -105,7 +106,7 @@
       "icon": {
         "font": "more_horiz"
       },
-      "childs": [
+      "children": [
         {
           "title": "Telegram",
           "url": "https://t.me/SCORUM",
