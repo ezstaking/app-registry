@@ -28,40 +28,41 @@
     "ibcGoVersion": "3.3.1"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #15132a, #201a5e 81%)",
-    "primary": "#ff005c",
-    "secondary": "#ff005c",
-    "tertiary": "#201a5e",
-    "light": "#fbe9f1"
+    "primaryOnLight": "#ff005c",
+    "primaryOnDark": "#ff005c",
+    "lighterOnLight": "#fbe9f1",
+    "lighterOnDark": "#fbe9f1",
+    "darkerOnLight": "#201a5e",
+    "darkerOnDark": "#201a5e"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://bitsong.io",
       "icon": {
-        "svgImg": "chain/bitsong"
+        "svg": "web"
       }
     },
     {
       "title": "BitSong Music Player",
       "url": "https://play.bitsong.io",
       "icon": {
-        "font": "apps"
+        "svg": "apps"
       }
     },
     {
       "title": "Docs",
       "url": "https://docs.bitsong.io",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "GitHub",
           "url": "https://github.com/bitsongofficial",

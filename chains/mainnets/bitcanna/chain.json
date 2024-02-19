@@ -27,25 +27,26 @@
     "ibcGoVersion": "6.1.1"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #08b788, #32d6aa 81%)",
-    "primary": "#08b788",
-    "secondary": "#32d6aa",
-    "tertiary": "#00b786",
-    "light": "#e5f8f3"
+    "primaryOnLight": "#08b788",
+    "primaryOnDark": "#08b788",
+    "lighterOnLight": "#e5f8f3",
+    "lighterOnDark": "#e5f8f3",
+    "darkerOnLight": "#32d6aa",
+    "darkerOnDark": "#32d6aa"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://www.bitcanna.io",
       "icon": {
-        "svgImg": "chain/bitcanna"
+        "svg": "web"
       }
     },
     {
       "title": "Docs",
       "url": "https://docs.bitcanna.io",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
@@ -58,9 +59,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Medium",
           "url": "https://medium.com/@BitCannaGlobal",

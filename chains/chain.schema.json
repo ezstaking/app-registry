@@ -124,6 +124,11 @@
     },
     "providerChain": {
       "type": "string"
+    },
+    "gasModifier": {
+      "description": "If the gas calculation is wrong, you can change the multiplier.",
+      "default": 1.3,
+      "type": "number"
     }
   },
   "$defs": {
@@ -184,26 +189,38 @@
     "colors": {
       "type": "object",
       "required": [
-        "headerGradient",
-        "primary",
-        "secondary",
-        "tertiary",
-        "light"
+        "primaryOnLight",
+        "primaryOnDark",
+        "lighterOnLight",
+        "lighterOnDark",
+        "darkerOnLight",
+        "darkerOnDark"
       ],
       "properties": {
-        "headerGradient": {
+        "primaryOnLight": {
+          "description": "Primary color for light theme.",
           "type": "string"
         },
-        "primary": {
+        "primaryOnDark": {
+          "description": "Primary color for dark theme.",
           "type": "string"
         },
-        "secondary": {
+
+        "lighterOnLight": {
+          "description": "Lighter color than the primary one and for light theme.",
           "type": "string"
         },
-        "tertiary": {
+        "lighterOnDark": {
+          "description": "Lighter color than the primary one and for dark theme.",
           "type": "string"
         },
-        "light": {
+
+        "darkerOnLight": {
+          "description": "Darker color than the primary one and for light theme.",
+          "type": "string"
+        },
+        "darkerOnDark": {
+          "description": "Darker color than the primary one and for dark theme.",
           "type": "string"
         }
       },
@@ -280,7 +297,7 @@
     },
     "childLinks": {
       "type": "object",
-      "required": ["title", "icon", "childs"],
+      "required": ["title", "icon", "children"],
       "properties": {
         "title": {
           "type": "string"
@@ -289,7 +306,7 @@
           "type": "object",
           "$ref": "#/$defs/image"
         },
-        "childs": {
+        "children": {
           "type": "array",
           "items": {
             "$ref": "#/$defs/link"

@@ -28,25 +28,26 @@
     "ibcGoVersion": "4.4.2"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #291d51, #59588d 81%)",
-    "primary": "#8c8af2",
-    "secondary": "#8c8af2",
-    "tertiary": "#8c8af2",
-    "light": "#f0f0f7"
+    "primaryOnLight": "#8c8af2",
+    "primaryOnDark": "#8c8af2",
+    "lighterOnLight": "#f0f0f7",
+    "lighterOnDark": "#f0f0f7",
+    "darkerOnLight": "#8c8af2",
+    "darkerOnDark": "#8c8af2"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://rizon.world",
       "icon": {
-        "svgImg": "chain/rizon"
+        "svg": "web"
       }
     },
     {
       "title": "Docs",
       "url": "https://docs.rizon.world",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
@@ -59,9 +60,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Medium",
           "url": "https://medium.com/hdac",

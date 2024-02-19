@@ -26,18 +26,19 @@
     "ibcGoVersion": "4.4.2"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #5793e9, #60dbc7 81%)",
-    "primary": "#5da5fb",
-    "secondary": "#5da5fb",
-    "tertiary": "#5da5fb",
-    "light": "#e9f1fc"
+    "primaryOnLight": "#5da5fb",
+    "primaryOnDark": "#5da5fb",
+    "lighterOnLight": "#e9f1fc",
+    "lighterOnDark": "#e9f1fc",
+    "darkerOnLight": "#5da5fb",
+    "darkerOnDark": "#5da5fb"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://www.passage.io",
       "icon": {
-        "svgImg": "chain/passage"
+        "svg": "web"
       }
     },
     {
@@ -57,9 +58,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Twitter",
           "url": "https://twitter.com/passageio",

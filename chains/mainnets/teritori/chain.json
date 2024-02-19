@@ -28,25 +28,26 @@
     "ibcGoVersion": "3.4.0"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, var(--chain-primary), var(--chain-secondary) 60%)",
-    "primary": "#8b52ff",
-    "secondary": "#925cff",
-    "tertiary": "#925cff",
-    "light": "#ffffff"
+    "primaryOnLight": "#16bbff",
+    "primaryOnDark": "#16bbff",
+    "lighterOnLight": "#ffffff",
+    "lighterOnDark": "#ffffff",
+    "darkerOnLight": "#925cff",
+    "darkerOnDark": "#925cff"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://teritori.com",
       "icon": {
-        "svgImg": "chain/teritori"
+        "svg": "web"
       }
     },
     {
       "title": "Docs",
       "url": "https://teritori.gitbook.io",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
@@ -59,9 +60,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Medium",
           "url": "https://medium.com/teritori",

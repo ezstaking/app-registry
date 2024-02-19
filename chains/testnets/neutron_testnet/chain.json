@@ -53,18 +53,19 @@
     "ibcGoVersion": "4.3.0"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #000, #646464 81%)",
-    "primary": "#000",
-    "secondary": "#000",
-    "tertiary": "#43ad6b",
-    "light": "#fff"
+    "primaryOnLight": "#000",
+    "primaryOnDark": "#fff",
+    "lighterOnLight": "#000",
+    "lighterOnDark": "#fff",
+    "darkerOnLight": "#43ad6b",
+    "darkerOnDark": "#43ad6b"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://neutron.org",
       "icon": {
-        "svgImg": "chain/neutron"
+        "svg": "web"
       }
     },
     {
@@ -84,9 +85,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Discord",
           "url": "https://discord.com/invite/zRT2ZkQsxA",

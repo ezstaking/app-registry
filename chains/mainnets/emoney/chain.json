@@ -28,25 +28,26 @@
     "ibcGoVersion": "3.0.0"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #00282d, #035059 81%)",
-    "primary": "#035059",
-    "secondary": "#00282d",
-    "tertiary": "#86ccba",
-    "light": "#ffffff"
+    "primaryOnLight": "#035059",
+    "primaryOnDark": "#035059",
+    "lighterOnLight": "#86ccba",
+    "lighterOnDark": "#86ccba",
+    "darkerOnLight": "#00282d",
+    "darkerOnDark": "#00282d"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://e-money.com",
       "icon": {
-        "svgImg": "chain/emoney"
+        "svg": "web"
       }
     },
     {
       "title": "e-Money Wallet",
       "url": "https://app.e-money.com",
       "icon": {
-        "font": "apps"
+        "svg": "apps"
       }
     },
     {
@@ -59,9 +60,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Medium",
           "url": "https://medium.com/e-money-com",

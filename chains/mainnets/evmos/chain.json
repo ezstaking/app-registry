@@ -28,25 +28,26 @@
     "ibcGoVersion": "7.3.1"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #171717, #414141 81%)",
-    "primary": "#ed4e33",
-    "secondary": "#ed4e33",
-    "tertiary": "#ed4e33",
-    "light": "#fef2f1"
+    "primaryOnLight": "#ed4e33",
+    "primaryOnDark": "#ed4e33",
+    "lighterOnLight": "#fef2f1",
+    "lighterOnDark": "#fef2f1",
+    "darkerOnLight": "#ed4e33",
+    "darkerOnDark": "#ed4e33"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://evmos.org",
       "icon": {
-        "svgImg": "chain/evmos"
+        "svg": "web"
       }
     },
     {
       "title": "Docs",
       "url": "https://evmos.dev",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
@@ -59,9 +60,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Medium",
           "url": "https://evmos.blog",

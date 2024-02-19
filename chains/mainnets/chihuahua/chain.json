@@ -33,25 +33,26 @@
     "ibcGoVersion": "7.3.0"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #323232, #6f6f6f 81%)",
-    "primary": "#f4b330",
-    "secondary": "#f4b330",
-    "tertiary": "#f4b330",
-    "light": "#f1f1f2"
+    "primaryOnLight": "#f4b330",
+    "primaryOnDark": "#f4b330",
+    "lighterOnLight": "#f1f1f2",
+    "lighterOnDark": "#f1f1f2",
+    "darkerOnLight": "#f4b330",
+    "darkerOnDark": "#f4b330"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://www.chihuahua.wtf",
       "icon": {
-        "svgImg": "chain/chihuahua"
+        "svg": "web"
       }
     },
     {
       "title": "Docs",
       "url": "https://github.com/ChihuahuaChain/mainnet",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
@@ -64,9 +65,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Medium",
           "url": "https://chihuahuachain.medium.com",

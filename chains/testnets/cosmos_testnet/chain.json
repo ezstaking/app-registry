@@ -52,25 +52,26 @@
     "ibcGoVersion": "4.2.0"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #272538, #35305e 81%)",
-    "primary": "#272538",
-    "secondary": "#35305e",
-    "tertiary": "#9c6cff",
-    "light": "#f6f2ff"
+    "primaryOnLight": "#9c6cff",
+    "primaryOnDark": "#9c6cff",
+    "lighterOnLight": "#f6f2ff",
+    "lighterOnDark": "#484467FF",
+    "darkerOnLight": "#f6f2ff",
+    "darkerOnDark": "#484467FF"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://cosmos.network",
       "icon": {
-        "svgImg": "chain/cosmoshub"
+        "svg": "web"
       }
     },
     {
       "title": "Docs",
       "url": "https://docs.cosmos.network",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
@@ -83,9 +84,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Medium",
           "url": "https://blog.cosmos.network",

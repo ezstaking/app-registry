@@ -28,25 +28,26 @@
     "ibcGoVersion": "7.3.1"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #082045, #2c3e5a 81%)",
-    "primary": "#fe4350",
-    "secondary": "#082045",
-    "tertiary": "#2c3e5a",
-    "light": "#ffecee"
+    "primaryOnLight": "#fe4350",
+    "primaryOnDark": "#fe4350",
+    "lighterOnLight": "#ffecee",
+    "lighterOnDark": "#ffecee",
+    "darkerOnLight": "#fe4350",
+    "darkerOnDark": "#fe4350"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://comdex.one",
       "icon": {
-        "svgImg": "chain/comdex"
+        "svg": "web"
       }
     },
     {
       "title": "Docs",
       "url": "https://docs.comdex.one",
       "icon": {
-        "font": "article"
+        "svg": "document"
       }
     },
     {
@@ -59,9 +60,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Medium",
           "url": "https://blog.comdex.one",

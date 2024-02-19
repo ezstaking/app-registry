@@ -27,25 +27,26 @@
     "ibcGoVersion": "7.2.0"
   },
   "colors": {
-    "headerGradient": "linear-gradient(to right, #112f6f, #1255f9 81%)",
-    "primary": "#3e68f9",
-    "secondary": "#3e68f9",
-    "tertiary": "#3e68f9",
-    "light": "#e8ecfc"
+    "primaryOnLight": "#3e68f9",
+    "primaryOnDark": "#3e68f9",
+    "lighterOnLight": "#e8ecfc",
+    "lighterOnDark": "#e8ecfc",
+    "darkerOnLight": "#3e68f9",
+    "darkerOnDark": "#3e68f9"
   },
   "links": [
     {
       "title": "Official Website",
       "url": "https://lum.network",
       "icon": {
-        "svgImg": "chain/lumnetwork"
+        "svg": "web"
       }
     },
     {
       "title": "Docs",
       "url": "https://docs.lum.network",
       "icon": {
-        "font": "apps"
+        "svg": "apps"
       }
     },
     {
@@ -58,9 +59,9 @@
     {
       "title": "Learn more",
       "icon": {
-        "font": "more_horiz"
+        "svg": "dotsHorizontal"
       },
-      "childs": [
+      "children": [
         {
           "title": "Medium",
           "url": "https://medium.com/lum-network",
