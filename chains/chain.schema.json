@@ -136,6 +136,7 @@
       "type": "string"
     },
     "assets": {
+      "description": "Required only for assets that's not in the Cosmos Chain Registry.",
       "type": "array",
       "items": {
         "type": "object",

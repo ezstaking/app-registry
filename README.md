@@ -34,7 +34,7 @@ Managed automatically by a robot. The resources are available on the following g
 |[**features**](#features)|`string[]`||yes|
 |**coinGeckoId**|`string`, `null`||yes|
 |**gasPrice**|`string`||yes|
-|[**assets**](#assets)|`object[]`||no|
+|[**assets**](#assets)|`object[]`|Required only for assets that's not in the Cosmos Chain Registry.<br/>|no|
 |[**chainInfo**](#chaininfo)|`object`||yes|
 |[**colors**](#colors)|`object`||yes|
 |[**links**](#links)|`array`||yes|
