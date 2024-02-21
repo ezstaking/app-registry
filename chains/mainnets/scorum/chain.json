@@ -23,50 +23,6 @@
   "features": ["ibc-transfer"],
   "coinGeckoId": "",
   "gasPrice": "1gas",
-  "assets": [
-    {
-      "base": "nscr",
-      "coingecko_id": "",
-      "denom_units": [
-        {
-          "denom": "nscr",
-          "exponent": 0
-        },
-        {
-          "denom": "scr",
-          "exponent": 9
-        }
-      ],
-      "description": "The native token of the Scorum Cosmos Network.",
-      "display": "SCR",
-      "logo_URIs": {
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scr.svg"
-      },
-      "name": "SCR",
-      "symbol": "SCR"
-    },
-    {
-      "base": "nsp",
-      "coingecko_id": "",
-      "denom_units": [
-        {
-          "denom": "nsp",
-          "exponent": 0
-        },
-        {
-          "denom": "sp",
-          "exponent": 9
-        }
-      ],
-      "description": "The native governance and staking token of the Scorum Cosmos Network.",
-      "display": "SP",
-      "logo_URIs": {
-        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/sp.svg"
-      },
-      "name": "SP",
-      "symbol": "SP"
-    }
-  ],
   "chainInfo": {
     "cosmosSdkVersion": "0.46.11",
     "ibcGoVersion": "6.1.0"
@@ -84,7 +40,7 @@
       "title": "Official Website",
       "url": "https://scorum.com",
       "icon": {
-        "svgImg": "chain/scorum"
+        "svg": "web"
       }
     },
     {
