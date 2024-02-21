@@ -1,0 +1,131 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "scorum",
+  "chainName": "Scorum",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scorum.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scorum.svg"
+  },
+  "rpcUrl": "https://scorum-blockchain-mainnet-rpc-1.scorum.com",
+  "restUrl": "https://scorum-blockchain-mainnet-api-1.scorum.com",
+  "chainId": "scorum-1",
+  "bech32": "scorum",
+  "denom": "sp",
+  "denomUpper": "SP",
+  "sdenom": "nsp",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 1,
+    "average": 1,
+    "high": 1
+  },
+  "coinDecimals": 9,
+  "features": ["ibc-transfer"],
+  "coinGeckoId": "",
+  "gasPrice": "1gas",
+  "assets": [
+    {
+      "base": "nscr",
+      "coingecko_id": "",
+      "denom_units": [
+        {
+          "denom": "nscr",
+          "exponent": 0
+        },
+        {
+          "denom": "scr",
+          "exponent": 9
+        }
+      ],
+      "description": "The native token of the Scorum Cosmos Network.",
+      "display": "SCR",
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scr.svg"
+      },
+      "name": "SCR",
+      "symbol": "SCR"
+    },
+    {
+      "base": "nsp",
+      "coingecko_id": "",
+      "denom_units": [
+        {
+          "denom": "nsp",
+          "exponent": 0
+        },
+        {
+          "denom": "sp",
+          "exponent": 9
+        }
+      ],
+      "description": "The native governance and staking token of the Scorum Cosmos Network.",
+      "display": "SP",
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/sp.svg"
+      },
+      "name": "SP",
+      "symbol": "SP"
+    }
+  ],
+  "chainInfo": {
+    "cosmosSdkVersion": "0.46.11",
+    "ibcGoVersion": "6.1.0"
+  },
+  "colors": {
+    "primaryOnLight": "#cb262a",
+    "primaryOnDark": "#cb262a",
+    "lighterOnLight": "#ed3324",
+    "lighterOnDark": "#ed3324",
+    "darkerOnLight": "#ed3324",
+    "darkerOnDark": "#ed3324"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://scorum.com",
+      "icon": {
+        "svgImg": "chain/scorum"
+      }
+    },
+    {
+      "title": "Twitter",
+      "url": "https://twitter.com/SCORUM_en",
+      "icon": {
+        "svg": "twitter"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/scorum/cosmos-network",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "font": "more_horiz"
+      },
+      "children": [
+        {
+          "title": "Telegram",
+          "url": "https://t.me/SCORUM",
+          "icon": {
+            "svg": "telegram"
+          }
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.gg/afjC4VXgbD",
+          "icon": {
+            "svg": "discord"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  }
+}
