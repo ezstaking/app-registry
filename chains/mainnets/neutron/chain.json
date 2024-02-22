@@ -25,29 +25,6 @@
   "features": ["ibc-transfer", "cosmwasm"],
   "coinGeckoId": "",
   "gasPrice": "25000untrn",
-  "assets": [
-    {
-      "base": "untrn",
-      "coingecko_id": null,
-      "denom_units": [
-        {
-          "denom": "ntrn",
-          "exponent": 0
-        },
-        {
-          "denom": "untrn",
-          "exponent": 6
-        }
-      ],
-      "description": "The native staking and governance token of the ntrn Network.",
-      "display": "ntrn",
-      "logo_URIs": {
-        "svg": "~/ui/assets/svg/chain/neutron.svg"
-      },
-      "name": "NTRN",
-      "symbol": "NTRN"
-    }
-  ],
   "chainInfo": {
     "cosmosSdkVersion": "0.45.15",
     "ibcGoVersion": "4.3.1"
