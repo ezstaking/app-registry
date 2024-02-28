@@ -25,7 +25,8 @@
     "colors",
     "links",
     "isExplorerEnabled",
-    "isModuleEnabled"
+    "isModuleEnabled",
+    "isNativelySupportedByKeplr"
   ],
   "properties": {
     "$schema": {
@@ -129,6 +130,10 @@
       "description": "If the gas calculation is wrong, you can change the multiplier.",
       "default": 1.3,
       "type": "number"
+    },
+    "isNativelySupportedByKeplr": {
+      "description": "Allow to add the chain in Keplr.",
+      "type": "boolean"
     }
   },
   "$defs": {

@@ -83,5 +83,6 @@
   "isExplorerEnabled": true,
   "isModuleEnabled": {
     "governance": false
-  }
+  },
+  "isNativelySupportedByKeplr": false
 }
