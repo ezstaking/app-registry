@@ -29,11 +29,11 @@
       "denom_units": [
         {
           "denom": "bbn",
-          "exponent": 0
+          "exponent": 6
         },
         {
           "denom": "ubbn",
-          "exponent": 6
+          "exponent": 0
         }
       ],
       "description": "The native staking token of Babylon.",
