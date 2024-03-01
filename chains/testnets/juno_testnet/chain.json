@@ -135,5 +135,5 @@
   "isModuleEnabled": {
     "governance": true
   },
-  "isNativelySupportedByKeplr": true
+  "isNativelySupportedByKeplr": false
 }
