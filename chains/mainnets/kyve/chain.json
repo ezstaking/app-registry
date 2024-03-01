@@ -40,7 +40,8 @@
       "description": "The native staking and governance token of the KYVE Network.",
       "display": "kyve",
       "logo_URIs": {
-        "svg": "~/ui/assets/svg/chain/kyve.svg"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.svg"
       },
       "name": "KYVE",
       "symbol": "KYVE"

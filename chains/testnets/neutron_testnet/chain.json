@@ -42,7 +42,8 @@
       "description": "The native staking and governance token of the ntrn Network.",
       "display": "ntrn",
       "logo_URIs": {
-        "svg": "~/ui/assets/svg/chain/neutron.svg"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/neutron-black-logo.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/neutron-black-logo.svg"
       },
       "name": "NTRN",
       "symbol": "NTRN"

@@ -39,7 +39,7 @@
       "description": "The native staking and governance token of the Nois Network.",
       "display": "nois",
       "logo_URIs": {
-        "svg": "~/ui/assets/svg/chain/nois.svg"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png"
       },
       "name": "NOIS",
       "symbol": "NOIS"

@@ -41,7 +41,8 @@
       "description": "The native staking and governance token of the provider chain.",
       "display": "prov",
       "logo_URIs": {
-        "svg": "~/ui/assets/svg/chain/neutron.svg"
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
       },
       "name": "PROV",
       "symbol": "PROV"
