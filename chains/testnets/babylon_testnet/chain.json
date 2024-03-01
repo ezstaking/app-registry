@@ -1,0 +1,124 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "babylon_testnet",
+  "chainName": "Babylon Testnet",
+  "logo_URIs": {
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/babylontestnet/images/logo.svg"
+  },
+  "rpcUrl": "https://rpc-babylon.ezstaking.dev",
+  "restUrl": "https://lcd-babylon.ezstaking.dev",
+  "chainId": "bbn-test-3",
+  "denom": "bbn",
+  "denomUpper": "BBN",
+  "sdenom": "ubbn",
+  "bech32": "bbn",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.00001,
+    "average": 0.00002,
+    "high": 0.00003
+  },
+  "coinDecimals": 6,
+  "features": ["ibc-transfer", "ibc-go", "cosmwasm"],
+  "coinGeckoId": "",
+  "gasPrice": "10000ubbn",
+  "assets": [
+    {
+      "base": "ubbn",
+      "coingecko_id": null,
+      "denom_units": [
+        {
+          "denom": "bbn",
+          "exponent": 0
+        },
+        {
+          "denom": "ubbn",
+          "exponent": 6
+        }
+      ],
+      "description": "The native staking token of Babylon.",
+      "display": "bbn",
+      "logo_URIs": {
+        "svg": "~/ui/assets/svg/chain/babylon_testnet.svg"
+      },
+      "name": "Babylon BBN",
+      "symbol": "BBN"
+    }
+  ],
+  "chainInfo": {
+    "cosmosSdkVersion": "0.50.4",
+    "ibcGoVersion": "1.0.0"
+  },
+  "colors": {
+    "primaryOnLight": "#ff7c2b",
+    "primaryOnDark": "#ff7c2b",
+    "lighterOnLight": "#ff7c2b",
+    "lighterOnDark": "#ff7c2b",
+    "darkerOnLight": "#ff7c2b",
+    "darkerOnDark": "#ff7c2b"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://babylonchain.io",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.babylonchain.io",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/babylonchain",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/babylonchain-io",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/babylon_chain",
+          "icon": {
+            "svg": "twitter"
+          }
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.com/invite/babylonglobal?ezstakingapp",
+          "icon": {
+            "svg": "discord"
+          }
+        },
+        {
+          "title": "Telegram",
+          "url": "https://t.me/babyloncommunity",
+          "icon": {
+            "svg": "telegram"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": false
+}
