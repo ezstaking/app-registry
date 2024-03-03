@@ -1,4 +1,4 @@
-require("dotenv").config();
+require("dotenv").config({ path: ["ui/.env.local", "ui/.env"] });
 
 const processIcs = (network, provider) => {
   if (network.isAConsumerChain && network.providerChain && provider) {
