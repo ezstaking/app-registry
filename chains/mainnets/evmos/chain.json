@@ -15,14 +15,13 @@
   "sdenom": "aevmos",
   "coinType": 60,
   "gasPriceStep": {
-    "low": 0.025,
-    "average": 0.025,
-    "high": 0.025
+    "low": 0.000000002,
+    "average": 0.000000025,
+    "high": 0.000000025
   },
   "coinDecimals": 18,
   "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
   "coinGeckoId": "evmos",
-  "gasPrice": "20000000000aevmos",
   "chainInfo": {
     "cosmosSdkVersion": "0.47.5",
     "ibcGoVersion": "7.3.1"

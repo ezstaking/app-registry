@@ -24,7 +24,6 @@
   "coinDecimals": 6,
   "features": ["ibc-transfer", "cosmwasm"],
   "coinGeckoId": "",
-  "gasPrice": "25000untrn",
   "chainInfo": {
     "cosmosSdkVersion": "0.45.15",
     "ibcGoVersion": "4.3.1"

@@ -22,7 +22,6 @@
   "coinDecimals": 6,
   "features": ["ibc-transfer"],
   "coinGeckoId": "ixo",
-  "gasPrice": "25000uixo",
   "chainInfo": {
     "cosmosSdkVersion": "0.47.4",
     "ibcGoVersion": "7.3.0"

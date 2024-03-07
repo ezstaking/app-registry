@@ -1,0 +1,89 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "cudos",
+  "chainName": "Cudos",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cudos/images/cudos.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cudos/images/cudos.svg"
+  },
+  "rpcUrl": "http://mainnet-full-node-01.hosts.cudos.org:26657",
+  "restUrl": "http://mainnet-full-node-01.hosts.cudos.org:1317",
+  "chainId": "cudos-1",
+  "bech32": "cudos",
+  "denom": "cudos",
+  "denomUpper": "CUDOS",
+  "sdenom": "acudos",
+  "coinType": 118,
+  "coinDecimals": 18,
+  "features": [
+    "ibc-transfer"
+  ],
+  "coinGeckoId": "cudos",
+  "gasPriceStep": {
+    "low": 5000000000000,
+    "average": 10000000000000,
+    "high": 20000000000000
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.3",
+    "ibcGoVersion": "2.2.0"
+  },
+  "colors": {
+    "primaryOnLight": "#10aecc",
+    "primaryOnDark": "#10aecc",
+    "lighterOnLight": "#10aecc",
+    "lighterOnDark": "#10aecc",
+    "darkerOnLight": "#10aecc",
+    "darkerOnDark": "#10aecc"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.cudos.org/",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.cudos.org",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/CudoVentures/cudos-eth-token-contract",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/cudos",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/cudos_",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": false
+}

@@ -24,7 +24,6 @@
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go"],
   "coinGeckoId": "stride",
-  "gasPrice": "0ustrd",
   "chainInfo": {
     "cosmosSdkVersion": "0.47.5",
     "ibcGoVersion": "7.3.1"

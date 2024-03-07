@@ -22,7 +22,6 @@
   "coinDecimals": 6,
   "features": ["ibc-transfer"],
   "coinGeckoId": "e-money",
-  "gasPrice": "25000ungm",
   "chainInfo": {
     "cosmosSdkVersion": "0.42.11",
     "ibcGoVersion": "3.0.0"

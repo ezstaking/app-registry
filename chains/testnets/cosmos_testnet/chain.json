@@ -23,7 +23,6 @@
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go"],
   "coinGeckoId": "",
-  "gasPrice": "2500uatom",
   "assets": [
     {
       "base": "uatom",

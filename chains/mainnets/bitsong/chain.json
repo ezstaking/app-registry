@@ -22,7 +22,6 @@
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
   "coinGeckoId": "bitsong",
-  "gasPrice": "15000ubtsg",
   "chainInfo": {
     "cosmosSdkVersion": "0.45.11",
     "ibcGoVersion": "3.3.1"

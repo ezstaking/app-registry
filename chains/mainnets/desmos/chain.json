@@ -22,10 +22,9 @@
   "coinDecimals": 6,
   "features": ["ibc-transfer"],
   "coinGeckoId": "desmos",
-  "gasPrice": "10000udsm",
   "chainInfo": {
-    "cosmosSdkVersion": "0.47.5",
-    "ibcGoVersion": "7.3.0"
+    "cosmosSdkVersion": "0.47.9",
+    "ibcGoVersion": "7.3.2"
   },
   "colors": {
     "primaryOnLight": "#d9583f",

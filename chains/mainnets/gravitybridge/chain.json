@@ -26,7 +26,6 @@
     "ibc-go"
   ],
   "coinGeckoId": "graviton",
-  "gasPrice": "0ugraviton",
   "assets": [
     {
       "base": "0x07bac35846e5ed502aa91adf6a9e7aa210f2dcbe",

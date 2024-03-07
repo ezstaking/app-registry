@@ -1,0 +1,89 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "celestia",
+  "chainName": "Celestia",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.svg"
+  },
+  "rpcUrl": "https://public-celestia-rpc.numia.xyz",
+  "restUrl": "https://public-celestia-lcd.numia.xyz",
+  "chainId": "celestia",
+  "bech32": "celestia",
+  "denom": "tia",
+  "denomUpper": "TIA",
+  "sdenom": "utia",
+  "coinType": 118,
+  "coinDecimals": 6,
+  "features": [
+    "ibc-transfer"
+  ],
+  "coinGeckoId": "celestia",
+  "gasPriceStep": {
+    "low": 0.01,
+    "average": 0.02,
+    "high": 0.1
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.46.14",
+    "ibcGoVersion": "6.2.0"
+  },
+  "colors": {
+    "primaryOnLight": "#d554f8",
+    "primaryOnDark": "#d554f8",
+    "lighterOnLight": "#d554f8",
+    "lighterOnDark": "#d554f8",
+    "darkerOnLight": "#d554f8",
+    "darkerOnDark": "#d554f8"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://celestia.org/",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.celestia.org/",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/celestiaorg",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://blog.celestia.org/",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/CelestiaOrg",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": true
+}

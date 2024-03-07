@@ -1,0 +1,89 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "fetchhub",
+  "chainName": "Fetch.ai",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.svg"
+  },
+  "rpcUrl": "https://rpc-fetchhub.fetch.ai",
+  "restUrl": "https://rest-fetchhub.fetch.ai",
+  "chainId": "fetchhub-4",
+  "bech32": "fetch",
+  "denom": "fet",
+  "denomUpper": "FET",
+  "sdenom": "afet",
+  "coinType": 118,
+  "coinDecimals": 18,
+  "features": [
+    "ibc-transfer"
+  ],
+  "coinGeckoId": "fetch-ai",
+  "gasPriceStep": {
+    "low": 0.025,
+    "average": 0.025,
+    "high": 0.035
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.6",
+    "ibcGoVersion": "3.1.0"
+  },
+  "colors": {
+    "primaryOnLight": "#2aae9c",
+    "primaryOnDark": "#2aae9c",
+    "lighterOnLight": "#2aae9c",
+    "lighterOnDark": "#2aae9c",
+    "darkerOnLight": "#2aae9c",
+    "darkerOnDark": "#2aae9c"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://fetch.ai/",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.fetch.ai/",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/fetchai",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/fetch-ai",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/Fetch_ai",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": false
+}

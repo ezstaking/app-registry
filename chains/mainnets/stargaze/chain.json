@@ -22,7 +22,6 @@
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
   "coinGeckoId": "stargaze",
-  "gasPrice": "1ustars",
   "chainInfo": {
     "cosmosSdkVersion": "0.45.16",
     "ibcGoVersion": "4.4.2"

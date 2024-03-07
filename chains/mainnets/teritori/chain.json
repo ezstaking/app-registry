@@ -22,7 +22,6 @@
   "coinDecimals": 6,
   "features": ["ibc-transfer", "cosmwasm"],
   "coinGeckoId": "teritori",
-  "gasPrice": "0utori",
   "chainInfo": {
     "cosmosSdkVersion": "0.45.10",
     "ibcGoVersion": "3.4.0"

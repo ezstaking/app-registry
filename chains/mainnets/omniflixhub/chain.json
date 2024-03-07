@@ -22,7 +22,6 @@
   "coinDecimals": 6,
   "features": ["ibc-transfer"],
   "coinGeckoId": "omniflix-network",
-  "gasPrice": "1000uflix",
   "chainInfo": {
     "cosmosSdkVersion": "0.47.5",
     "ibcGoVersion": "7.3.1"

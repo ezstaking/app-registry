@@ -22,7 +22,6 @@
   "coinDecimals": 9,
   "features": ["ibc-transfer"],
   "coinGeckoId": "cheqd-network",
-  "gasPrice": "2500000ncheq",
   "chainInfo": {
     "cosmosSdkVersion": "0.46.10",
     "ibcGoVersion": "6.1.1"

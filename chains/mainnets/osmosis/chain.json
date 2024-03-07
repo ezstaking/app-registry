@@ -22,10 +22,9 @@
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go", "cosmwasm"],
   "coinGeckoId": "osmosis",
-  "gasPrice": "2500uosmo",
   "chainInfo": {
-    "cosmosSdkVersion": "0.47.5",
-    "ibcGoVersion": "7.3.1"
+    "cosmosSdkVersion": "0.47.8",
+    "ibcGoVersion": "7.3.2"
   },
   "colors": {
     "primaryOnLight": "#812cd6",

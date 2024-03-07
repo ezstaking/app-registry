@@ -1,0 +1,89 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "provenance",
+  "chainName": "Provenance",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/prov.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/prov.svg"
+  },
+  "rpcUrl": "https://rpc.cosmos.directory/provenance",
+  "restUrl": "https://rest.cosmos.directory/provenance",
+  "chainId": "pio-mainnet-1",
+  "bech32": "pb",
+  "denom": "hash",
+  "denomUpper": "HASH",
+  "sdenom": "nhash",
+  "coinType": 505,
+  "coinDecimals": 9,
+  "features": [
+    "ibc-transfer"
+  ],
+  "coinGeckoId": "provenance-blockchain",
+  "gasPriceStep": {
+    "low": 1905,
+    "average": 2100,
+    "high": 2500
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.46.13",
+    "ibcGoVersion": "6.2.0"
+  },
+  "colors": {
+    "primaryOnLight": "#628ee4",
+    "primaryOnDark": "#628ee4",
+    "lighterOnLight": "#628ee4",
+    "lighterOnDark": "#628ee4",
+    "darkerOnLight": "#628ee4",
+    "darkerOnDark": "#628ee4"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://provenance.io/",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.provenance.io/",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/provenance-io",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/provenanceblockchain",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/provenancefdn",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": false
+}

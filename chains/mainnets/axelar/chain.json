@@ -25,7 +25,6 @@
     "ibc-go"
   ],
   "coinGeckoId": "e-money",
-  "gasPrice": "0uaxl",
   "chainInfo": {
     "cosmosSdkVersion": "0.45.16",
     "ibcGoVersion": "4.4.1"

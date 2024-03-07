@@ -22,7 +22,6 @@
   "coinDecimals": 6,
   "features": [],
   "coinGeckoId": "certik",
-  "gasPrice": "25000uctk",
   "chainInfo": {
     "cosmosSdkVersion": "0.45.11",
     "ibcGoVersion": "4.2.1"

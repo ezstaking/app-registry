@@ -22,7 +22,6 @@
   "coinDecimals": 6,
   "features": ["ibc-transfer"],
   "coinGeckoId": "kujira",
-  "gasPrice": "3400ukuji",
   "chainInfo": {
     "cosmosSdkVersion": "0.47.5",
     "ibcGoVersion": "7.3.0"

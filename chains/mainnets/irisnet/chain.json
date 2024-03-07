@@ -23,7 +23,6 @@
   "coinDecimals": 6,
   "features": [],
   "coinGeckoId": "iris-network",
-  "gasPrice": "2500uiris",
   "chainInfo": {
     "cosmosSdkVersion": "0.47.4",
     "ibcGoVersion": "7.3.0"

@@ -22,7 +22,6 @@
   "coinDecimals": 6,
   "features": ["ibc-transfer"],
   "coinGeckoId": "assetmantle",
-  "gasPrice": "0umntl",
   "chainInfo": {
     "cosmosSdkVersion": "0.45.16",
     "ibcGoVersion": "4.4.2"

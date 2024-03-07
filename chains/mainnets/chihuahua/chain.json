@@ -27,7 +27,6 @@
     "wasmd_0.24+"
   ],
   "coinGeckoId": "chihuahua-token",
-  "gasPrice": "2500uhuahua",
   "chainInfo": {
     "cosmosSdkVersion": "0.47.5",
     "ibcGoVersion": "7.3.0"

@@ -22,7 +22,6 @@
   "coinDecimals": 6,
   "features": ["ibc-transfer", "cosmwasm"],
   "coinGeckoId": "ki",
-  "gasPrice": "25000uxki",
   "chainInfo": {
     "cosmosSdkVersion": "0.45.12",
     "ibcGoVersion": "3.3.1"

@@ -1,0 +1,89 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "sommelier",
+  "chainName": "Sommelier",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sommelier/images/somm.svg"
+  },
+  "rpcUrl": "https://rpc.cosmos.directory/sommelier",
+  "restUrl": "https://rest.cosmos.directory/sommelier",
+  "chainId": "sommelier-3",
+  "bech32": "somm",
+  "denom": "somm",
+  "denomUpper": "SOMM",
+  "sdenom": "usomm",
+  "coinType": 118,
+  "coinDecimals": 6,
+  "features": [
+    "ibc-transfer"
+  ],
+  "coinGeckoId": "sommelier",
+  "gasPriceStep": {
+    "low": 0.01,
+    "average": 0.025,
+    "high": 0.04
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.46.14",
+    "ibcGoVersion": "6.2.0"
+  },
+  "colors": {
+    "primaryOnLight": "#a22b70",
+    "primaryOnDark": "#a22b70",
+    "lighterOnLight": "#a22b70",
+    "lighterOnDark": "#a22b70",
+    "darkerOnLight": "#a22b70",
+    "darkerOnDark": "#a22b70"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://sommelier.finance/",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://tricky-sand-5e6.notion.site/Sommelier-Documentation-006e748753e34a1299f9b1d6ae3a4544",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/PeggyJV",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/@sommelierfinance",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/sommfinance",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": true
+}

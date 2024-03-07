@@ -21,7 +21,6 @@
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
   "coinGeckoId": "",
-  "gasPrice": "50000unois",
   "assets": [
     {
       "base": "unois",

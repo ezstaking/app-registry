@@ -21,7 +21,6 @@
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
   "coinGeckoId": "juno-network",
-  "gasPrice": "2500ujuno",
   "chainInfo": {
     "cosmosSdkVersion": "0.47.5",
     "ibcGoVersion": "7.3.1"

@@ -1,0 +1,88 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "stafihub",
+  "chainName": "StaFi Hub",
+  "logo_URIs": {
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stafihub/images/fis.svg"
+  },
+  "rpcUrl": "https://rpc.cosmos.directory/stafihub",
+  "restUrl": "https://rest.cosmos.directory/stafihub",
+  "chainId": "stafihub-1",
+  "bech32": "stafi",
+  "denom": "fis",
+  "denomUpper": "FIS",
+  "sdenom": "ufis",
+  "coinType": 118,
+  "coinDecimals": 6,
+  "features": [
+    "ibc-transfer"
+  ],
+  "coinGeckoId": "stafi",
+  "gasPriceStep": {
+    "low": 0,
+    "average": 0.025,
+    "high": 0.04
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.46.13",
+    "ibcGoVersion": "5.2.1"
+  },
+  "colors": {
+    "primaryOnLight": "#6758ff",
+    "primaryOnDark": "#6758ff",
+    "lighterOnLight": "#6758ff",
+    "lighterOnDark": "#6758ff",
+    "darkerOnLight": "#6758ff",
+    "darkerOnDark": "#6758ff"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://stafihub.io/",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.stafihub.io/welcome-to-stafihub/",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/stafihub/stafihub",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://stafi-protocol.medium.com/",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/StaFiHub_",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": true
+}

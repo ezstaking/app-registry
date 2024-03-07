@@ -21,10 +21,9 @@
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
   "coinGeckoId": "bitcanna",
-  "gasPrice": "25000ubcna",
   "chainInfo": {
-    "cosmosSdkVersion": "0.46.14",
-    "ibcGoVersion": "6.1.1"
+    "cosmosSdkVersion": "0.47.9",
+    "ibcGoVersion": "7.3.2"
   },
   "colors": {
     "primaryOnLight": "#08b788",

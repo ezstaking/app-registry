@@ -22,7 +22,6 @@
   "coinDecimals": 18,
   "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
   "coinGeckoId": "archway",
-  "gasPrice": "1000000000000aarch",
   "assets": [
     {
       "base": "aarch",

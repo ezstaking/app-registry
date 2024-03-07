@@ -20,7 +20,6 @@
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go"],
   "coinGeckoId": "passage",
-  "gasPrice": "0upasg",
   "chainInfo": {
     "cosmosSdkVersion": "0.45.16",
     "ibcGoVersion": "4.4.2"

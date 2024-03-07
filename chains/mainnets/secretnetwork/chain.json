@@ -22,7 +22,6 @@
   "coinDecimals": 6,
   "features": ["secretwasm", "ibc-go", "ibc-transfer"],
   "coinGeckoId": "secret",
-  "gasPrice": "300000uscrt",
   "chainInfo": {
     "cosmosSdkVersion": "0.45.16",
     "ibcGoVersion": "4.5.0"

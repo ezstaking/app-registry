@@ -22,7 +22,6 @@
   "coinDecimals": 6,
   "features": ["ibc-transfer", "cosmwasm"],
   "coinGeckoId": "firmachain",
-  "gasPrice": "10000ufct",
   "chainInfo": {
     "cosmosSdkVersion": "0.45.9",
     "ibcGoVersion": "3.3.0"

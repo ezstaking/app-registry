@@ -20,7 +20,6 @@
     "coinDecimals",
     "features",
     "coinGeckoId",
-    "gasPrice",
     "chainInfo",
     "colors",
     "links",
@@ -95,9 +94,6 @@
     },
     "coinGeckoId": {
       "type": ["string", "null"]
-    },
-    "gasPrice": {
-      "type": "string"
     },
     "assets": {
       "$ref": "#/$defs/assets"

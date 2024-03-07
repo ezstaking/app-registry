@@ -1,0 +1,89 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "kava",
+  "chainName": "Kava",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kava/images/kava.svg"
+  },
+  "rpcUrl": "https://rpc.data.kava.io",
+  "restUrl": "https://api.data.kava.io",
+  "chainId": "kava_2222-10",
+  "bech32": "kava",
+  "denom": "kava",
+  "denomUpper": "KAVA",
+  "sdenom": "ukava",
+  "coinType": 459,
+  "coinDecimals": 6,
+  "features": [
+    "ibc-transfer"
+  ],
+  "coinGeckoId": "kava",
+  "gasPriceStep": {
+    "low": 0.05,
+    "average": 0.1,
+    "high": 0.25
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.46.11",
+    "ibcGoVersion": "6.1.1"
+  },
+  "colors": {
+    "primaryOnLight": "#ff564f",
+    "primaryOnDark": "#ff564f",
+    "lighterOnLight": "#ff564f",
+    "lighterOnDark": "#ff564f",
+    "darkerOnLight": "#ff564f",
+    "darkerOnDark": "#ff564f"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.kava.io/",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.kava.io/docs/intro",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/kava-labs",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/kava-labs",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/kava_platform",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": true
+}

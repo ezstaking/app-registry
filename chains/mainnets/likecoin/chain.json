@@ -1,0 +1,89 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "likecoin",
+  "chainName": "LikeCoin",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.svg"
+  },
+  "rpcUrl": "https://mainnet-node.like.co/rpc",
+  "restUrl": "https://mainnet-node.like.co",
+  "chainId": "likecoin-mainnet-2",
+  "bech32": "like",
+  "denom": "like",
+  "denomUpper": "LIKE",
+  "sdenom": "nanolike",
+  "coinType": 118,
+  "coinDecimals": 9,
+  "features": [
+    "ibc-transfer"
+  ],
+  "coinGeckoId": "likecoin",
+  "gasPriceStep": {
+    "low": 1000,
+    "average": 10000,
+    "high": 1000000
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.46.15",
+    "ibcGoVersion": "6.2.1"
+  },
+  "colors": {
+    "primaryOnLight": "#2d8a99",
+    "primaryOnDark": "#2d8a99",
+    "lighterOnLight": "#2d8a99",
+    "lighterOnDark": "#2d8a99",
+    "darkerOnLight": "#2d8a99",
+    "darkerOnDark": "#2d8a99"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://like.co/",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.like.co",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/likecoin",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://blog.like.co/en/",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/likecoin",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": true
+}
