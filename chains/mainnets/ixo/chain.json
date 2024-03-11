@@ -23,8 +23,8 @@
   "features": ["ibc-transfer"],
   "coinGeckoId": "ixo",
   "chainInfo": {
-    "cosmosSdkVersion": "0.47.4",
-    "ibcGoVersion": "7.3.0"
+    "cosmosSdkVersion": "0.45.16",
+    "ibcGoVersion": "4.4.1"
   },
   "colors": {
     "primaryOnLight": "#06b7dd",

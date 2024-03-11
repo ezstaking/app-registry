@@ -19,6 +19,7 @@
     "average": 0.001,
     "high": 0.001
   },
+  "gasModifier": 1.4,
   "coinDecimals": 6,
   "features": ["ibc-transfer"],
   "coinGeckoId": "omniflix-network",
