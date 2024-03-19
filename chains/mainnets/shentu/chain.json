@@ -6,10 +6,10 @@
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shentu/images/ctk.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/shentu/images/ctk.svg"
   },
-  "rpcUrl": "https://shenturpc.noopsbycertik.com",
-  "restUrl": "https://chainfull.noopsbycertik.com",
+  "rpcUrl": "https://rpc.cosmos.directory/shentu",
+  "restUrl": "https://rest.cosmos.directory/shentu",
   "chainId": "shentu-2.2",
-  "bech32": "certik",
+  "bech32": "shentu",
   "denom": "ctk",
   "denomUpper": "CTK",
   "sdenom": "uctk",
