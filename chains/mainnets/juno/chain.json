@@ -22,7 +22,7 @@
   "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
   "coinGeckoId": "juno-network",
   "chainInfo": {
-    "cosmosSdkVersion": "0.47.5",
+    "cosmosSdkVersion": "0.47.6",
     "ibcGoVersion": "7.3.1"
   },
   "colors": {

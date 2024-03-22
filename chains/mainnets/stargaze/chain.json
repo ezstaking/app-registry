@@ -23,7 +23,7 @@
   "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
   "coinGeckoId": "stargaze",
   "chainInfo": {
-    "cosmosSdkVersion": "0.45.16",
+    "cosmosSdkVersion": "0.47.10",
     "ibcGoVersion": "4.4.2"
   },
   "colors": {

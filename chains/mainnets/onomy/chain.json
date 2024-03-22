@@ -24,7 +24,7 @@
     "high": 0.06
   },
   "chainInfo": {
-    "cosmosSdkVersion": "0.44.16",
+    "cosmosSdkVersion": "0.45.16",
     "ibcGoVersion": "4.4.2"
   },
   "colors": {

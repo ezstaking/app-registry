@@ -23,7 +23,7 @@
   "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
   "coinGeckoId": "bitsong",
   "chainInfo": {
-    "cosmosSdkVersion": "0.45.11",
+    "cosmosSdkVersion": "0.45.16",
     "ibcGoVersion": "3.3.1"
   },
   "colors": {

@@ -25,7 +25,7 @@
   "features": ["ibc-transfer", "ibc-go"],
   "coinGeckoId": "stride",
   "chainInfo": {
-    "cosmosSdkVersion": "0.47.5",
+    "cosmosSdkVersion": "0.47.10",
     "ibcGoVersion": "7.3.1"
   },
   "colors": {
