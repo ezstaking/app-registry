@@ -23,7 +23,7 @@
   "features": ["ibc-transfer", "cosmwasm"],
   "coinGeckoId": "teritori",
   "chainInfo": {
-    "cosmosSdkVersion": "0.45.10",
+    "cosmosSdkVersion": "0.47.6",
     "ibcGoVersion": "3.4.0"
   },
   "colors": {
