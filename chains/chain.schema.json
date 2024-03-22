@@ -25,7 +25,8 @@
     "links",
     "isExplorerEnabled",
     "isModuleEnabled",
-    "isNativelySupportedByKeplr"
+    "isNativelySupportedByKeplr",
+    "withCoingeckoApi"
   ],
   "properties": {
     "$schema": {
@@ -124,12 +125,17 @@
     },
     "gasModifier": {
       "description": "If the gas calculation is wrong, you can change the multiplier.",
-      "default": 1.3,
-      "type": "number"
+      "type": "number",
+      "default": 1.3
     },
     "isNativelySupportedByKeplr": {
       "description": "Allow to add the chain in Keplr.",
       "type": "boolean"
+    },
+    "withCoingeckoApi": {
+      "description": "If we validate your chain, we'll take care of the API ourselves. If not, don't hesitate to provide us with an API key: contact[@]ezstaking[.]io.",
+      "type": "boolean",
+      "default": false
     }
   },
   "$defs": {

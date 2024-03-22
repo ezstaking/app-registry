@@ -83,5 +83,6 @@
   "isModuleEnabled": {
     "governance": false
   },
-  "isNativelySupportedByKeplr": false
+  "isNativelySupportedByKeplr": false,
+  "withCoingeckoApi": false
 }
