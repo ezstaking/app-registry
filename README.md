@@ -33,7 +33,6 @@ Managed automatically by a robot. The resources are available on the following g
 |**coinDecimals**|`number`||yes|
 |[**features**](#features)|`string[]`||yes|
 |**coinGeckoId**|`string`, `null`||yes|
-|**gasPrice**|`string`||yes|
 |[**assets**](#assets)|`object[]`|Required only for assets that's not in the Cosmos Chain Registry.<br/>|no|
 |[**chainInfo**](#chaininfo)|`object`||yes|
 |[**colors**](#colors)|`object`||yes|
@@ -44,14 +43,17 @@ Managed automatically by a robot. The resources are available on the following g
 |**isAConsumerChain**|`boolean`||no|
 |**providerChain**|`string`||no|
 |**gasModifier**|`number`|If the gas calculation is wrong, you can change the multiplier.<br/>Default: `1.3`<br/>|no|
+|**isNativelySupportedByKeplr**|`boolean`|Allow to add the chain in Keplr.<br/>|yes|
+|**withCoingeckoApi**|`boolean`|If we validate your chain, we'll take care of the API ourselves. If not, don't hesitate to provide us with an API key: contact[@]ezstaking[.]io.<br/>Default: `false`<br/>|yes|
 
 **Additional Properties:** not allowed  
 **Example**
 
 ```json
 {
-  "gasPriceStep": {},
-  "gasModifier": 1.3
+    "gasPriceStep": {},
+    "gasModifier": 1.3,
+    "withCoingeckoApi": false
 }
 ```
 
@@ -81,6 +83,9 @@ Managed automatically by a robot. The resources are available on the following g
 <a name="assets"></a>
 ## assets: array
 
+Required only for assets that's not in the Cosmos Chain Registry.
+
+
 **Items**
 
 **Item Properties**
@@ -101,7 +106,7 @@ Managed automatically by a robot. The resources are available on the following g
 
 ```json
 [
-  {}
+    {}
 ]
 ```
 
@@ -139,12 +144,12 @@ Managed automatically by a robot. The resources are available on the following g
 
 |Name|Type|Description|Required|
 |----|----|-----------|--------|
-|**primaryOnLight**|`color`|Primary color for light theme.<br/>|yes|
-|**primaryOnDark**|`color`|Primary color for dark theme.<br/>|yes|
-|**lighterOnLight**|`color`|Lighter color than the primary one and for light theme.<br/>|yes|
-|**lighterOnDark**|`color`|Lighter color than the primary one and for dark theme.<br/>|yes|
-|**darkerOnLight**|`color`|Darker color than the primary one and for light theme.<br/>|yes|
-|**darkerOnDark**|`color`|Darker color than the primary one and for dark theme.<br/>|yes|
+|**primaryOnLight**|`string`|Primary color for light theme.<br/>|yes|
+|**primaryOnDark**|`string`|Primary color for dark theme.<br/>|yes|
+|**lighterOnLight**|`string`|Lighter color than the primary one and for light theme.<br/>|yes|
+|**lighterOnDark**|`string`|Lighter color than the primary one and for dark theme.<br/>|yes|
+|**darkerOnLight**|`string`|Darker color than the primary one and for light theme.<br/>|yes|
+|**darkerOnDark**|`string`|Darker color than the primary one and for dark theme.<br/>|yes|
 
 **Additional Properties:** not allowed  
 <a name="links"></a>
@@ -205,7 +210,6 @@ Managed automatically by a robot. The resources are available on the following g
   "coinDecimals": 6,
   "features": ["ibc-transfer"],
   "coinGeckoId": "akash-network",
-  "gasPrice": "25000uakash",
   "chainInfo": {
     "cosmosSdkVersion": "0.45.16",
     "ibcGoVersion": "4.4.2"
@@ -266,7 +270,9 @@ Managed automatically by a robot. The resources are available on the following g
   "isExplorerEnabled": true,
   "isModuleEnabled": {
     "governance": true
-  }
+  },
+  "isNativelySupportedByKeplr": true,
+  "withCoingeckoApi": true
 }
 ```
 4. Update the Akash values with yours
