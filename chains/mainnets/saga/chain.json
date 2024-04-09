@@ -1,4 +1,5 @@
 {
+  "$schema": "../../chain.schema.json",
   "name": "saga",
   "chainName": "Saga",
   "logo_URIs": {
@@ -17,7 +18,31 @@
   "features": [
     "ibc-transfer"
   ],
-  "coinGeckoId": "saga",
+  "coinGeckoId": "saga-2",
+  "assets": [
+    {
+      "description": "The native staking and governance token of Saga.",
+      "denom_units": [
+        {
+          "denom": "usaga",
+          "exponent": 0
+        },
+        {
+          "denom": "saga",
+          "exponent": 6
+        }
+      ],
+      "base": "usaga",
+      "name": "Saga",
+      "display": "saga",
+      "symbol": "SAGA",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.svg"
+      },
+      "coingecko_id": "saga-2"
+    }
+  ],
   "gasPriceStep": {
     "low": 0.01,
     "average": 0.025,
@@ -28,12 +53,12 @@
     "ibcGoVersion": "7.3.1"
   },
   "colors": {
-    "primaryOnLight": "#cb262a",
-    "primaryOnDark": "#cb262a",
-    "lighterOnLight": "#ed3324",
-    "lighterOnDark": "#ed3324",
-    "darkerOnLight": "#ed3324",
-    "darkerOnDark": "#ed3324"
+    "primaryOnLight": "#EF6644",
+    "primaryOnDark": "#EF6644",
+    "lighterOnLight": "#EF6644",
+    "lighterOnDark": "#EF6644",
+    "darkerOnLight": "#EF6644",
+    "darkerOnDark": "#EF6644"
   },
   "links": [
     {
@@ -84,5 +109,6 @@
   "isModuleEnabled": {
     "governance": true
   },
-  "isNativelySupportedByKeplr": true
+  "isNativelySupportedByKeplr": true,
+  "withCoingeckoApi": false
 }
