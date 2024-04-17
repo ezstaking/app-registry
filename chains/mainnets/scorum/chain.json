@@ -6,8 +6,8 @@
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scorum.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scorum.svg"
   },
-  "rpcUrl": "https://scorum-blockchain-mainnet-rpc-1.scorum.com",
-  "restUrl": "https://scorum-blockchain-mainnet-api-1.scorum.com",
+  "rpcUrl": "https://scorum-blockchain-mainnet-rpc.scorum.com",
+  "restUrl": "https://scorum-blockchain-mainnet-api.scorum.com",
   "chainId": "scorum-1",
   "bech32": "scorum",
   "denom": "sp",
