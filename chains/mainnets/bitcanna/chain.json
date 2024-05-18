@@ -22,7 +22,7 @@
   "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
   "coinGeckoId": "bitcanna",
   "chainInfo": {
-    "cosmosSdkVersion": "0.47.9",
+    "cosmosSdkVersion": "0.47.11",
     "ibcGoVersion": "7.3.2"
   },
   "colors": {

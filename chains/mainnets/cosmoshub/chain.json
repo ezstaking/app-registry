@@ -20,12 +20,13 @@
     "average": 0.0025,
     "high": 0.0025
   },
+  "gasModifier": 1.8,
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go"],
   "coinGeckoId": "cosmos",
   "chainInfo": {
-    "cosmosSdkVersion": "0.47.10",
-    "ibcGoVersion": "4.4.2"
+    "cosmosSdkVersion": "0.47.13",
+    "ibcGoVersion": "7.4.0"
   },
   "colors": {
     "primaryOnLight": "#9c6cff",

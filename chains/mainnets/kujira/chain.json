@@ -23,7 +23,7 @@
   "features": ["ibc-transfer"],
   "coinGeckoId": "kujira",
   "chainInfo": {
-    "cosmosSdkVersion": "0.47.5",
+    "cosmosSdkVersion": "0.47.8",
     "ibcGoVersion": "7.3.0"
   },
   "colors": {

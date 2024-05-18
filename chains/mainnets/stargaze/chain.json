@@ -19,6 +19,7 @@
     "average": 0.000011,
     "high": 0.000012
   },
+  "gasModifier": 1.5,
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
   "coinGeckoId": "stargaze",

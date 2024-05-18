@@ -23,7 +23,7 @@
   "features": ["ibc-transfer"],
   "coinGeckoId": "desmos",
   "chainInfo": {
-    "cosmosSdkVersion": "0.47.9",
+    "cosmosSdkVersion": "0.47.10",
     "ibcGoVersion": "7.3.2"
   },
   "colors": {

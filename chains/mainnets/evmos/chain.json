@@ -23,8 +23,8 @@
   "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
   "coinGeckoId": "evmos",
   "chainInfo": {
-    "cosmosSdkVersion": "0.47.5",
-    "ibcGoVersion": "7.3.1"
+    "cosmosSdkVersion": "0.47.8",
+    "ibcGoVersion": "7.4.0"
   },
   "colors": {
     "primaryOnLight": "#ed4e33",

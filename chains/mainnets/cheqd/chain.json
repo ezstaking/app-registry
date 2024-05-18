@@ -23,7 +23,7 @@
   "features": ["ibc-transfer"],
   "coinGeckoId": "cheqd-network",
   "chainInfo": {
-    "cosmosSdkVersion": "0.46.10",
+    "cosmosSdkVersion": "0.47.10",
     "ibcGoVersion": "6.1.1"
   },
   "colors": {
