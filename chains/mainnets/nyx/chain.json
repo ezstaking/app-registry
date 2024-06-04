@@ -18,6 +18,7 @@
     "average": 0.03,
     "high": 0.05
   },
+  "gasModifier": 1.4,
   "coinDecimals": 6,
   "features": ["ibc-transfer", "cosmwasm"],
   "coinGeckoId": "",

@@ -19,6 +19,7 @@
     "average": 25,
     "high": 25
   },
+  "gasModifier": 1.4,
   "coinDecimals": 9,
   "features": ["ibc-transfer"],
   "coinGeckoId": "cheqd-network",
