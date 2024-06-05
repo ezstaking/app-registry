@@ -23,7 +23,7 @@
   },
   "coinDecimals": 6,
   "features": ["ibc-transfer", "cosmwasm"],
-  "coinGeckoId": "",
+  "coinGeckoId": "neutron-3",
   "chainInfo": {
     "cosmosSdkVersion": "0.47.10",
     "ibcGoVersion": "4.3.1"
