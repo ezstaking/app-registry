@@ -19,6 +19,7 @@
     "average": 0.02,
     "high": 0.02
   },
+  "gasModifier": 1.5,
   "coinDecimals": 6,
   "features": ["ibc-transfer"],
   "coinGeckoId": "kyve-network",

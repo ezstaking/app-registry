@@ -48,6 +48,7 @@
     "average": 0.025,
     "high": 0.04
   },
+  "gasModifier": 1.5,
   "chainInfo": {
     "cosmosSdkVersion": "0.47.5",
     "ibcGoVersion": "7.3.1"
