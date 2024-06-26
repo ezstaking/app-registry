@@ -18,6 +18,7 @@
     "average": 0.005,
     "high": 0.01
   },
+  "gasModifier": 1.8,
   "coinDecimals": 6,
   "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
   "coinGeckoId": "juno-network",
