@@ -9,7 +9,6 @@ Managed automatically by a robot. The resources are available on the following g
 <details>
 <summary><h3 style="display: inline; padding-left: 15px;line-height: initial;">Schema</h3></summary>
 
-
 **Properties**
 
 |Name|Type|Description|Required|
@@ -45,6 +44,7 @@ Managed automatically by a robot. The resources are available on the following g
 |**gasModifier**|`number`|If the gas calculation is wrong, you can change the multiplier.<br/>Default: `1.3`<br/>|no|
 |**isNativelySupportedByKeplr**|`boolean`|Allow to add the chain in Keplr.<br/>|yes|
 |**withCoingeckoApi**|`boolean`|If we validate your chain, we'll take care of the API ourselves. If not, don't hesitate to provide us with an API key: contact[@]ezstaking[.]io.<br/>Default: `false`<br/>|yes|
+|**isFeatured**|`boolean`|True if we validate your chain.<br/>Default: `false`<br/>|yes|
 
 **Additional Properties:** not allowed  
 **Example**
@@ -53,7 +53,8 @@ Managed automatically by a robot. The resources are available on the following g
 {
     "gasPriceStep": {},
     "gasModifier": 1.3,
-    "withCoingeckoApi": false
+    "withCoingeckoApi": false,
+    "isFeatured": false
 }
 ```
 
@@ -176,7 +177,6 @@ Required only for assets that's not in the Cosmos Chain Registry.
 |**governance**|`boolean`||yes|
 
 **Additional Properties:** not allowed
-
 </details>
 
 <!-- Add a chain -->
@@ -272,7 +272,8 @@ Required only for assets that's not in the Cosmos Chain Registry.
     "governance": true
   },
   "isNativelySupportedByKeplr": true,
-  "withCoingeckoApi": true
+  "withCoingeckoApi": true,
+  "isFeatured": true
 }
 ```
 4. Update the Akash values with yours

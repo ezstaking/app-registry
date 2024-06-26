@@ -51,6 +51,14 @@ const writeConfig = (content, path) => {
     process.env.NUXT_PUBLIC_PROTOCOLS_TESTNET_MODE,
   );
 
+  const networks = getNetworks(
+    process.env.NUXT_PUBLIC_PROTOCOLS_TESTNET_MODE !== "true",
+  );
+
+  const featuredNetworksAsArray = Object.keys(networks).filter(
+    (network) => networks[network].isFeatured,
+  );
+
   const config = JSON.stringify(
     {
       version: "beta " + process.env.NUXT_ENV_APP_VERSION,
@@ -64,12 +72,11 @@ const writeConfig = (content, path) => {
           dark: "#000",
         },
       },
-      networks: getNetworks(
-        process.env.NUXT_PUBLIC_PROTOCOLS_TESTNET_MODE !== "true",
-      ),
+      networks,
       cw20: process.env.NUXT_ENV_CW20
         ? JSON.parse(process.env.NUXT_ENV_CW20)
         : {},
+      featuredNetworksAsArray,
     },
     null,
     2,

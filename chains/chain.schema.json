@@ -26,7 +26,8 @@
     "isExplorerEnabled",
     "isModuleEnabled",
     "isNativelySupportedByKeplr",
-    "withCoingeckoApi"
+    "withCoingeckoApi",
+    "isFeatured"
   ],
   "properties": {
     "$schema": {
@@ -134,6 +135,11 @@
     },
     "withCoingeckoApi": {
       "description": "If we validate your chain, we'll take care of the API ourselves. If not, don't hesitate to provide us with an API key: contact[@]ezstaking[.]io.",
+      "type": "boolean",
+      "default": false
+    },
+    "isFeatured": {
+      "description": "True if we validate your chain.",
       "type": "boolean",
       "default": false
     }

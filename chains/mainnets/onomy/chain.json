@@ -85,5 +85,6 @@
     "governance": true
   },
   "isNativelySupportedByKeplr": false,
-  "withCoingeckoApi": false
+  "withCoingeckoApi": false,
+  "isFeatured": false
 }
