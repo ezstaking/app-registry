@@ -48,7 +48,10 @@ const writeConfig = (content, path) => {
 (function () {
   console.log(
     "Generate Config...",
-    process.env.NUXT_PUBLIC_PROTOCOLS_TESTNET_MODE,
+    {
+      isMainnet: process.env.NUXT_PUBLIC_PROTOCOLS_TESTNET_MODE !== "true",
+    },
+    typeof process.env.NUXT_PUBLIC_PROTOCOLS_TESTNET_MODE,
   );
 
   const networks = getNetworks(
