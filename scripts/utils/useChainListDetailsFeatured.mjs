@@ -14,11 +14,24 @@ export default function (isMainnet) {
     const {
       name,
       chainName,
+      logo_URIs,
+      denomUpper,
+      coinGeckoId,
+      colors,
+      isExplorerEnabled,
       isFeatured,
     } = loadJson(`./../../chains/${env}/${files[i]}/chain.json`);
 
     if (isFeatured) {
-      data[name] = { chainName };
+      data[name] = {
+        chainName,
+        logo_URIs,
+        denomUpper,
+        coinGeckoId,
+        colors,
+        isExplorerEnabled,
+        isFeatured
+      };
     }
   }
 

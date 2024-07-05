@@ -14,21 +14,9 @@ export default function (isMainnet) {
     const {
       name,
       chainName,
-      logo_URIs,
-      denomUpper,
-      coinGeckoId,
-      isExplorerEnabled,
-      isFeatured,
     } = loadJson(`./../../chains/${env}/${files[i]}/chain.json`);
 
-    data[name] = {
-      chainName,
-      logo_URIs,
-      denomUpper,
-      coinGeckoId,
-      isExplorerEnabled,
-      isFeatured,
-    }
+    data[name] = { chainName };
   }
 
   return data;
