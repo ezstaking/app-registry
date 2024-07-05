@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "./scripts/build.sh && npm run make",
+    "make": "NODE_OPTIONS='--experimental-specifier-resolution=node --loader ts-node/esm --experimental-modules' node scripts/make.mjs",
     "utils:gen:config": "NODE_OPTIONS='--experimental-specifier-resolution=node --loader ts-node/esm --experimental-modules' node scripts/genconfig.ts",
     "utils:gen:predoc": "npx jsonschema2mk --schema chains/chain.schema.json >PREDOC.md"
   },
