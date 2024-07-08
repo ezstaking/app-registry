@@ -17,6 +17,7 @@ export default function (isMainnet) {
       logo_URIs,
       denomUpper,
       coinGeckoId,
+      colors,
       isExplorerEnabled,
       isFeatured,
     } = loadJson(`./../../chains/${env}/${files[i]}/chain.json`);
@@ -26,6 +27,7 @@ export default function (isMainnet) {
       logo_URIs,
       denomUpper,
       coinGeckoId,
+      colors,
       isExplorerEnabled,
       isFeatured,
     }

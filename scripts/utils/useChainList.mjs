@@ -13,9 +13,10 @@ export default function (isMainnet) {
 
     const {
       name,
+      chainName,
     } = loadJson(`./../../chains/${env}/${files[i]}/chain.json`);
 
-    data.push(name);
+    data[name] = { chainName };
   }
 
   return data;

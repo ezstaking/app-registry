@@ -13,11 +13,12 @@ export default function (isMainnet) {
 
     const {
       name,
+      chainName,
       isFeatured,
     } = loadJson(`./../../chains/${env}/${files[i]}/chain.json`);
 
     if (isFeatured) {
-      data.push(name);
+      data[name] = { chainName };
     }
   }
 
