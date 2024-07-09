@@ -21,7 +21,7 @@
   },
   "coinDecimals": 9,
   "features": ["ibc-transfer"],
-  "coinGeckoId": "",
+  "coinGeckoId": "scorum",
   "chainInfo": {
     "cosmosSdkVersion": "0.46.11",
     "ibcGoVersion": "6.1.0"
