@@ -1,0 +1,121 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "kyve",
+  "chainName": "KYVE",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.svg"
+  },
+  "rpcUrl": "https://rpc-kyve.ezstaking.dev",
+  "restUrl": "https://lcd-kyve.ezstaking.dev",
+  "chainId": "kyve-1",
+  "bech32": "kyve",
+  "denom": "kyve",
+  "denomUpper": "KYVE",
+  "sdenom": "ukyve",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.02,
+    "average": 0.02,
+    "high": 0.02
+  },
+  "gasModifier": 1.5,
+  "coinDecimals": 6,
+  "features": ["ibc-transfer"],
+  "coinGeckoId": "kyve-network",
+  "assets": [
+    {
+      "base": "ukyve",
+      "coingecko_id": "kyve",
+      "denom_units": [
+        {
+          "denom": "ukyve",
+          "exponent": 0
+        },
+        {
+          "denom": "kyve",
+          "exponent": 6
+        }
+      ],
+      "description": "The native staking and governance token of the KYVE Network.",
+      "display": "kyve",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.svg"
+      },
+      "name": "KYVE",
+      "symbol": "KYVE"
+    }
+  ],
+  "chainInfo": {
+    "cosmosSdkVersion": "0.47.5",
+    "ibcGoVersion": "7.3.0"
+  },
+  "colors": {
+    "primaryOnLight": "#2C5B52",
+    "primaryOnDark": "#2C5B52",
+    "lighterOnLight": "#FFFFFF",
+    "lighterOnDark": "#FFFFFF",
+    "darkerOnLight": "#141F1D",
+    "darkerOnDark": "#141F1D"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.kyve.network",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.kyve.network",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/KYVENetwork",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://blog.kyve.network",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/KYVENetwork",
+          "icon": {
+            "svg": "twitter"
+          }
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.com/invite/kyve",
+          "icon": {
+            "svg": "discord"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": true,
+  "withCoingeckoApi": true,
+  "isFeatured": true
+}

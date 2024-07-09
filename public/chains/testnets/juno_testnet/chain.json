@@ -1,0 +1,141 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "juno_testnet",
+  "chainName": "Juno Testnet",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg"
+  },
+  "rpcUrl": "https://rpc-testnet-juno.ezstaking.dev",
+  "restUrl": "https://lcd-testnet-juno.ezstaking.dev",
+  "chainId": "uni-6",
+  "denom": "juno",
+  "denomUpper": "JUNOX",
+  "sdenom": "ujunox",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.025,
+    "average": 0.025,
+    "high": 0.025
+  },
+  "coinDecimals": 6,
+  "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
+  "coinGeckoId": "",
+  "assets": [
+    {
+      "base": "ujunox",
+      "coingecko_id": "",
+      "denom_units": [
+        {
+          "denom": "ujunox",
+          "exponent": 0
+        },
+        {
+          "denom": "junox",
+          "exponent": 6
+        }
+      ],
+      "description": "The native staking and governance token of the Juno Network.",
+      "display": "junox",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg"
+      },
+      "name": "JUNOX",
+      "symbol": "JUNOX"
+    }
+  ],
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.15",
+    "ibcGoVersion": "4.3.0"
+  },
+  "colors": {
+    "primaryOnLight": "#f0827d",
+    "primaryOnDark": "#f0827d",
+    "darkerOnLight": "#c5585a",
+    "darkerOnDark": "#c5585a",
+    "lighterOnLight": "#fdf0ef",
+    "lighterOnDark": "#fdf0ef"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.junonetwork.io",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "DApp",
+      "icon": {
+        "svg": "apps"
+      },
+      "children": [
+        {
+          "title": "JunoSwap",
+          "url": "https://junoswap.com",
+          "icon": {
+            "svgImg": "dapp/junoswap"
+          }
+        },
+        {
+          "title": "DAODAO",
+          "url": "https://daodao.zone/",
+          "icon": {
+            "svg": "twitter"
+          }
+        },
+        {
+          "title": "JunoMint",
+          "url": "https://junomint.com/",
+          "icon": {
+            "svgImg": "dapp/junomint"
+          }
+        }
+      ]
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.junonetwork.io",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "GitHub",
+          "url": "https://github.com/CosmosContracts",
+          "icon": {
+            "svg": "github"
+          }
+        },
+        {
+          "title": "Medium",
+          "url": "https://medium.com/@JunoNetwork",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/JunoNetwork",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": false,
+  "withCoingeckoApi": false,
+  "isFeatured": true
+}

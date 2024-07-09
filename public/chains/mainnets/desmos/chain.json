@@ -1,0 +1,89 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "desmos",
+  "chainName": "Desmos",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/desmos/images/dsm.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/desmos/images/dsm.svg"
+  },
+  "rpcUrl": "https://rpc.mainnet.desmos.network",
+  "restUrl": "https://api.mainnet.desmos.network",
+  "chainId": "desmos-mainnet",
+  "bech32": "desmos",
+  "denom": "dsm",
+  "denomUpper": "DSM",
+  "sdenom": "udsm",
+  "coinType": 852,
+  "gasPriceStep": {
+    "low": 0.001,
+    "average": 0.01,
+    "high": 0.025
+  },
+  "coinDecimals": 6,
+  "features": ["ibc-transfer"],
+  "coinGeckoId": "desmos",
+  "chainInfo": {
+    "cosmosSdkVersion": "0.47.10",
+    "ibcGoVersion": "7.3.2"
+  },
+  "colors": {
+    "primaryOnLight": "#d9583f",
+    "primaryOnDark": "#d9583f",
+    "lighterOnLight": "#ff996e",
+    "lighterOnDark": "#ff996e",
+    "darkerOnLight": "#ed6c53",
+    "darkerOnDark": "#ed6c53"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.desmos.network",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.desmos.network",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/desmos-labs",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/desmosnetwork",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/DesmosNetwork",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": false,
+  "withCoingeckoApi": false,
+  "isFeatured": false
+}

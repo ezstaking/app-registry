@@ -1,0 +1,91 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "sentinel",
+  "chainName": "Sentinel",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sentinel/images/dvpn.svg"
+  },
+  "rpcUrl": "https://rpc.cosmos.directory/sentinel",
+  "restUrl": "https://rest.cosmos.directory/sentinel",
+  "chainId": "sentinelhub-2",
+  "bech32": "sent",
+  "denom": "dvpn",
+  "denomUpper": "DVPN",
+  "sdenom": "udvpn",
+  "coinType": 118,
+  "coinDecimals": 6,
+  "features": [
+    "ibc-transfer"
+  ],
+  "coinGeckoId": "sentinel",
+  "gasPriceStep": {
+    "low": 0.1,
+    "average": 0.25,
+    "high": 0.4
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.16",
+    "ibcGoVersion": "4.4.2"
+  },
+  "colors": {
+    "primaryOnLight": "#0492dc",
+    "primaryOnDark": "#0492dc",
+    "lighterOnLight": "#0492dc",
+    "lighterOnDark": "#0492dc",
+    "darkerOnLight": "#0492dc",
+    "darkerOnDark": "#0492dc"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://sentinel.co/",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.sentinel.co/",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/sentinel-official",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/sentinel",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/Sentinel_co",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": true,
+  "withCoingeckoApi": false,
+  "isFeatured": false
+}

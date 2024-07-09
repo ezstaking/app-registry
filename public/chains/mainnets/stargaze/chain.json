@@ -1,0 +1,111 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "stargaze",
+  "chainName": "Stargaze",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.svg"
+  },
+  "rpcUrl": "https://rpc.stargaze-apis.com",
+  "restUrl": "https://rest.stargaze-apis.com",
+  "chainId": "stargaze-1",
+  "bech32": "stars",
+  "denom": "stars",
+  "denomUpper": "STARS",
+  "sdenom": "ustars",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.000001,
+    "average": 0.000011,
+    "high": 0.000012
+  },
+  "gasModifier": 1.5,
+  "coinDecimals": 6,
+  "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
+  "coinGeckoId": "stargaze",
+  "chainInfo": {
+    "cosmosSdkVersion": "0.47.10",
+    "ibcGoVersion": "4.4.2"
+  },
+  "colors": {
+    "primaryOnLight": "#e38cd4",
+    "primaryOnDark": "#e38cd4",
+    "lighterOnLight": "#faedf7",
+    "lighterOnDark": "#faedf7",
+    "darkerOnLight": "#e38cd4",
+    "darkerOnDark": "#e38cd4"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.stargaze.zone",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Stargaze Launchpad",
+      "url": "https://app.stargaze.zone/launchpad",
+      "icon": {
+        "svg": "apps"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.stargaze.zone",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/stargaze-protocol",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/stargazezone",
+          "icon": {
+            "svg": "twitter"
+          }
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.gg/stargaze",
+          "icon": {
+            "svg": "discord"
+          }
+        },
+        {
+          "title": "Telegram",
+          "url": "https://t.me/stargazezone",
+          "icon": {
+            "svg": "telegram"
+          }
+        },
+        {
+          "title": "GitHub",
+          "url": "https://github.com/public-awesome",
+          "icon": {
+            "svg": "github"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": true,
+  "withCoingeckoApi": true,
+  "isFeatured": true
+}

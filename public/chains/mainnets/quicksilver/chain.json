@@ -1,0 +1,91 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "quicksilver",
+  "chainName": "Quicksilver",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.svg"
+  },
+  "rpcUrl": "https://rpc.cosmos.directory/quicksilver",
+  "restUrl": "https://rest.cosmos.directory/quicksilver",
+  "chainId": "quicksilver-2",
+  "bech32": "quick",
+  "denom": "qck",
+  "denomUpper": "QCK",
+  "sdenom": "uqck",
+  "coinType": 118,
+  "coinDecimals": 6,
+  "features": [
+    "ibc-transfer"
+  ],
+  "coinGeckoId": "quicksilver",
+  "gasPriceStep": {
+    "low": 0.0001,
+    "average": 0.0001,
+    "high": 0.00025
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.46.16",
+    "ibcGoVersion": "5.3.2"
+  },
+  "colors": {
+    "primaryOnLight": "#9b9b9b",
+    "primaryOnDark": "#9b9b9b",
+    "lighterOnLight": "#9b9b9b",
+    "lighterOnDark": "#9b9b9b",
+    "darkerOnLight": "#9b9b9b",
+    "darkerOnDark": "#9b9b9b"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://quicksilver.zone/",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://quicksilver.zone/whitepaper.pdf",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/ingenuity-build/quicksilver",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/quicksilverzone",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/quicksilverzone",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": true,
+  "withCoingeckoApi": false,
+  "isFeatured": false
+}

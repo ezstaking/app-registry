@@ -1,0 +1,90 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "evmos",
+  "chainName": "Evmos",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg"
+  },
+  "rpcUrl": "https://rpc-evmos.validavia.me",
+  "restUrl": "https://lcd-evmos.validavia.me",
+  "chainId": "evmos_9001-2",
+  "bech32": "evmos",
+  "denom": "evmos",
+  "denomUpper": "EVMOS",
+  "sdenom": "aevmos",
+  "coinType": 60,
+  "gasPriceStep": {
+    "low": 0.000000002,
+    "average": 0.000000025,
+    "high": 0.000000025
+  },
+  "gasModifier": 2,
+  "coinDecimals": 18,
+  "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+  "coinGeckoId": "evmos",
+  "chainInfo": {
+    "cosmosSdkVersion": "0.47.8",
+    "ibcGoVersion": "7.4.0"
+  },
+  "colors": {
+    "primaryOnLight": "#ed4e33",
+    "primaryOnDark": "#ed4e33",
+    "lighterOnLight": "#fef2f1",
+    "lighterOnDark": "#fef2f1",
+    "darkerOnLight": "#ed4e33",
+    "darkerOnDark": "#ed4e33"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://evmos.org",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://evmos.dev",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/tharsis/evmos",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://evmos.blog",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/EvmosOrg",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": true,
+  "withCoingeckoApi": true,
+  "isFeatured": true
+}

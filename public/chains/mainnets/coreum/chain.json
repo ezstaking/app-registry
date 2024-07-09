@@ -1,0 +1,83 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "coreum",
+  "chainName": "Coreum",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png"
+  },
+  "rpcUrl": "https://rpc.cosmos.directory/coreum",
+  "restUrl": "https://rest.cosmos.directory/coreum",
+  "chainId": "coreum-mainnet-1",
+  "bech32": "core",
+  "denom": "core",
+  "denomUpper": "COREUM",
+  "sdenom": "ucore",
+  "coinType": 990,
+  "coinDecimals": 6,
+  "features": [
+    "ibc-transfer"
+  ],
+  "coinGeckoId": "coreum",
+  "gasPriceStep": {
+    "low": 0.0625,
+    "average": 0.0625,
+    "high": 62.5
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.47.5",
+    "ibcGoVersion": "7.3.1"
+  },
+  "colors": {
+    "primaryOnLight": "#16B87B",
+    "primaryOnDark": "#16B87B",
+    "lighterOnLight": "#16B87B",
+    "lighterOnDark": "#16B87B",
+    "darkerOnLight": "#16B87B",
+    "darkerOnDark": "#16B87B"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.coreum.com",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.coreum.dev/",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/CoreumFoundation",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/CoreumOfficial",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": false,
+  "withCoingeckoApi": false,
+  "isFeatured": false
+}

@@ -1,0 +1,87 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "passage",
+  "chainName": "Passage",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/passage/images/pasg.png"
+  },
+  "rpcUrl": "https://rpc.passage.vitwit.com",
+  "restUrl": "https://api.passage.vitwit.com",
+  "chainId": "passage-2",
+  "denom": "pasg",
+  "denomUpper": "PASG",
+  "sdenom": "upasg",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0,
+    "average": 0.0025,
+    "high": 0.01
+  },
+  "coinDecimals": 6,
+  "features": ["ibc-transfer", "ibc-go"],
+  "coinGeckoId": "passage",
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.16",
+    "ibcGoVersion": "4.4.2"
+  },
+  "colors": {
+    "primaryOnLight": "#5da5fb",
+    "primaryOnDark": "#5da5fb",
+    "lighterOnLight": "#e9f1fc",
+    "lighterOnDark": "#e9f1fc",
+    "darkerOnLight": "#5da5fb",
+    "darkerOnDark": "#5da5fb"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.passage.io",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Blog",
+      "url": "https://www.passage.io/blog",
+      "icon": {
+        "svg": "medium"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/envadiv",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/passageio",
+          "icon": {
+            "svg": "twitter"
+          }
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.gg/passage",
+          "icon": {
+            "svg": "discord"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": true,
+  "withCoingeckoApi": true,
+  "isFeatured": true
+}

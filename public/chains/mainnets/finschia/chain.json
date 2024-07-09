@@ -1,0 +1,91 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "finschia",
+  "chainName": "Finschia",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/finschia/images/fnsa.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/finschia/images/fnsa.svg"
+  },
+  "rpcUrl": "https://finschia-rpc.finschia.io",
+  "restUrl": "https://finschia-api.finschia.io",
+  "chainId": "finschia-2",
+  "bech32": "link",
+  "denom": "fnsa",
+  "denomUpper": "FNSA",
+  "sdenom": "cony",
+  "coinType": 438,
+  "coinDecimals": 6,
+  "features": [
+    "ibc-transfer"
+  ],
+  "coinGeckoId": "link",
+  "gasPriceStep": {
+    "low": 0.015,
+    "average": 0.015,
+    "high": 0.015
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.48.1",
+    "ibcGoVersion": "4.3.1"
+  },
+  "colors": {
+    "primaryOnLight": "#B1B2B9",
+    "primaryOnDark": "#B1B2B9",
+    "lighterOnLight": "#B1B2B9",
+    "lighterOnDark": "#B1B2B9",
+    "darkerOnLight": "#B1B2B9",
+    "darkerOnDark": "#B1B2B9"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.finschia.io/",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.finschia.network/",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Finschia",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://finschia.medium.com/",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/finschia",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": false,
+  "withCoingeckoApi": false,
+  "isFeatured": false
+}

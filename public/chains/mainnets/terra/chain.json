@@ -1,0 +1,91 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "terra",
+  "chainName": "Terra Classic",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.svg"
+  },
+  "rpcUrl": "https://rpc.cosmos.directory/terra",
+  "restUrl": "https://rest.cosmos.directory/terra",
+  "chainId": "columbus-5",
+  "bech32": "terra",
+  "denom": "luna",
+  "denomUpper": "LUNC",
+  "sdenom": "uluna",
+  "coinType": 330,
+  "coinDecimals": 6,
+  "features": [
+    "ibc-transfer"
+  ],
+  "coinGeckoId": "terra-luna",
+  "gasPriceStep": {
+    "low": 28.325,
+    "average": 28.325,
+    "high": 50
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.46.15",
+    "ibcGoVersion": "6.2.0"
+  },
+  "colors": {
+    "primaryOnLight": "#1E75EE",
+    "primaryOnDark": "#1E75EE",
+    "lighterOnLight": "#1E75EE",
+    "lighterOnDark": "#1E75EE",
+    "darkerOnLight": "#1E75EE",
+    "darkerOnDark": "#1E75EE"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.terra.money/",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.terra.money/",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/terra-money/core",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/terra-money",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/terra_money",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": true,
+  "withCoingeckoApi": false,
+  "isFeatured": false
+}

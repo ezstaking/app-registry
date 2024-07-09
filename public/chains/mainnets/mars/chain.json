@@ -1,0 +1,91 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "mars-protocol",
+  "chainName": "Mars Protocol",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-token.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mars/images/mars-token.svg"
+  },
+  "rpcUrl": "https://rpc.marsprotocol.io",
+  "restUrl": "https://rest.marsprotocol.io",
+  "chainId": "mars-1",
+  "bech32": "mars",
+  "denom": "mars",
+  "denomUpper": "MARS",
+  "sdenom": "umars",
+  "coinType": 118,
+  "coinDecimals": 6,
+  "features": [
+    "ibc-transfer"
+  ],
+  "coinGeckoId": "mars-protocol",
+  "gasPriceStep": {
+    "low": 0,
+    "average": 0,
+    "high": 0.01
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.46.13",
+    "ibcGoVersion": "6.1.1"
+  },
+  "colors": {
+    "primaryOnLight": "#DA3A14",
+    "primaryOnDark": "#DA3A14",
+    "lighterOnLight": "#DA3A14",
+    "lighterOnDark": "#DA3A14",
+    "darkerOnLight": "#DA3A14",
+    "darkerOnDark": "#DA3A14"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.marsprotocol.io/",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.marsprotocol.io",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/mars-protocol",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://mars-protocol.medium.com/",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/mars_protocol",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": true,
+  "withCoingeckoApi": false,
+  "isFeatured": false
+}

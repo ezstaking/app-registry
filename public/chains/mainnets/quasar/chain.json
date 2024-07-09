@@ -1,0 +1,90 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "quasar",
+  "chainName": "Quasar",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quasar/images/quasar.png"
+  },
+  "rpcUrl": "https://rpc.cosmos.directory/quasar",
+  "restUrl": "https://rest.cosmos.directory/quasar",
+  "chainId": "quasar-1",
+  "bech32": "quasar",
+  "denom": "qsr",
+  "denomUpper": "QSR",
+  "sdenom": "uqsr",
+  "coinType": 118,
+  "coinDecimals": 6,
+  "features": [
+    "ibc-transfer"
+  ],
+  "coinGeckoId": "quasar-2",
+  "gasPriceStep": {
+    "low": 0.01,
+    "average": 0.025,
+    "high": 0.03
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.16",
+    "ibcGoVersion": "4.4.2"
+  },
+  "colors": {
+    "primaryOnLight": "#3552F6",
+    "primaryOnDark": "#3552F6",
+    "lighterOnLight": "#3552F6",
+    "lighterOnDark": "#3552F6",
+    "darkerOnLight": "#3552F6",
+    "darkerOnDark": "#3552F6"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.quasar.fi/",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.quasar.fi/",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/quasar-finance",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/@quasar.fi",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/quasarfi",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": true,
+  "withCoingeckoApi": false,
+  "isFeatured": false
+}

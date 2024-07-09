@@ -1,0 +1,97 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "omniflixhub",
+  "chainName": "OmniFlix",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.svg"
+  },
+  "rpcUrl": "https://rpc.omniflix.network",
+  "restUrl": "https://rest.omniflix.network",
+  "chainId": "omniflixhub-1",
+  "bech32": "omniflix",
+  "denom": "flix",
+  "denomUpper": "FLIX",
+  "sdenom": "uflix",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.001,
+    "average": 0.001,
+    "high": 0.001
+  },
+  "gasModifier": 1.8,
+  "coinDecimals": 6,
+  "features": ["ibc-transfer"],
+  "coinGeckoId": "omniflix-network",
+  "chainInfo": {
+    "cosmosSdkVersion": "0.47.10",
+    "ibcGoVersion": "7.3.1"
+  },
+  "colors": {
+    "primaryOnLight": "#6c63ff",
+    "primaryOnDark": "#6c63ff",
+    "lighterOnLight": "#f0efff",
+    "lighterOnDark": "#f0efff",
+    "darkerOnLight": "#6c63ff",
+    "darkerOnDark": "#6c63ff"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.omniflix.network",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "OmniFlix Studio",
+      "url": "https://app.omniflix.studio",
+      "icon": {
+        "svg": "apps"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.omniflix.network",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "GitHub",
+          "url": "https://github.com/OmniFlix",
+          "icon": {
+            "svg": "github"
+          }
+        },
+        {
+          "title": "Medium",
+          "url": "https://blog.omniflix.network",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/OmniFlixNetwork",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": true,
+  "withCoingeckoApi": true,
+  "isFeatured": true
+}

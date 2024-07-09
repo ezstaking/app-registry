@@ -1,0 +1,96 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "kujira",
+  "chainName": "Kujira",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kujira-chain-logo.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kujira/images/kuji.svg"
+  },
+  "rpcUrl": "https://rpc.cosmos.directory/kujira",
+  "restUrl": "https://rest.cosmos.directory/kujira",
+  "chainId": "kaiyo-1",
+  "bech32": "kujira",
+  "denom": "kuji",
+  "denomUpper": "KUJI",
+  "sdenom": "ukuji",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.0034,
+    "average": 0.0051,
+    "high": 0.00681
+  },
+  "coinDecimals": 6,
+  "features": ["ibc-transfer"],
+  "coinGeckoId": "kujira",
+  "chainInfo": {
+    "cosmosSdkVersion": "0.47.8",
+    "ibcGoVersion": "7.3.0"
+  },
+  "colors": {
+    "primaryOnLight": "#e53935",
+    "primaryOnDark": "#e53935",
+    "lighterOnLight": "#ededed",
+    "lighterOnDark": "#ededed",
+    "darkerOnLight": "#e53935",
+    "darkerOnDark": "#e53935"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://kujira.app",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.kujira.app/introduction/readme",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/Team-Kujira",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/team-kujira",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/TeamKujira",
+          "icon": {
+            "svg": "twitter"
+          }
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.com/invite/teamkujira",
+          "icon": {
+            "svg": "discord"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": false,
+  "withCoingeckoApi": false,
+  "isFeatured": false
+}

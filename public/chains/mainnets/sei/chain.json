@@ -1,0 +1,91 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "sei",
+  "chainName": "Sei",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sei/images/sei.svg"
+  },
+  "rpcUrl": "https://rpc.cosmos.directory/sei",
+  "restUrl": "https://rest.cosmos.directory/sei",
+  "chainId": "pacific-1",
+  "bech32": "sei",
+  "denom": "sei",
+  "denomUpper": "SEI",
+  "sdenom": "usei",
+  "coinType": 118,
+  "coinDecimals": 6,
+  "features": [
+    "ibc-transfer"
+  ],
+  "coinGeckoId": "sei-network",
+  "gasPriceStep": {
+    "low": 0.02,
+    "average": 0.02,
+    "high": 0.04
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.10",
+    "ibcGoVersion": "3.0.0"
+  },
+  "colors": {
+    "primaryOnLight": "#BA364D",
+    "primaryOnDark": "#BA364D",
+    "lighterOnLight": "#BA364D",
+    "lighterOnDark": "#BA364D",
+    "darkerOnLight": "#BA364D",
+    "darkerOnDark": "#BA364D"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.sei.io/",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.sei.io/",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/sei-protocol/sei-chain",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://blog.seinetwork.io/",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/SeiNetwork",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": false,
+  "withCoingeckoApi": false,
+  "isFeatured": false
+}

@@ -1,0 +1,88 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "bitcanna",
+  "chainName": "BitCanna",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitcanna/images/bcna.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bitcanna/images/bcna.svg"
+  },
+  "rpcUrl": "https://rpc.bitcanna.io",
+  "restUrl": "https://lcd.bitcanna.io",
+  "chainId": "bitcanna-1",
+  "denom": "bcna",
+  "denomUpper": "BCNA",
+  "sdenom": "ubcna",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.025,
+    "average": 0.025,
+    "high": 0.025
+  },
+  "coinDecimals": 6,
+  "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
+  "coinGeckoId": "bitcanna",
+  "chainInfo": {
+    "cosmosSdkVersion": "0.47.11",
+    "ibcGoVersion": "7.3.2"
+  },
+  "colors": {
+    "primaryOnLight": "#08b788",
+    "primaryOnDark": "#08b788",
+    "lighterOnLight": "#e5f8f3",
+    "lighterOnDark": "#e5f8f3",
+    "darkerOnLight": "#32d6aa",
+    "darkerOnDark": "#32d6aa"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.bitcanna.io",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.bitcanna.io",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/BitCannaGlobal",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/@BitCannaGlobal",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/BitcannaGlobal",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": false,
+  "withCoingeckoApi": false,
+  "isFeatured": false
+}

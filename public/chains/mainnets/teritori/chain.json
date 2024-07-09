@@ -1,0 +1,96 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "teritori",
+  "chainName": "Teritori",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/chain.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/teritori/images/chain.svg"
+  },
+  "rpcUrl": "https://rpc.mainnet.teritori.com",
+  "restUrl": "https://rest.mainnet.teritori.com",
+  "chainId": "teritori-1",
+  "bech32": "tori",
+  "denom": "tori",
+  "denomUpper": "TORI",
+  "sdenom": "utori",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0,
+    "average": 0,
+    "high": 0
+  },
+  "coinDecimals": 6,
+  "features": ["ibc-transfer", "cosmwasm"],
+  "coinGeckoId": "teritori",
+  "chainInfo": {
+    "cosmosSdkVersion": "0.47.6",
+    "ibcGoVersion": "3.4.0"
+  },
+  "colors": {
+    "primaryOnLight": "#16bbff",
+    "primaryOnDark": "#16bbff",
+    "lighterOnLight": "#ffffff",
+    "lighterOnDark": "#ffffff",
+    "darkerOnLight": "#925cff",
+    "darkerOnDark": "#925cff"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://teritori.com",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://teritori.gitbook.io",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/TERITORI",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/teritori",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/TeritoriNetwork",
+          "icon": {
+            "svg": "twitter"
+          }
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.gg/teritori",
+          "icon": {
+            "svg": "discord"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": false,
+  "withCoingeckoApi": false,
+  "isFeatured": false
+}

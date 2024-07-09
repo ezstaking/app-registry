@@ -1,0 +1,366 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "EZ Staking App Registry",
+  "description": "EZ Staking App Registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "name",
+    "chainName",
+    "logo_URIs",
+    "rpcUrl",
+    "restUrl",
+    "chainId",
+    "denom",
+    "denomUpper",
+    "sdenom",
+    "coinType",
+    "gasPriceStep",
+    "coinDecimals",
+    "features",
+    "coinGeckoId",
+    "chainInfo",
+    "colors",
+    "links",
+    "isExplorerEnabled",
+    "isModuleEnabled",
+    "isNativelySupportedByKeplr",
+    "withCoingeckoApi",
+    "isFeatured"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "enum": ["../../chain.schema.json"]
+    },
+    "name": {
+      "type": "string"
+    },
+    "chainName": {
+      "type": "string"
+    },
+    "shortChainName": {
+      "type": "string"
+    },
+    "logo_URIs": {
+      "$ref": "#/$defs/logo"
+    },
+    "rpcUrl": {
+      "$ref": "#/$defs/url"
+    },
+    "restUrl": {
+      "$ref": "#/$defs/url"
+    },
+    "chainId": {
+      "type": "string"
+    },
+    "bech32": {
+      "type": "string"
+    },
+    "denom": {
+      "type": "string"
+    },
+    "denomUpper": {
+      "type": "string"
+    },
+    "sdenom": {
+      "type": "string"
+    },
+    "bech32PrefixAcc": {
+      "type": "string"
+    },
+    "bech32PrefixVal": {
+      "type": "string"
+    },
+    "coinType": {
+      "type": "number"
+    },
+    "gasPriceStep": {
+      "type": "object"
+    },
+    "coinDecimals": {
+      "type": "number"
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "ibc-transfer", "ibc-go",
+          "cosmwasm", "wasmd_0.24+",
+          "eth-address-gen", "eth-key-sign",
+          "secretwasm"
+        ]
+      }
+    },
+    "coinGeckoId": {
+      "type": ["string", "null"]
+    },
+    "assets": {
+      "$ref": "#/$defs/assets"
+    },
+    "chainInfo": {
+      "$ref": "#/$defs/chainInfo"
+    },
+    "colors": {
+      "$ref": "#/$defs/colors"
+    },
+    "links": {
+      "$ref": "#/$defs/links"
+    },
+    "isExplorerEnabled": {
+      "type": "boolean"
+    },
+    "isModuleEnabled": {
+      "$ref": "#/$defs/isModuleEnabled"
+    },
+    "isAProviderChain": {
+      "type": "boolean"
+    },
+    "isAConsumerChain": {
+      "type": "boolean"
+    },
+    "providerChain": {
+      "type": "string"
+    },
+    "gasModifier": {
+      "description": "If the gas calculation is wrong, you can change the multiplier.",
+      "type": "number",
+      "default": 1.3
+    },
+    "isNativelySupportedByKeplr": {
+      "description": "Allow to add the chain in Keplr.",
+      "type": "boolean"
+    },
+    "withCoingeckoApi": {
+      "description": "If we validate your chain, we'll take care of the API ourselves. If not, don't hesitate to provide us with an API key: contact[@]ezstaking[.]io.",
+      "type": "boolean",
+      "default": false
+    },
+    "isFeatured": {
+      "description": "True if we validate your chain.",
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "$defs": {
+    "url": {
+      "type": "string"
+    },
+    "assets": {
+      "description": "Required only for assets that's not in the Cosmos Chain Registry.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "base": {
+            "type": "string"
+          },
+          "coingecko_id": {
+            "type": ["string", "null"]
+          },
+          "denom_units": {
+            "type": "array"
+          },
+          "description": {
+            "type": "string"
+          },
+          "display": {
+            "type": "string"
+          },
+          "logo_URIs": {
+            "$ref": "#/$defs/logo"
+          },
+          "name": {
+            "type": "string"
+          },
+          "symbol": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "base", "coingecko_id", "denom_units",
+          "description", "display", "logo_URIs",
+          "name", "symbol"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "chainInfo": {
+      "type": "object",
+      "required": ["cosmosSdkVersion", "ibcGoVersion"],
+      "properties": {
+        "cosmosSdkVersion": {
+          "$ref": "#/$defs/semver"
+        },
+        "ibcGoVersion": {
+          "$ref": "#/$defs/semver"
+        }
+      },
+      "additionalProperties": false
+    },
+    "colors": {
+      "type": "object",
+      "required": [
+        "primaryOnLight",
+        "primaryOnDark",
+        "lighterOnLight",
+        "lighterOnDark",
+        "darkerOnLight",
+        "darkerOnDark"
+      ],
+      "properties": {
+        "primaryOnLight": {
+          "description": "Primary color for light theme.",
+          "type": "string"
+        },
+        "primaryOnDark": {
+          "description": "Primary color for dark theme.",
+          "type": "string"
+        },
+
+        "lighterOnLight": {
+          "description": "Lighter color than the primary one and for light theme.",
+          "type": "string"
+        },
+        "lighterOnDark": {
+          "description": "Lighter color than the primary one and for dark theme.",
+          "type": "string"
+        },
+
+        "darkerOnLight": {
+          "description": "Darker color than the primary one and for light theme.",
+          "type": "string"
+        },
+        "darkerOnDark": {
+          "description": "Darker color than the primary one and for dark theme.",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "logo": {
+      "type": "object",
+      "properties": {
+        "png": {
+          "$ref": "#/$defs/url"
+        },
+        "svg": {
+          "$ref": "#/$defs/url"
+        }
+      },
+      "additionalProperties": false
+    },
+    "image": {
+      "type": "object",
+      "oneOf" : [
+        {
+          "type" : "object",
+          "properties": {
+            "url": {
+              "$ref": "#/$defs/url"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type" : "object",
+          "properties": {
+            "svg": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type" : "object",
+          "properties": {
+            "svgImg": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type" : "object",
+          "properties": {
+            "font": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "link": {
+      "type": "object",
+      "required": ["url", "title", "icon"],
+      "properties": {
+        "url": {
+          "$ref": "#/$defs/url"
+        },
+        "title": {
+          "type": "string"
+        },
+        "icon": {
+          "$ref": "#/$defs/image"
+        }
+      },
+      "additionalProperties": false
+    },
+    "childLinks": {
+      "type": "object",
+      "required": ["title", "icon", "children"],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "icon": {
+          "type": "object",
+          "$ref": "#/$defs/image"
+        },
+        "children": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/link"
+          },
+          "minItems": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "#/$defs/link"
+          },
+          {
+            "$ref": "#/$defs/childLinks"
+          }
+        ]
+      },
+      "minItems": 4,
+      "maxItems": 4,
+      "uniqueItems": true
+    },
+    "isModuleEnabled": {
+      "type": "object",
+      "required": ["governance"],
+      "properties": {
+        "governance": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "semver": {
+      "type": "string",
+      "minLength": 5,
+      "maxLength": 14,
+      "pattern": "^(?:0|[1-9]\\d*)\\.(?:0|[1-9]\\d*)\\.(?:0|[1-9]\\d*)$"
+    }
+  }
+}

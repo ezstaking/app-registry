@@ -1,0 +1,96 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "impacthub",
+  "chainName": "IXO",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg"
+  },
+  "rpcUrl": "https://rpc-ixo.ezstaking.dev",
+  "restUrl": "https://lcd-ixo.ezstaking.dev",
+  "chainId": "ixo-5",
+  "bech32": "ixo",
+  "denom": "ixo",
+  "denomUpper": "IXO",
+  "sdenom": "uixo",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.025,
+    "average": 0.025,
+    "high": 0.025
+  },
+  "coinDecimals": 6,
+  "features": ["ibc-transfer"],
+  "coinGeckoId": "ixo",
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.16",
+    "ibcGoVersion": "4.4.1"
+  },
+  "colors": {
+    "primaryOnLight": "#06b7dd",
+    "primaryOnDark": "#06b7dd",
+    "darkerOnLight": "#29A7C3",
+    "darkerOnDark": "#29A7C3",
+    "lighterOnLight": "#e7f3ff",
+    "lighterOnDark": "#e7f3ff"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.ixo.world",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Launchpad",
+      "url": "https://launchpad.ixo.world",
+      "icon": {
+        "svg": "apps"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.ixo.foundation/ixo",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "GitHub",
+          "url": "https://github.com/ixofoundation",
+          "icon": {
+            "svg": "github"
+          }
+        },
+        {
+          "title": "Medium",
+          "url": "https://medium.com/ixo-blog",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/ixoworld",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": false,
+  "withCoingeckoApi": true,
+  "isFeatured": true
+}

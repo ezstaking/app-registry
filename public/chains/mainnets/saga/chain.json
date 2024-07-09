@@ -1,0 +1,116 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "saga",
+  "chainName": "Saga",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.svg"
+  },
+  "rpcUrl": "https://rpc-saga.ezstaking.dev",
+  "restUrl": "https://lcd-saga.ezstaking.dev",
+  "chainId": "ssc-1",
+  "bech32": "saga",
+  "denom": "saga",
+  "denomUpper": "SAGA",
+  "sdenom": "usaga",
+  "coinType": 118,
+  "coinDecimals": 6,
+  "features": [
+    "ibc-transfer"
+  ],
+  "coinGeckoId": "saga-2",
+  "assets": [
+    {
+      "description": "The native staking and governance token of Saga.",
+      "denom_units": [
+        {
+          "denom": "usaga",
+          "exponent": 0
+        },
+        {
+          "denom": "saga",
+          "exponent": 6
+        }
+      ],
+      "base": "usaga",
+      "name": "Saga",
+      "display": "saga",
+      "symbol": "SAGA",
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.svg"
+      },
+      "coingecko_id": "saga-2"
+    }
+  ],
+  "gasPriceStep": {
+    "low": 0.01,
+    "average": 0.025,
+    "high": 0.04
+  },
+  "gasModifier": 1.5,
+  "chainInfo": {
+    "cosmosSdkVersion": "0.47.5",
+    "ibcGoVersion": "7.3.1"
+  },
+  "colors": {
+    "primaryOnLight": "#EF6644",
+    "primaryOnDark": "#EF6644",
+    "lighterOnLight": "#EF6644",
+    "lighterOnDark": "#EF6644",
+    "darkerOnLight": "#EF6644",
+    "darkerOnDark": "#EF6644"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.saga.xyz/",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.saga.xyz",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/sagaxyz",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/sagaxyz",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/Sagaxyz__",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": true,
+  "withCoingeckoApi": false,
+  "isFeatured": false
+}

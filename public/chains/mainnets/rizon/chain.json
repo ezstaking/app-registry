@@ -1,0 +1,89 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "rizon",
+  "chainName": "Rizon Atolo",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rizon/images/atolo.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rizon/images/atolo.svg"
+  },
+  "rpcUrl": "https://rpc.cosmos.directory/rizon",
+  "restUrl": "https://rest.cosmos.directory/rizon",
+  "chainId": "titan-1",
+  "bech32": "rizon",
+  "denom": "atolo",
+  "denomUpper": "ATOLO",
+  "sdenom": "uatolo",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.025,
+    "average": 0.025,
+    "high": 0.025
+  },
+  "coinDecimals": 6,
+  "features": ["ibc-transfer"],
+  "coinGeckoId": "rizon",
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.16",
+    "ibcGoVersion": "4.4.2"
+  },
+  "colors": {
+    "primaryOnLight": "#8c8af2",
+    "primaryOnDark": "#8c8af2",
+    "lighterOnLight": "#f0f0f7",
+    "lighterOnDark": "#f0f0f7",
+    "darkerOnLight": "#8c8af2",
+    "darkerOnDark": "#8c8af2"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://rizon.world",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.rizon.world",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/rizon-world/rizon",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/hdac",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/hdac_rizon",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": false,
+  "withCoingeckoApi": false,
+  "isFeatured": false
+}

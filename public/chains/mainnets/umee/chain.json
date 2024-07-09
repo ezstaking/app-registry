@@ -1,0 +1,91 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "umee",
+  "chainName": "UX Chain",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.svg"
+  },
+  "rpcUrl": "https://rpc.cosmos.directory/umee",
+  "restUrl": "https://rest.cosmos.directory/umee",
+  "chainId": "umee-1",
+  "bech32": "umee",
+  "denom": "umee",
+  "denomUpper": "UMEE",
+  "sdenom": "uumee",
+  "coinType": 118,
+  "coinDecimals": 6,
+  "features": [
+    "ibc-transfer"
+  ],
+  "coinGeckoId": "umee",
+  "gasPriceStep": {
+    "low": 0.1,
+    "average": 0.12,
+    "high": 0.2
+  },
+  "chainInfo": {
+    "cosmosSdkVersion": "0.47.11",
+    "ibcGoVersion": "7.3.2"
+  },
+  "colors": {
+    "primaryOnLight": "#bb90f8",
+    "primaryOnDark": "#bb90f8",
+    "lighterOnLight": "#bb90f8",
+    "lighterOnDark": "#bb90f8",
+    "darkerOnLight": "#bb90f8",
+    "darkerOnDark": "#bb90f8"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://www.ux.xyz",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.umee.cc/umee",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/umee-network",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/umeeblog",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/Umee_CrossChain",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": true,
+  "withCoingeckoApi": false,
+  "isFeatured": false
+}

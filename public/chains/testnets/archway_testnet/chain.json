@@ -1,0 +1,126 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "archway_testnet",
+  "chainName": "Archway Testnet",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/archwaytestnet/images/ArchwayBrandmark.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/archwaytestnet/images/ArchwayBrandmark.svg"
+  },
+  "rpcUrl": "https://rpc-testnet-archway.ezstaking.dev",
+  "restUrl": "https://lcd-testnet-archway.ezstaking.dev",
+  "chainId": "constantine-3",
+  "denom": "const",
+  "denomUpper": "CONST",
+  "sdenom": "aconst",
+  "bech32": "archway",
+  "coinType": 118,
+  "gasPriceStep": {
+    "low": 0.000001,
+    "average": 0.0000015,
+    "high": 0.000002
+  },
+  "coinDecimals": 18,
+  "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
+  "coinGeckoId": "",
+  "assets": [
+    {
+      "base": "aconst",
+      "coingecko_id": "",
+      "denom_units": [
+        {
+          "denom": "aconst",
+          "exponent": 18
+        },
+        {
+          "denom": "aconst",
+          "exponent": 0
+        }
+      ],
+      "description": "The native staking and governance token of the Archway Network.",
+      "display": "aconst",
+      "logo_URIs": {
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.svg"
+      },
+      "name": "CONST",
+      "symbol": "CONST"
+    }
+  ],
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.16",
+    "ibcGoVersion": "4.3.1"
+  },
+  "colors": {
+    "primaryOnLight": "#ff8f69",
+    "primaryOnDark": "#ff8f69",
+    "lighterOnLight": "#fef3f0",
+    "lighterOnDark": "#fef3f0",
+    "darkerOnLight": "#fef3f0",
+    "darkerOnDark": "#fef3f0"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://archway.io",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.archway.io",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/archway-network",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://blog.archway.io",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/archwayhq",
+          "icon": {
+            "svg": "twitter"
+          }
+        },
+        {
+          "title": "Discord",
+          "url": "https://discord.gg/5FVvx3WGfa",
+          "icon": {
+            "svg": "discord"
+          }
+        },
+        {
+          "title": "Telegram",
+          "url": "https://t.me/archway_hq",
+          "icon": {
+            "svg": "telegram"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": false,
+  "withCoingeckoApi": false,
+  "isFeatured": true
+}

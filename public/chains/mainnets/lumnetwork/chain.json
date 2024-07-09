@@ -1,0 +1,88 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "lumnetwork",
+  "chainName": "Lum Network",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumnetwork/images/lum.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumnetwork/images/lum.svg"
+  },
+  "rpcUrl": "https://rpc.node0.mainnet.lum.network",
+  "restUrl": "https://rest.node0.mainnet.lum.network",
+  "chainId": "lum-network-1",
+  "denom": "lum",
+  "denomUpper": "LUM",
+  "sdenom": "ulum",
+  "coinType": 880,
+  "gasPriceStep": {
+    "low": 0.001,
+    "average": 0.001,
+    "high": 0.001
+  },
+  "coinDecimals": 6,
+  "features": ["ibc-transfer"],
+  "coinGeckoId": "lum-network",
+  "chainInfo": {
+    "cosmosSdkVersion": "0.47.11",
+    "ibcGoVersion": "7.2.0"
+  },
+  "colors": {
+    "primaryOnLight": "#3e68f9",
+    "primaryOnDark": "#3e68f9",
+    "lighterOnLight": "#e8ecfc",
+    "lighterOnDark": "#e8ecfc",
+    "darkerOnLight": "#3e68f9",
+    "darkerOnDark": "#3e68f9"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://lum.network",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.lum.network",
+      "icon": {
+        "svg": "apps"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/lum-network",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://medium.com/lum-network",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/lum_network",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": false,
+  "withCoingeckoApi": false,
+  "isFeatured": false
+}

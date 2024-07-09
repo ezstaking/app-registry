@@ -1,0 +1,89 @@
+{
+  "$schema": "../../chain.schema.json",
+  "name": "secretnetwork",
+  "chainName": "Secret Network",
+  "logo_URIs": {
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/scrt.svg"
+  },
+  "rpcUrl": "https://rpc.cosmos.directory/secretnetwork",
+  "restUrl": "https://rest.cosmos.directory/secretnetwork",
+  "chainId": "secret-4",
+  "bech32": "secret",
+  "denom": "scrt",
+  "denomUpper": "SCRT",
+  "sdenom": "uscrt",
+  "coinType": 529,
+  "gasPriceStep": {
+    "low": 0.3,
+    "average": 0.3,
+    "high": 0.3
+  },
+  "coinDecimals": 6,
+  "features": ["secretwasm", "ibc-go", "ibc-transfer"],
+  "coinGeckoId": "secret",
+  "chainInfo": {
+    "cosmosSdkVersion": "0.45.16",
+    "ibcGoVersion": "4.5.0"
+  },
+  "colors": {
+    "primaryOnLight": "#a3b0bd",
+    "primaryOnDark": "#a3b0bd",
+    "lighterOnLight": "#eef2f6",
+    "lighterOnDark": "#eef2f6",
+    "darkerOnLight": "#a3b0bd",
+    "darkerOnDark": "#a3b0bd"
+  },
+  "links": [
+    {
+      "title": "Official Website",
+      "url": "https://scrt.network",
+      "icon": {
+        "svg": "web"
+      }
+    },
+    {
+      "title": "Docs",
+      "url": "https://docs.scrt.network",
+      "icon": {
+        "svg": "document"
+      }
+    },
+    {
+      "title": "GitHub",
+      "url": "https://github.com/SecretFoundation",
+      "icon": {
+        "svg": "github"
+      }
+    },
+    {
+      "title": "Learn more",
+      "icon": {
+        "svg": "dotsHorizontal"
+      },
+      "children": [
+        {
+          "title": "Medium",
+          "url": "https://scrt.network/blog",
+          "icon": {
+            "svg": "medium"
+          }
+        },
+        {
+          "title": "Twitter",
+          "url": "https://twitter.com/SecretNetwork",
+          "icon": {
+            "svg": "twitter"
+          }
+        }
+      ]
+    }
+  ],
+  "isExplorerEnabled": true,
+  "isModuleEnabled": {
+    "governance": true
+  },
+  "isNativelySupportedByKeplr": true,
+  "withCoingeckoApi": false,
+  "isFeatured": false
+}
