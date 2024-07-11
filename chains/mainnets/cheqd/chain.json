@@ -21,7 +21,9 @@
   },
   "gasModifier": 1.4,
   "coinDecimals": 9,
-  "features": ["ibc-transfer"],
+  "features": [
+    "ibc-transfer"
+  ],
   "coinGeckoId": "cheqd-network",
   "chainInfo": {
     "cosmosSdkVersion": "0.47.10",

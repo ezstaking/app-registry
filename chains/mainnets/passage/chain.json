@@ -18,7 +18,10 @@
     "high": 0.01
   },
   "coinDecimals": 6,
-  "features": ["ibc-transfer", "ibc-go"],
+  "features": [
+    "ibc-transfer",
+    "ibc-go"
+  ],
   "coinGeckoId": "passage",
   "chainInfo": {
     "cosmosSdkVersion": "0.45.16",

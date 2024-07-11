@@ -19,7 +19,9 @@
     "high": 0.001
   },
   "coinDecimals": 6,
-  "features": ["ibc-transfer"],
+  "features": [
+    "ibc-transfer"
+  ],
   "coinGeckoId": "lum-network",
   "chainInfo": {
     "cosmosSdkVersion": "0.47.11",

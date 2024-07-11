@@ -208,7 +208,9 @@ Required only for assets that's not in the Cosmos Chain Registry.
     "high": 0.025
   },
   "coinDecimals": 6,
-  "features": ["ibc-transfer"],
+  "features": [
+    "ibc-transfer"
+  ],
   "coinGeckoId": "akash-network",
   "chainInfo": {
     "cosmosSdkVersion": "0.45.16",

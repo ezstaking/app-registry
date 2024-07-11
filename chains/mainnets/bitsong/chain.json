@@ -20,7 +20,12 @@
     "high": 0.015
   },
   "coinDecimals": 6,
-  "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
+  "features": [
+    "ibc-transfer",
+    "ibc-go",
+    "cosmwasm",
+    "wasmd_0.24+"
+  ],
   "coinGeckoId": "bitsong",
   "chainInfo": {
     "cosmosSdkVersion": "0.45.16",

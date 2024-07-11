@@ -1,5 +1,5 @@
 import * as fs from "fs";
-import { default as loadJson } from "./useLoadJson.mjs";
+import {default as loadJson} from "./useLoadJson.mjs";
 
 export default function (isMainnet) {
   const env = isMainnet ? 'mainnets' : 'testnets';
@@ -17,7 +17,7 @@ export default function (isMainnet) {
       logo_URIs,
       denomUpper,
       coinGeckoId,
-      chainInfo: { cosmosSdkVersion },
+      chainInfo: {cosmosSdkVersion},
       colors,
       isExplorerEnabled,
       isFeatured,

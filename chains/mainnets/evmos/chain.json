@@ -21,7 +21,12 @@
   },
   "gasModifier": 2,
   "coinDecimals": 18,
-  "features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+  "features": [
+    "ibc-transfer",
+    "ibc-go",
+    "eth-address-gen",
+    "eth-key-sign"
+  ],
   "coinGeckoId": "evmos",
   "chainInfo": {
     "cosmosSdkVersion": "0.47.8",

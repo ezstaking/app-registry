@@ -20,7 +20,11 @@
     "high": 0.01
   },
   "coinDecimals": 6,
-  "features": ["ibc-transfer", "ibc-go", "cosmwasm"],
+  "features": [
+    "ibc-transfer",
+    "ibc-go",
+    "cosmwasm"
+  ],
   "coinGeckoId": "osmosis",
   "chainInfo": {
     "cosmosSdkVersion": "0.47.8",

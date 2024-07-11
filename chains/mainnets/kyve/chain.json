@@ -21,7 +21,9 @@
   },
   "gasModifier": 1.5,
   "coinDecimals": 6,
-  "features": ["ibc-transfer"],
+  "features": [
+    "ibc-transfer"
+  ],
   "coinGeckoId": "kyve-network",
   "assets": [
     {

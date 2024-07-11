@@ -20,7 +20,10 @@
     "high": 0.01
   },
   "coinDecimals": 6,
-  "features": ["ibc-transfer", "cosmwasm"],
+  "features": [
+    "ibc-transfer",
+    "cosmwasm"
+  ],
   "coinGeckoId": "firmachain",
   "chainInfo": {
     "cosmosSdkVersion": "0.45.9",

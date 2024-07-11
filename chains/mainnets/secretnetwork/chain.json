@@ -20,7 +20,11 @@
     "high": 0.3
   },
   "coinDecimals": 6,
-  "features": ["secretwasm", "ibc-go", "ibc-transfer"],
+  "features": [
+    "secretwasm",
+    "ibc-go",
+    "ibc-transfer"
+  ],
   "coinGeckoId": "secret",
   "chainInfo": {
     "cosmosSdkVersion": "0.45.16",

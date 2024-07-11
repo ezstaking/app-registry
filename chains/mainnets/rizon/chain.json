@@ -20,7 +20,9 @@
     "high": 0.025
   },
   "coinDecimals": 6,
-  "features": ["ibc-transfer"],
+  "features": [
+    "ibc-transfer"
+  ],
   "coinGeckoId": "rizon",
   "chainInfo": {
     "cosmosSdkVersion": "0.45.16",

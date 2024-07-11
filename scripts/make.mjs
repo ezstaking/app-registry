@@ -1,8 +1,8 @@
-import { default as writeFile } from "./utils/useWriteFile.mjs";
-import { default as chainList } from "./utils/useChainList.mjs";
-import { default as chainListFeatured } from "./utils/useChainListFeatured.mjs";
-import { default as chainListDetails } from "./utils/useChainListDetails.mjs";
-import { default as chainListDetailsFeatured } from "./utils/useChainListDetailsFeatured.mjs";
+import {default as writeFile} from "./utils/useWriteFile.mjs";
+import {default as chainList} from "./utils/useChainList.mjs";
+import {default as chainListFeatured} from "./utils/useChainListFeatured.mjs";
+import {default as chainListDetails} from "./utils/useChainListDetails.mjs";
+import {default as chainListDetailsFeatured} from "./utils/useChainListDetailsFeatured.mjs";
 
 // MAINNETS
 writeFile(JSON.stringify(chainList(true)), "./public/chains/mainnets/list.json");

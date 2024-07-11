@@ -18,7 +18,7 @@ export default function (isMainnet) {
     } = loadJson(`./../../chains/${env}/${files[i]}/chain.json`);
 
     if (isFeatured) {
-      data[name] = { chainName };
+      data[name] = {chainName};
     }
   }
 

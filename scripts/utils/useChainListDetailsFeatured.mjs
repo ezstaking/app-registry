@@ -17,7 +17,7 @@ export default function (isMainnet) {
       logo_URIs,
       denomUpper,
       coinGeckoId,
-      chainInfo: { cosmosSdkVersion },
+      chainInfo: {cosmosSdkVersion},
       colors,
       isExplorerEnabled,
       isFeatured,

@@ -23,7 +23,10 @@
   },
   "gasModifier": 1.5,
   "coinDecimals": 6,
-  "features": ["ibc-transfer", "ibc-go"],
+  "features": [
+    "ibc-transfer",
+    "ibc-go"
+  ],
   "coinGeckoId": "stride",
   "chainInfo": {
     "cosmosSdkVersion": "0.47.10",

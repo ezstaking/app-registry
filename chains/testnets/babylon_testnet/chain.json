@@ -19,7 +19,11 @@
     "high": 0.00003
   },
   "coinDecimals": 6,
-  "features": ["ibc-transfer", "ibc-go", "cosmwasm"],
+  "features": [
+    "ibc-transfer",
+    "ibc-go",
+    "cosmwasm"
+  ],
   "coinGeckoId": "",
   "assets": [
     {

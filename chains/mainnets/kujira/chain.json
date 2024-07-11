@@ -20,7 +20,9 @@
     "high": 0.00681
   },
   "coinDecimals": 6,
-  "features": ["ibc-transfer"],
+  "features": [
+    "ibc-transfer"
+  ],
   "coinGeckoId": "kujira",
   "chainInfo": {
     "cosmosSdkVersion": "0.47.8",

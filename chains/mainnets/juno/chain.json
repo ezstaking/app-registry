@@ -20,7 +20,12 @@
   },
   "gasModifier": 1.8,
   "coinDecimals": 6,
-  "features": ["ibc-transfer", "ibc-go", "cosmwasm", "wasmd_0.24+"],
+  "features": [
+    "ibc-transfer",
+    "ibc-go",
+    "cosmwasm",
+    "wasmd_0.24+"
+  ],
   "coinGeckoId": "juno-network",
   "chainInfo": {
     "cosmosSdkVersion": "0.47.11",

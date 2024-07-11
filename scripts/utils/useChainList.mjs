@@ -1,5 +1,5 @@
 import * as fs from "fs";
-import { default as loadJson } from "./useLoadJson.mjs";
+import {default as loadJson} from "./useLoadJson.mjs";
 
 export default function (isMainnet) {
   const env = isMainnet ? 'mainnets' : 'testnets';
@@ -16,7 +16,7 @@ export default function (isMainnet) {
       chainName,
     } = loadJson(`./../../chains/${env}/${files[i]}/chain.json`);
 
-    data[name] = { chainName };
+    data[name] = {chainName};
   }
 
   return data;

@@ -20,7 +20,9 @@
     "high": 0.025
   },
   "coinDecimals": 6,
-  "features": ["ibc-transfer"],
+  "features": [
+    "ibc-transfer"
+  ],
   "coinGeckoId": "desmos",
   "chainInfo": {
     "cosmosSdkVersion": "0.47.10",
