@@ -65,8 +65,6 @@ const writeConfig = (content, path) => {
   const config = JSON.stringify(
     {
       version: "beta " + process.env.NUXT_ENV_APP_VERSION,
-      isMaintenanceMode: false,
-      developmentMode: process.env.NODE_ENV === "development",
       protocolsStyles: {
         // @important: any changes here should be replicated to `./assets/root.sass`
         default: {
@@ -76,9 +74,6 @@ const writeConfig = (content, path) => {
         },
       },
       networks,
-      cw20: process.env.NUXT_ENV_CW20
-        ? JSON.parse(process.env.NUXT_ENV_CW20)
-        : {},
       featuredNetworksAsArray,
     },
     null,
