@@ -21,6 +21,7 @@ export default function (isMainnet) {
       chainInfo: {cosmosSdkVersion},
       colors,
       isExplorerEnabled,
+      isNativelySupportedByKeplr,
       isFeatured,
     } = loadJson(`./../../chains/${env}/${files[i]}/chain.json`);
 
@@ -33,6 +34,7 @@ export default function (isMainnet) {
       cosmosSdkVersion,
       colors,
       isExplorerEnabled,
+      isNativelySupportedByKeplr,
       isFeatured,
     }
   }
