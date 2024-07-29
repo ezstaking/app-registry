@@ -15,6 +15,7 @@ export default function (isMainnet) {
       name,
       chainName,
       logo_URIs,
+      sdenom,
       denomUpper,
       coinDecimals,
       coinGeckoId,
@@ -29,6 +30,7 @@ export default function (isMainnet) {
       data[name] = {
         chainName,
         logo_URIs,
+        sdenom,
         denomUpper,
         coinDecimals,
         coinGeckoId,
