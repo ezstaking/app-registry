@@ -14,6 +14,7 @@ export default function (isMainnet) {
     const {
       name,
       chainName,
+      chainId,
       logo_URIs,
       sdenom,
       denomUpper,
@@ -29,6 +30,7 @@ export default function (isMainnet) {
     if (isFeatured) {
       data[name] = {
         chainName,
+        chainId,
         logo_URIs,
         sdenom,
         denomUpper,
