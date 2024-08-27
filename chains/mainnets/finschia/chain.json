@@ -6,8 +6,8 @@
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/finschia/images/fnsa.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/finschia/images/fnsa.svg"
   },
-  "rpcUrl": "https://finschia-rpc.finschia.io",
-  "restUrl": "https://finschia-api.finschia.io",
+  "rpcUrl": "https://rpc.cosmos.directory/finschia",
+  "restUrl": "https://rest.cosmos.directory/finschia",
   "chainId": "finschia-2",
   "bech32": "link",
   "denom": "fnsa",

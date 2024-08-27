@@ -29,8 +29,8 @@
   ],
   "coinGeckoId": "stargaze",
   "chainInfo": {
-    "cosmosSdkVersion": "0.47.10",
-    "ibcGoVersion": "4.4.2"
+    "cosmosSdkVersion": "0.47.12",
+    "ibcGoVersion": "7.6.0"
   },
   "colors": {
     "primaryOnLight": "#e38cd4",

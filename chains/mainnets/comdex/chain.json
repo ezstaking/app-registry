@@ -28,8 +28,8 @@
   ],
   "coinGeckoId": "comdex",
   "chainInfo": {
-    "cosmosSdkVersion": "0.47.5",
-    "ibcGoVersion": "7.3.1"
+    "cosmosSdkVersion": "0.47.9",
+    "ibcGoVersion": "7.4.0"
   },
   "colors": {
     "primaryOnLight": "#fe4350",

@@ -6,8 +6,8 @@
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cudos/images/cudos.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cudos/images/cudos.svg"
   },
-  "rpcUrl": "http://mainnet-full-node-01.hosts.cudos.org:26657",
-  "restUrl": "http://mainnet-full-node-01.hosts.cudos.org:1317",
+  "rpcUrl": "https://rpc.cosmos.directory/cudos",
+  "restUrl": "https://rest.cosmos.directory/cudos",
   "chainId": "cudos-1",
   "bech32": "cudos",
   "denom": "cudos",

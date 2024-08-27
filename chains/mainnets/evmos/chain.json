@@ -29,8 +29,8 @@
   ],
   "coinGeckoId": "evmos",
   "chainInfo": {
-    "cosmosSdkVersion": "0.47.8",
-    "ibcGoVersion": "7.4.0"
+    "cosmosSdkVersion": "0.47.12",
+    "ibcGoVersion": "7.6.0"
   },
   "colors": {
     "primaryOnLight": "#ed4e33",

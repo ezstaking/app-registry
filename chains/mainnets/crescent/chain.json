@@ -6,8 +6,8 @@
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/crescent/images/cre.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/crescent/images/cre.svg"
   },
-  "rpcUrl": "https://mainnet.crescent.network:26657",
-  "restUrl": "https://mainnet.crescent.network:1317",
+  "rpcUrl": "https://rpc.cosmos.directory/crescent",
+  "restUrl": "https://rest.cosmos.directory/crescent",
   "chainId": "crescent-1",
   "bech32": "cre",
   "denom": "cre",

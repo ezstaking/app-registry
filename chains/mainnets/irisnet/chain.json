@@ -6,8 +6,8 @@
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/irisnet/images/iris.svg"
   },
-  "rpcUrl": "https://rpc.irishub-1.irisnet.org",
-  "restUrl": "https://api.irishub-1.irisnet.org",
+  "rpcUrl": "https://rpc.cosmos.directory/irisnet",
+  "restUrl": "https://rest.cosmos.directory/irisnet",
   "chainId": "irishub-1",
   "denom": "iris",
   "denomUpper": "IRIS",
@@ -25,7 +25,7 @@
   "features": [],
   "coinGeckoId": "iris-network",
   "chainInfo": {
-    "cosmosSdkVersion": "0.47.4",
+    "cosmosSdkVersion": "0.47.15",
     "ibcGoVersion": "7.3.0"
   },
   "colors": {

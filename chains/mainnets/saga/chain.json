@@ -6,8 +6,8 @@
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.svg"
   },
-  "rpcUrl": "https://rpc-saga.ezstaking.dev",
-  "restUrl": "https://lcd-saga.ezstaking.dev",
+  "rpcUrl": "https://rpc.cosmos.directory/saga",
+  "restUrl": "https://rest.cosmos.directory/saga",
   "chainId": "ssc-1",
   "bech32": "saga",
   "denom": "saga",

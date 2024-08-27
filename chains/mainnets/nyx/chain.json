@@ -18,7 +18,7 @@
     "average": 0.03,
     "high": 0.05
   },
-  "gasModifier": 1.4,
+  "gasModifier": 1.5,
   "coinDecimals": 6,
   "features": [
     "ibc-transfer",

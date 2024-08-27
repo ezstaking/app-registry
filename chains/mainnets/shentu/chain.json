@@ -23,8 +23,8 @@
   "features": [],
   "coinGeckoId": "certik",
   "chainInfo": {
-    "cosmosSdkVersion": "0.45.11",
-    "ibcGoVersion": "4.2.1"
+    "cosmosSdkVersion": "0.47.10",
+    "ibcGoVersion": "7.4.0"
   },
   "colors": {
     "primaryOnLight": "#e1aa4c",
