@@ -1,20 +1,10 @@
 {
   "name": "app-registry",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "./scripts/build.sh && npm run make",
-    "make": "NODE_OPTIONS='--experimental-specifier-resolution=node --loader ts-node/esm --experimental-modules' node scripts/make.mjs"
-  },
+  "description": "App (Chain) Registry",
   "repository": {
     "type": "git",
     "url": "https://github.com/EZStaking/app-registry"
   },
-  "private": true,
-  "devDependencies": {
-    "dotenv": "^16.4.5",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.5.4"
-  }
+  "private": true
 }
