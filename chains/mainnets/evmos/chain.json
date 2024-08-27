@@ -6,8 +6,8 @@
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.svg"
   },
-  "rpcUrl": "https://rpc-evmos.validavia.me",
-  "restUrl": "https://lcd-evmos.validavia.me",
+  "rpcUrl": "https://rpc.cosmos.directory/evmos",
+  "restUrl": "https://rest.cosmos.directory/evmos",
   "chainId": "evmos_9001-2",
   "bech32": "evmos",
   "denom": "evmos",
