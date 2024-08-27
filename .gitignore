@@ -1,2 +1,9 @@
 .idea
-node_modules
+chains/mainnets/detailed-list.json
+chains/mainnets/featured-detailed-list.json
+chains/mainnets/featured-list.json
+chains/mainnets/list.json
+chains/testnets/detailed-list.json
+chains/testnets/featured-detailed-list.json
+chains/testnets/featured-list.json
+chains/testnets/list.json
