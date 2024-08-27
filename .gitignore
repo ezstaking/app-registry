@@ -1,3 +1,4 @@
+node_modules
 .idea
 chains/mainnets/detailed-list.json
 chains/mainnets/featured-detailed-list.json
