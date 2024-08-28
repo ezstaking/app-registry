@@ -7,8 +7,8 @@
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.svg"
   },
   "isAProviderChain": true,
-  "rpcUrl": "https://rpc-cosmos-testnet.ezstaking.dev",
-  "restUrl": "https://lcd-cosmos-testnet.ezstaking.dev",
+  "rpcUrl": "https://rpc.testcosmos.directory/cosmosicsprovidertestnet",
+  "restUrl": "https://rest.testcosmos.directory/cosmosicsprovidertestnet",
   "chainId": "provider",
   "bech32": "cosmos",
   "denom": "atom",

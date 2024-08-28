@@ -6,8 +6,8 @@
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.svg"
   },
-  "rpcUrl": "https://rpc-testnet-juno.ezstaking.dev",
-  "restUrl": "https://lcd-testnet-juno.ezstaking.dev",
+  "rpcUrl": "https://rpc.testcosmos.directory/junotestnet",
+  "restUrl": "https://rest.testcosmos.directory/junotestnet",
   "chainId": "uni-6",
   "denom": "juno",
   "denomUpper": "JUNOX",

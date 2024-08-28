@@ -6,8 +6,8 @@
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/archwaytestnet/images/ArchwayBrandmark.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/archwaytestnet/images/ArchwayBrandmark.svg"
   },
-  "rpcUrl": "https://rpc-testnet-archway.ezstaking.dev",
-  "restUrl": "https://lcd-testnet-archway.ezstaking.dev",
+  "rpcUrl": "https://rpc.testcosmos.directory/archwaytestnet",
+  "restUrl": "https://rest.testcosmos.directory/archwaytestnet",
   "chainId": "constantine-3",
   "denom": "const",
   "denomUpper": "CONST",
