@@ -7,7 +7,7 @@
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/neutron-black-logo.svg"
   },
   "isAConsumerChain": true,
-  "providerChain": "cosmoshub-testnet",
+  "providerChain": "cosmoshub_testnet",
   "rpcUrl": "https://rpc.testcosmos.directory/neutrontestnet",
   "restUrl": "https://rest.testcosmos.directory/neutrontestnet",
   "chainId": "pion-1",
