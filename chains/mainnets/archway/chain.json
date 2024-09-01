@@ -14,6 +14,7 @@
   "sdenom": "aarch",
   "bech32": "archway",
   "coinType": 118,
+  "gasModifier": 1.4,
   "gasPriceStep": {
     "low": 0.000001,
     "average": 0.0000015,
