@@ -14,9 +14,9 @@
   "sdenom": "ubcna",
   "coinType": 118,
   "gasPriceStep": {
-    "low": 0.025,
-    "average": 0.025,
-    "high": 0.025
+    "low": 0.001,
+    "average": 0.0025,
+    "high": 0.01
   },
   "coinDecimals": 6,
   "features": [
@@ -41,7 +41,7 @@
   "links": [
     {
       "title": "Official Website",
-      "url": "https://www.bitcanna.io",
+      "url": "https://www.bitcanna.io/",
       "icon": {
         "svg": "web"
       }
@@ -89,5 +89,6 @@
   },
   "isNativelySupportedByKeplr": false,
   "withCoingeckoApi": false,
-  "isFeatured": false
+  "isFeatured": false,
+  "bech32": "bcna"
 }

@@ -15,9 +15,9 @@
   "sdenom": "uhuahua",
   "coinType": 118,
   "gasPriceStep": {
-    "low": 0.0025,
-    "average": 0.0025,
-    "high": 0.0025
+    "low": 500,
+    "average": 1250,
+    "high": 2000
   },
   "coinDecimals": 6,
   "features": [
@@ -28,7 +28,7 @@
   ],
   "coinGeckoId": "chihuahua-token",
   "chainInfo": {
-    "cosmosSdkVersion": "0.47.5",
+    "cosmosSdkVersion": "0.47.8",
     "ibcGoVersion": "7.3.0"
   },
   "colors": {
@@ -42,7 +42,7 @@
   "links": [
     {
       "title": "Official Website",
-      "url": "https://www.chihuahua.wtf",
+      "url": "https://chihuahua.wtf/",
       "icon": {
         "svg": "web"
       }

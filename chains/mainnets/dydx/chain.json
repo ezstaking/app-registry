@@ -18,14 +18,14 @@
   "features": [
     "ibc-transfer"
   ],
-  "coinGeckoId": "dydx",
+  "coinGeckoId": "dydx-chain",
   "gasPriceStep": {
     "low": 12500000000,
     "average": 12500000000,
     "high": 20000000000
   },
   "chainInfo": {
-    "cosmosSdkVersion": "0.50.6",
+    "cosmosSdkVersion": "ydxprotocol/cosmos-sdk v0.50.6-0.20240606183841-18966898625f",
     "ibcGoVersion": "7.3.0"
   },
   "colors": {

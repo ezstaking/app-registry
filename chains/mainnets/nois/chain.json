@@ -15,7 +15,7 @@
   "coinType": 118,
   "gasPriceStep": {
     "low": 0.05,
-    "average": 0.08,
+    "average": 0.05,
     "high": 0.1
   },
   "coinDecimals": 6,
@@ -50,7 +50,7 @@
     }
   ],
   "chainInfo": {
-    "cosmosSdkVersion": "0.45.14",
+    "cosmosSdkVersion": "0.45.15",
     "ibcGoVersion": "4.3.0"
   },
   "colors": {
