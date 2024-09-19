@@ -25,7 +25,7 @@
     "high": 0.1
   },
   "chainInfo": {
-    "cosmosSdkVersion": "0.46.16",
+    "cosmosSdkVersion": "elestiaorg/cosmos-sdk v1.24.1-sdk-v0.46.16",
     "ibcGoVersion": "6.2.0"
   },
   "colors": {
