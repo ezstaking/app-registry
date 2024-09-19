@@ -18,7 +18,7 @@
   "features": [
     "ibc-transfer"
   ],
-  "coinGeckoId": "dydx",
+  "coinGeckoId": "dydx-chain",
   "gasPriceStep": {
     "low": 12500000000,
     "average": 12500000000,

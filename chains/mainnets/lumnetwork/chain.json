@@ -14,9 +14,9 @@
   "sdenom": "ulum",
   "coinType": 880,
   "gasPriceStep": {
-    "low": 0.001,
-    "average": 0.001,
-    "high": 0.001
+    "low": 0.01,
+    "average": 0.025,
+    "high": 0.04
   },
   "coinDecimals": 6,
   "features": [
@@ -38,7 +38,7 @@
   "links": [
     {
       "title": "Official Website",
-      "url": "https://lum.network",
+      "url": "https://lum.network/",
       "icon": {
         "svg": "web"
       }

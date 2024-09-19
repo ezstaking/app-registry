@@ -14,9 +14,9 @@
   "sdenom": "ujuno",
   "coinType": 118,
   "gasPriceStep": {
-    "low": 0.0025,
-    "average": 0.005,
-    "high": 0.01
+    "low": 0.075,
+    "average": 0.1,
+    "high": 0.125
   },
   "gasModifier": 1.8,
   "coinDecimals": 6,
@@ -42,7 +42,7 @@
   "links": [
     {
       "title": "Official Website",
-      "url": "https://www.junonetwork.io",
+      "url": "https://www.junonetwork.io/",
       "icon": {
         "svg": "web"
       }

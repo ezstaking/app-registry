@@ -15,9 +15,9 @@
   "sdenom": "udsm",
   "coinType": 852,
   "gasPriceStep": {
-    "low": 0.001,
-    "average": 0.01,
-    "high": 0.025
+    "low": 0.01,
+    "average": 0.03,
+    "high": 0.05
   },
   "coinDecimals": 6,
   "features": [
@@ -39,7 +39,7 @@
   "links": [
     {
       "title": "Official Website",
-      "url": "https://www.desmos.network",
+      "url": "https://desmos.network/",
       "icon": {
         "svg": "web"
       }

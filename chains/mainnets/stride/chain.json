@@ -17,9 +17,9 @@
   "sdenom": "ustrd",
   "coinType": 118,
   "gasPriceStep": {
-    "low": 0.025,
-    "average": 0.025,
-    "high": 0.025
+    "low": 0.005,
+    "average": 0.005,
+    "high": 0.05
   },
   "gasModifier": 1.5,
   "coinDecimals": 6,
@@ -43,7 +43,7 @@
   "links": [
     {
       "title": "Official Website",
-      "url": "https://stride.zone",
+      "url": "https://stride.zone/",
       "icon": {
         "svg": "web"
       }

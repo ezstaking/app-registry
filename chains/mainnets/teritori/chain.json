@@ -16,8 +16,8 @@
   "coinType": 118,
   "gasPriceStep": {
     "low": 0,
-    "average": 0,
-    "high": 0
+    "average": 0.25,
+    "high": 0.5
   },
   "coinDecimals": 6,
   "features": [
@@ -40,7 +40,7 @@
   "links": [
     {
       "title": "Official Website",
-      "url": "https://teritori.com",
+      "url": "https://teritori.com/",
       "icon": {
         "svg": "web"
       }

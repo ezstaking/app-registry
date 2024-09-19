@@ -16,9 +16,9 @@
   "sdenom": "uatom",
   "coinType": 118,
   "gasPriceStep": {
-    "low": 0.0025,
-    "average": 0.0025,
-    "high": 0.0025
+    "low": 0.01,
+    "average": 0.025,
+    "high": 0.03
   },
   "gasModifier": 1.8,
   "coinDecimals": 6,
@@ -42,7 +42,7 @@
   "links": [
     {
       "title": "Official Website",
-      "url": "https://cosmos.network",
+      "url": "https://cosmos.network/",
       "icon": {
         "svg": "web"
       }

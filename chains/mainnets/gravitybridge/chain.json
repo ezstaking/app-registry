@@ -12,13 +12,13 @@
   "chainId": "gravity-bridge-3",
   "bech32": "gravity",
   "denom": "graviton",
-  "denomUpper": "GRAVITON",
+  "denomUpper": "GRAV",
   "sdenom": "ugraviton",
   "coinType": 118,
   "gasPriceStep": {
     "low": 0,
     "average": 0,
-    "high": 0
+    "high": 0.035
   },
   "coinDecimals": 6,
   "features": [
@@ -734,7 +734,7 @@
   "links": [
     {
       "title": "Official Website",
-      "url": "https://www.gravitybridge.net",
+      "url": "https://www.gravitybridge.net/",
       "icon": {
         "svg": "web"
       }

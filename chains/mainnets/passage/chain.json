@@ -13,7 +13,7 @@
   "sdenom": "upasg",
   "coinType": 118,
   "gasPriceStep": {
-    "low": 0,
+    "low": 0.001,
     "average": 0.0025,
     "high": 0.01
   },
@@ -38,7 +38,7 @@
   "links": [
     {
       "title": "Official Website",
-      "url": "https://www.passage.io",
+      "url": "https://passage3d.com/",
       "icon": {
         "svg": "web"
       }

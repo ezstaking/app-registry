@@ -15,9 +15,9 @@
   "sdenom": "udhp",
   "coinType": 10111,
   "gasPriceStep": {
-    "low": 0.001,
-    "average": 0.01,
-    "high": 0.025
+    "low": 0.025,
+    "average": 0.03,
+    "high": 0.035
   },
   "coinDecimals": 6,
   "features": [
@@ -39,7 +39,7 @@
   "links": [
     {
       "title": "Official Website",
-      "url": "https://www.dhealth.com",
+      "url": "https://dhealth.com/",
       "icon": {
         "svg": "web"
       }

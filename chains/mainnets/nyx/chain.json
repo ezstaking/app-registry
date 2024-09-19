@@ -3,7 +3,8 @@
   "name": "nyx",
   "chainName": "Nyx Network",
   "logo_URIs": {
-    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nyx.png"
+    "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_light.png",
+    "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_light.svg"
   },
   "rpcUrl": "https://rpc-nyx.ezstaking.dev",
   "restUrl": "https://lcd-nyx.ezstaking.dev",
@@ -15,8 +16,8 @@
   "coinType": 118,
   "gasPriceStep": {
     "low": 0.025,
-    "average": 0.03,
-    "high": 0.05
+    "average": 0.025,
+    "high": 0.04
   },
   "gasModifier": 1.5,
   "coinDecimals": 6,
@@ -40,7 +41,7 @@
   "links": [
     {
       "title": "Official Website",
-      "url": "https://nymtech.net",
+      "url": "https://nymtech.net/",
       "icon": {
         "svg": "web"
       }

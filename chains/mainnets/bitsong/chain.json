@@ -15,9 +15,9 @@
   "sdenom": "ubtsg",
   "coinType": 639,
   "gasPriceStep": {
-    "low": 0.015,
-    "average": 0.015,
-    "high": 0.015
+    "low": 3,
+    "average": 10,
+    "high": 20
   },
   "coinDecimals": 6,
   "features": [
@@ -42,7 +42,7 @@
   "links": [
     {
       "title": "Official Website",
-      "url": "https://bitsong.io",
+      "url": "https://bitsong.io/",
       "icon": {
         "svg": "web"
       }

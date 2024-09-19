@@ -17,7 +17,7 @@
   "gasPriceStep": {
     "low": 0.025,
     "average": 0.025,
-    "high": 0.025
+    "high": 0.04
   },
   "coinDecimals": 6,
   "features": [
@@ -39,7 +39,7 @@
   "links": [
     {
       "title": "Official Website",
-      "url": "https://www.ixo.world",
+      "url": "https://www.ixo.world/",
       "icon": {
         "svg": "web"
       }

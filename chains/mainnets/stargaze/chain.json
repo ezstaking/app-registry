@@ -15,9 +15,9 @@
   "sdenom": "ustars",
   "coinType": 118,
   "gasPriceStep": {
-    "low": 0.000001,
-    "average": 0.000011,
-    "high": 0.000012
+    "low": 1,
+    "average": 1.1,
+    "high": 1.2
   },
   "gasModifier": 1.5,
   "coinDecimals": 6,
@@ -43,7 +43,7 @@
   "links": [
     {
       "title": "Official Website",
-      "url": "https://www.stargaze.zone",
+      "url": "https://stargaze.zone/",
       "icon": {
         "svg": "web"
       }
