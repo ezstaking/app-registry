@@ -16,9 +16,9 @@
   "coinType": 118,
   "gasModifier": 1.4,
   "gasPriceStep": {
-    "low": 0.000001,
-    "average": 0.0000015,
-    "high": 0.000002
+    "low": 196000000000,
+    "average": 225400000000,
+    "high": 254800000000
   },
   "coinDecimals": 18,
   "features": [
@@ -66,7 +66,7 @@
   "links": [
     {
       "title": "Official Website",
-      "url": "https://archway.io",
+      "url": "https://archway.io/",
       "icon": {
         "svg": "web"
       }

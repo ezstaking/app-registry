@@ -15,9 +15,9 @@
   "sdenom": "ncheq",
   "coinType": 118,
   "gasPriceStep": {
-    "low": 25,
-    "average": 25,
-    "high": 25
+    "low": 50,
+    "average": 75,
+    "high": 100
   },
   "gasModifier": 1.5,
   "coinDecimals": 9,
@@ -26,7 +26,7 @@
   ],
   "coinGeckoId": "cheqd-network",
   "chainInfo": {
-    "cosmosSdkVersion": "0.47.10",
+    "cosmosSdkVersion": "heqd/cosmos-sdk v0.47.10-height-mismatch",
     "ibcGoVersion": "6.1.1"
   },
   "colors": {
@@ -40,7 +40,7 @@
   "links": [
     {
       "title": "Official Website",
-      "url": "https://cheqd.io",
+      "url": "https://www.cheqd.io/",
       "icon": {
         "svg": "web"
       }

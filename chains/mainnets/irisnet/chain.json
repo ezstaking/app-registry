@@ -16,9 +16,9 @@
   "bech32PrefixVal": "iva",
   "coinType": 118,
   "gasPriceStep": {
-    "low": 0.0025,
-    "average": 0.0025,
-    "high": 0.0025
+    "low": 0.2,
+    "average": 0.3,
+    "high": 0.4
   },
   "gasModifier": 1.5,
   "coinDecimals": 6,
@@ -87,5 +87,6 @@
   },
   "isNativelySupportedByKeplr": true,
   "withCoingeckoApi": true,
-  "isFeatured": true
+  "isFeatured": true,
+  "bech32": "iaa"
 }

@@ -15,9 +15,9 @@
   "sdenom": "ufct",
   "coinType": 7777777,
   "gasPriceStep": {
-    "low": 0.01,
-    "average": 0.01,
-    "high": 0.01
+    "low": 0.1,
+    "average": 0.15,
+    "high": 0.2
   },
   "coinDecimals": 6,
   "features": [
@@ -40,7 +40,7 @@
   "links": [
     {
       "title": "Official Website",
-      "url": "https://firmachain.org",
+      "url": "https://firmachain.org/",
       "icon": {
         "svg": "web"
       }

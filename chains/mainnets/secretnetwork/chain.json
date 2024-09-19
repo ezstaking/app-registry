@@ -15,9 +15,9 @@
   "sdenom": "uscrt",
   "coinType": 529,
   "gasPriceStep": {
-    "low": 0.3,
-    "average": 0.3,
-    "high": 0.3
+    "low": 0.05,
+    "average": 0.1,
+    "high": 0.25
   },
   "coinDecimals": 6,
   "features": [
@@ -41,7 +41,7 @@
   "links": [
     {
       "title": "Official Website",
-      "url": "https://scrt.network",
+      "url": "https://scrt.network/",
       "icon": {
         "svg": "web"
       }
