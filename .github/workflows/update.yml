@@ -1,0 +1,55 @@
+name: Update chains config
+
+on:
+  schedule:
+    - cron:  '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ ubuntu-latest ]
+        node: [ 20 ]
+
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Checkout 📡
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Cache node_modules 💰
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ matrix.os }}-node-v${{ matrix.node }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
+
+      - name: Install Dependencies 🧬
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm install
+
+      - name: Update chains
+        run: npm run ci:update
+        env:
+          CI: true
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: update/chains
+          delete-branch: true
+          title: 'chore: update chains config'
+          commit-message: 'chore: update chains config'
+          body: LFG! 🚀
+          labels: |
+            update
+            automated pr
+          assignees: zakarialounes
+          reviewers: zakarialounes
+          draft: false
