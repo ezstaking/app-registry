@@ -26,7 +26,7 @@
   ],
   "coinGeckoId": "cheqd-network",
   "chainInfo": {
-    "cosmosSdkVersion": "heqd/cosmos-sdk v0.47.10-height-mismatch",
+    "cosmosSdkVersion": "0.47.10",
     "ibcGoVersion": "6.1.1"
   },
   "colors": {

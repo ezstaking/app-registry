@@ -28,7 +28,7 @@
   ],
   "coinGeckoId": "cosmos",
   "chainInfo": {
-    "cosmosSdkVersion": "0.50.9-lsm",
+    "cosmosSdkVersion": "0.50.9",
     "ibcGoVersion": "7.4.0"
   },
   "colors": {

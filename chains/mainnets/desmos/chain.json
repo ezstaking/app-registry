@@ -25,7 +25,7 @@
   ],
   "coinGeckoId": "desmos",
   "chainInfo": {
-    "cosmosSdkVersion": "esmos-labs/cosmos-sdk v0.47.10-desmos",
+    "cosmosSdkVersion": "0.47.10",
     "ibcGoVersion": "7.4.0"
   },
   "colors": {

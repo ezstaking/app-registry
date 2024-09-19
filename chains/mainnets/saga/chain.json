@@ -50,7 +50,7 @@
   },
   "gasModifier": 1.5,
   "chainInfo": {
-    "cosmosSdkVersion": "smosis-labs/cosmos-sdk v0.47.5",
+    "cosmosSdkVersion": "0.47.5",
     "ibcGoVersion": "7.3.1"
   },
   "colors": {

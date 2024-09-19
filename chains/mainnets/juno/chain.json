@@ -119,6 +119,5 @@
   },
   "isNativelySupportedByKeplr": true,
   "withCoingeckoApi": true,
-  "isFeatured": true,
-  "bech32": "juno"
+  "isFeatured": true
 }

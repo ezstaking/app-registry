@@ -25,7 +25,7 @@
     "high": 0.015
   },
   "chainInfo": {
-    "cosmosSdkVersion": "ithub.com/Finschia/finschia-sdk@v0.48.1",
+    "cosmosSdkVersion": "0.48.1",
     "ibcGoVersion": "4.3.1"
   },
   "colors": {

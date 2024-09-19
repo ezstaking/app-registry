@@ -89,6 +89,5 @@
   },
   "isNativelySupportedByKeplr": false,
   "withCoingeckoApi": false,
-  "isFeatured": false,
-  "bech32": "bcna"
+  "isFeatured": false
 }

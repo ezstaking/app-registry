@@ -12,6 +12,7 @@
   "restUrl": "https://rest.cosmos.directory/neutron",
   "chainId": "neutron-1",
   "bech32": "neutron",
+  "denom": "neutron",
   "denomUpper": "NTRN",
   "sdenom": "untrn",
   "coinType": 118,
@@ -27,7 +28,7 @@
   ],
   "coinGeckoId": "neutron-3",
   "chainInfo": {
-    "cosmosSdkVersion": "eutron-org/cosmos-sdk v0.50.7-neutron",
+    "cosmosSdkVersion": "0.50.7",
     "ibcGoVersion": "4.3.1"
   },
   "colors": {

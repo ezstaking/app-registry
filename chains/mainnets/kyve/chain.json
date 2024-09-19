@@ -50,7 +50,7 @@
     }
   ],
   "chainInfo": {
-    "cosmosSdkVersion": "0.50.7-kyve-rc0",
+    "cosmosSdkVersion": "0.50.7",
     "ibcGoVersion": "1.0.0"
   },
   "colors": {
