@@ -1,3 +1,5 @@
+import cleanSemver from "clean-semver";
+import { compareVersions } from "compare-versions";
 import useLoadJson from "./utils/useLoadJson.mjs";
 import useChainList from "./utils/useChainList.mjs";
 import useWriteFile from "./utils/useWriteFile.mjs";
@@ -18,14 +20,27 @@ const updateChain = async (env, network) => {
     registryChain.logo_URIs.png !== remoteChain.logo_URIs.png &&
     remoteChain.logo_URIs.png !== undefined
   ) {
-    console.error(`${network} logo need to be updated (png)`);
+    console.error(
+      `${network} logo need to be updated (png)`,
+      {
+        from: registryChain.logo_URIs.png,
+        to: remoteChain.logo_URIs.png
+      }
+    );
+
     registryChain.logo_URIs.png = remoteChain.logo_URIs.png;
   }
   if (
     registryChain.logo_URIs.svg !== remoteChain.logo_URIs.svg &&
     remoteChain.logo_URIs.svg !== undefined
   ) {
-    console.error(`${network} logo need to be updated (svg)`);
+    console.error(
+      `${network} logo need to be updated (svg)`,
+      {
+        from: registryChain.logo_URIs.svg,
+        to: remoteChain.logo_URIs.svg
+      }
+    );
     registryChain.logo_URIs.svg = remoteChain.logo_URIs.svg;
   }
 
@@ -36,22 +51,27 @@ const updateChain = async (env, network) => {
   ) {
     console.error(
       `${network} chainId need to be updated`,
-      registryChain.chainId,
-      remoteChain.chain_id
+      {
+        from: registryChain.chainId,
+        to: remoteChain.chain_id
+      }
     );
     registryChain.chainId = remoteChain.chain_id;
   }
 
   // bech32
   if (
-    registryChain.bech32 !== remoteChain.bech32_prefix &&
-    remoteChain.bech32_prefix !== undefined
+    registryChain.bech32 !== undefined && remoteChain.bech32_prefix !== undefined &&
+    registryChain.bech32 !== remoteChain.bech32_prefix
   ) {
     console.error(
       `${network} bech32 need to be updated`,
-      registryChain.bech32,
-      remoteChain.bech32_prefix
+      {
+        from: registryChain.bech32,
+        to: remoteChain.bech32_prefix
+      }
     );
+
     registryChain.bech32 = remoteChain.bech32_prefix;
   }
 
@@ -62,10 +82,12 @@ const updateChain = async (env, network) => {
   ) {
     console.error(
       `${network} denom need to be updated`,
-      registryChain.denom,
-      remoteAsset.display
+      {
+        from: registryChain.denom,
+        to: remoteAsset.display
+      }
     );
-    registryChain.denom  = remoteChain.display;
+    registryChain.denom  = remoteAsset.display;
   }
 
   // denomUpper
@@ -75,8 +97,10 @@ const updateChain = async (env, network) => {
   ) {
     console.error(
       `${network} denomUpper need to be updated`,
-      registryChain.denomUpper,
-      remoteAsset.symbol
+      {
+        from: registryChain.denomUpper,
+        to: remoteAsset.symbol
+      }
     );
     registryChain.denomUpper = remoteAsset.symbol;
   }
@@ -88,8 +112,10 @@ const updateChain = async (env, network) => {
   ) {
     console.error(
       `${network} sdenom need to be updated`,
-      registryChain.sdenom,
-      remoteDenom
+      {
+        from: registryChain.sdenom,
+        to: remoteDenom
+      }
     );
     registryChain.sdenom = remoteDenom;
   }
@@ -101,8 +127,10 @@ const updateChain = async (env, network) => {
   ) {
     console.error(
       `${network} coinType need to be updated`,
-      registryChain.coinType,
-      remoteChain.slip44
+      {
+        from: registryChain.coinType,
+        to: remoteChain.slip44
+      }
     );
     registryChain.coinType = remoteChain.slip44;
   }
@@ -114,8 +142,10 @@ const updateChain = async (env, network) => {
   ) {
     console.error(
       `${network} gasPriceStep.low need to be updated`,
-      registryChain.gasPriceStep.low,
-      remoteFeeToken.low_gas_price
+      {
+        from: registryChain.gasPriceStep.low,
+        to: remoteFeeToken.low_gas_price
+      }
     );
     registryChain.gasPriceStep.low = remoteFeeToken.low_gas_price;
   }
@@ -125,8 +155,10 @@ const updateChain = async (env, network) => {
   ) {
     console.error(
       `${network} gasPriceStep.average need to be updated`,
-      registryChain.gasPriceStep.average,
-      remoteFeeToken.average_gas_price
+      {
+        from: registryChain.gasPriceStep.average,
+        to: remoteFeeToken.average_gas_price
+      }
     );
     registryChain.gasPriceStep.average = remoteFeeToken.average_gas_price;
   }
@@ -136,8 +168,10 @@ const updateChain = async (env, network) => {
   ) {
     console.error(
       `${network} gasPriceStep.high need to be updated`,
-      registryChain.gasPriceStep.high,
-      remoteFeeToken.high_gas_price
+      {
+        from: registryChain.gasPriceStep.high,
+        to: remoteFeeToken.high_gas_price
+      }
     );
     registryChain.gasPriceStep.high = remoteFeeToken.high_gas_price;
   }
@@ -149,8 +183,10 @@ const updateChain = async (env, network) => {
   ) {
     console.error(
       `${network} coinDecimals need to be updated`,
-      registryChain.coinDecimals,
-      remoteDenomDetails.exponent
+      {
+        from: registryChain.coinDecimals,
+        to: remoteDenomDetails.exponent
+      }
     );
     registryChain.coinDecimals = remoteDenomDetails.exponent;
   }
@@ -164,34 +200,58 @@ const updateChain = async (env, network) => {
   ) {
     console.error(
       `${network} coinGeckoId need to be updated`,
-      registryChain.coinGeckoId,
-      remoteAsset.coingecko_id
+      {
+        from: registryChain.coinGeckoId,
+        to: remoteAsset.coingecko_id
+      }
     );
     registryChain.coinGeckoId = remoteAsset.coingecko_id;
   }
 
   // chainInfo
   if (
-    `v${registryChain.chainInfo.cosmosSdkVersion}` !== remoteChain.codebase.cosmos_sdk_version &&
-    remoteChain.codebase.cosmos_sdk_version !== undefined
+    remoteChain.codebase.cosmos_sdk_version !== undefined &&
+    registryChain.chainInfo.cosmosSdkVersion !== cleanSemver(remoteChain.codebase.cosmos_sdk_version)
   ) {
-    console.error(
-      `${network} cosmosSdkVersion need to be updated`,
-      `v${registryChain.chainInfo.cosmosSdkVersion}`,
-      remoteChain.codebase.cosmos_sdk_version
-    );
-    registryChain.chainInfo.cosmosSdkVersion = remoteChain.codebase.cosmos_sdk_version.substring(1);
+    const remoteCosmosSdkVersion = cleanSemver(remoteChain.codebase.cosmos_sdk_version).split('-')[0];
+    const isRemoteVersionHigher = compareVersions(remoteCosmosSdkVersion, registryChain.chainInfo.cosmosSdkVersion) >= 0;
+    // @fixme: find a better way to get the version without having doing all this
+    const hotfixVersion = remoteChain.codebase.cosmos_sdk_version.includes(registryChain.chainInfo.cosmosSdkVersion);
+
+    if (isRemoteVersionHigher && !hotfixVersion) {
+      console.error(
+        `${network} cosmosSdkVersion need to be updated`,
+        {
+          from: registryChain.chainInfo.cosmosSdkVersion,
+          to: remoteCosmosSdkVersion,
+          remoteOriginal: remoteChain.codebase.cosmos_sdk_version
+        }
+      );
+
+      registryChain.chainInfo.cosmosSdkVersion = remoteCosmosSdkVersion;
+    }
   }
   if (
-    `v${registryChain.chainInfo.ibcGoVersion}` !== remoteChain.codebase.ibc_go_version &&
-    remoteChain.codebase.ibc_go_version !== undefined
+    remoteChain.codebase.ibc_go_version !== undefined &&
+    registryChain.chainInfo.ibcGoVersion !== cleanSemver(remoteChain.codebase.ibc_go_version)
   ) {
-    console.error(
-      `${network} ibcGoVersion need to be updated`,
-      `v${registryChain.chainInfo.ibcGoVersion}`,
-      remoteChain.codebase.ibc_go_version
-    );
-    registryChain.chainInfo.ibcGoVersion = remoteChain.codebase.ibc_go_version.substring(1);
+    const remoteIbcGoVersion = cleanSemver(remoteChain.codebase.ibc_go_version);
+    const isRemoteVersionHigher = compareVersions(remoteIbcGoVersion, registryChain.chainInfo.ibcGoVersion) >= 0;
+    // @fixme: find a better way to get the version without having doing all this
+    const hotfixVersion = remoteChain.codebase.ibc_go_version.includes(registryChain.chainInfo.ibcGoVersion);
+
+    if (isRemoteVersionHigher && !hotfixVersion) {
+      console.error(
+        `${network} ibcGoVersion need to be updated`,
+        {
+          from: registryChain.chainInfo.ibcGoVersion,
+          to: remoteIbcGoVersion,
+          remoteOriginal: remoteChain.codebase.ibc_go_version
+        }
+      );
+
+      registryChain.chainInfo.ibcGoVersion = remoteIbcGoVersion;
+    }
   }
 
   // links
@@ -201,8 +261,10 @@ const updateChain = async (env, network) => {
   ) {
     console.error(
       `${network} websiteUrl need to be updated`,
-      registryChain.links[0].url,
-      remoteChain.website
+      {
+        from: registryChain.links[0].url,
+        to: remoteChain.website
+      }
     );
     registryChain.links[0].url = remoteChain.website;
   }
@@ -232,4 +294,7 @@ const update = async () => {
   await updateChains(false);
 }
 
-await update();
+await update().then(() => {
+  console.log('Done.')
+  return 0;
+})

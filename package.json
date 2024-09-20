@@ -17,5 +17,9 @@
   "devDependencies": {
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "clean-semver": "^2.1.0",
+    "compare-versions": "^6.1.1"
   }
 }
