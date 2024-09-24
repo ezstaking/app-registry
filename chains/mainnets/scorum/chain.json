@@ -10,9 +10,9 @@
   "restUrl": "https://scorum-blockchain-mainnet-api.scorum.com",
   "chainId": "scorum-1",
   "bech32": "scorum",
-  "denom": "sp",
-  "denomUpper": "SP",
-  "sdenom": "nsp",
+  "denom": "scr",
+  "denomUpper": "SCR",
+  "sdenom": "nscr",
   "coinType": 118,
   "gasPriceStep": {
     "low": 1,
