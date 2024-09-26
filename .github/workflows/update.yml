@@ -22,7 +22,7 @@ jobs:
       - name: Checkout 📡
         uses: actions/checkout@v4
         with:
-          submodules: recursive
+          ref: main
 
       - name: Cache node_modules 💰
         uses: actions/cache@v4
@@ -39,6 +39,9 @@ jobs:
         env:
           CI: true
 
+      - name: Show Diff
+        run: git --no-pager diff
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
@@ -52,4 +55,4 @@ jobs:
             automated pr
           assignees: zakarialounes
           reviewers: zakarialounes
-          draft: false
+          draft: true
