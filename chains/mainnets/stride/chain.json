@@ -11,6 +11,7 @@
   "rpcUrl": "https://stride-fleet.main.stridenet.co",
   "restUrl": "https://stride-fleet.main.stridenet.co/api",
   "chainId": "stride-1",
+  "consumerId": "1",
   "bech32": "stride",
   "denom": "strd",
   "denomUpper": "STRD",

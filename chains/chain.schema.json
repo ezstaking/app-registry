@@ -57,6 +57,10 @@
     "chainId": {
       "type": "string"
     },
+    "consumerId": {
+      "type": "string",
+      "description": "Only required for consumer chain."
+    },
     "bech32": {
       "type": "string"
     },

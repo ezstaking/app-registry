@@ -11,6 +11,7 @@
   "rpcUrl": "https://rpc.cosmos.directory/neutron",
   "restUrl": "https://rest.cosmos.directory/neutron",
   "chainId": "neutron-1",
+  "consumerId": "0",
   "bech32": "neutron",
   "denom": "ntrn",
   "denomUpper": "NTRN",
