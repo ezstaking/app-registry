@@ -226,36 +226,27 @@
     "colors": {
       "type": "object",
       "required": [
-        "primaryOnLight",
-        "primaryOnDark",
-        "lighterOnLight",
-        "lighterOnDark",
-        "darkerOnLight",
-        "darkerOnDark"
+        "primaryLight",
+        "primaryDark",
+
+        "onPrimaryLight",
+        "onPrimaryDark"
       ],
       "properties": {
-        "primaryOnLight": {
+        "primaryLight": {
           "description": "Primary color for light theme.",
           "type": "string"
         },
-        "primaryOnDark": {
+        "primaryDark": {
           "description": "Primary color for dark theme.",
           "type": "string"
         },
-        "lighterOnLight": {
-          "description": "Lighter color than the primary one and for light theme.",
+        "onPrimaryLight": {
+          "description": "Text color applied for primary light color.",
           "type": "string"
         },
-        "lighterOnDark": {
-          "description": "Lighter color than the primary one and for dark theme.",
-          "type": "string"
-        },
-        "darkerOnLight": {
-          "description": "Darker color than the primary one and for light theme.",
-          "type": "string"
-        },
-        "darkerOnDark": {
-          "description": "Darker color than the primary one and for dark theme.",
+        "onPrimaryDark": {
+          "description": "Text color applied for primary dark color.",
           "type": "string"
         }
       },

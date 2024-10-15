@@ -29,12 +29,10 @@
     "ibcGoVersion": "7.4.0"
   },
   "colors": {
-    "primaryOnLight": "#ff564f",
-    "primaryOnDark": "#ff564f",
-    "lighterOnLight": "#ff564f",
-    "lighterOnDark": "#ff564f",
-    "darkerOnLight": "#ff564f",
-    "darkerOnDark": "#ff564f"
+    "primaryLight": "#ff564f",
+    "primaryDark": "#ff564f",
+    "onPrimaryLight": "#fff",
+    "onPrimaryDark": "#000"
   },
   "links": [
     {

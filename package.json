@@ -12,7 +12,8 @@
     "postinstall": "npm remove chain-registry 2>&1 && npm add chain-registry 2>&1",
     "update": "NODE_OPTIONS='--experimental-specifier-resolution=node --loader ts-node/esm --experimental-modules' node scripts/chain-update.mjs",
     "ci:update": "NODE_OPTIONS='--experimental-specifier-resolution=node --loader ts-node/esm --experimental-modules' node scripts/chain-update.mjs",
-    "postci:update": "npm remove chain-registry 2>&1"
+    "postci:update": "npm remove chain-registry 2>&1",
+    "utils:gen:predoc": "npx jsonschema2mk --schema chains/chain.schema.json >PREDOC.md"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",

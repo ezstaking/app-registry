@@ -21,6 +21,7 @@ Managed automatically by a robot. The resources are available on the following g
 |**rpcUrl**|`string`||yes|
 |**restUrl**|`string`||yes|
 |**chainId**|`string`||yes|
+|**consumerId**|`string`|Only required for consumer chain.<br/>|no|
 |**bech32**|`string`||no|
 |**denom**|`string`||yes|
 |**denomUpper**|`string`||yes|
@@ -145,12 +146,10 @@ Required only for assets that's not in the Cosmos Chain Registry.
 
 |Name|Type|Description|Required|
 |----|----|-----------|--------|
-|**primaryOnLight**|`string`|Primary color for light theme.<br/>|yes|
-|**primaryOnDark**|`string`|Primary color for dark theme.<br/>|yes|
-|**lighterOnLight**|`string`|Lighter color than the primary one and for light theme.<br/>|yes|
-|**lighterOnDark**|`string`|Lighter color than the primary one and for dark theme.<br/>|yes|
-|**darkerOnLight**|`string`|Darker color than the primary one and for light theme.<br/>|yes|
-|**darkerOnDark**|`string`|Darker color than the primary one and for dark theme.<br/>|yes|
+|**primaryLight**|`string`|Primary color for light theme.<br/>|yes|
+|**primaryDark**|`string`|Primary color for dark theme.<br/>|yes|
+|**onPrimaryLight**|`string`|Text color applied for primary light color.<br/>|yes|
+|**onPrimaryDark**|`string`|Text color applied for primary dark color.<br/>|yes|
 
 **Additional Properties:** not allowed  
 <a name="links"></a>
