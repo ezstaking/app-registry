@@ -90,6 +90,6 @@
     "governance": true
   },
   "isNativelySupportedByKeplr": false,
-  "withCoingeckoApi": true,
-  "isFeatured": true
+  "withCoingeckoApi": false,
+  "isFeatured": false
 }
