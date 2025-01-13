@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "name": "archway_testnet",
+  "slug": "archway_testnet",
   "chainName": "Archway Testnet",
   "logo_URIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/archwaytestnet/images/ArchwayBrandmark.png",

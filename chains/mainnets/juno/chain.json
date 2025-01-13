@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "name": "juno",
+  "slug": "juno",
   "chainName": "Juno",
   "logo_URIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/juno/images/juno.png",
@@ -28,7 +29,7 @@
   ],
   "coinGeckoId": "juno-network",
   "chainInfo": {
-    "cosmosSdkVersion": "0.47.12",
+    "cosmosSdkVersion": "0.47.15",
     "ibcGoVersion": "7.3.1"
   },
   "colors": {

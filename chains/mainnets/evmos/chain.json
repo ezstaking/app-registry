@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "name": "evmos",
+  "slug": "evmos",
   "chainName": "Evmos",
   "logo_URIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",

@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "name": "nois_testnet",
+  "slug": "nois_testnet",
   "chainName": "Nois Testnet",
   "logo_URIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png"

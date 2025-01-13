@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "name": "xpla",
+  "slug": "xpla",
   "chainName": "XPLA",
   "logo_URIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.png",

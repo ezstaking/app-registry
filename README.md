@@ -14,9 +14,9 @@ Managed automatically by a robot. The resources are available on the following g
 |Name|Type|Description|Required|
 |----|----|-----------|--------|
 |**$schema**|`string`|Enum: `"../../chain.schema.json"`<br/>|yes|
-|**name**|`string`||yes|
+|**name**|`string`|Must match with the Chain Registry name.<br/>|yes|
+|**slug**|`string`||yes|
 |**chainName**|`string`||yes|
-|**shortChainName**|`string`||no|
 |[**logo\_URIs**](#logo_uris)|`object`||yes|
 |**rpcUrl**|`string`||yes|
 |**restUrl**|`string`||yes|

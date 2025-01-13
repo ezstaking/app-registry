@@ -1,6 +1,7 @@
 {
   "$schema": "../../chain.schema.json",
   "name": "fetchhub",
+  "slug": "fetchhub",
   "chainName": "Fetch.ai",
   "logo_URIs": {
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png",
