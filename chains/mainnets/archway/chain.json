@@ -7,8 +7,8 @@
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.svg"
   },
-  "rpcUrl": "https://rpc-archway.ezstaking.dev",
-  "restUrl": "https://lcd-archway.ezstaking.dev",
+  "rpcUrl": "https://rpc.cosmos.directory/archway",
+  "restUrl": "https://rest.cosmos.directory/archway",
   "chainId": "archway-1",
   "denom": "arch",
   "denomUpper": "ARCH",
