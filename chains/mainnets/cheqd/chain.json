@@ -16,9 +16,9 @@
   "sdenom": "ncheq",
   "coinType": 118,
   "gasPriceStep": {
-    "low": 50,
-    "average": 75,
-    "high": 100
+    "low": 5000,
+    "average": 7500,
+    "high": 10000
   },
   "gasModifier": 1.8,
   "coinDecimals": 9,
