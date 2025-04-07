@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: scheduleonce/lint-filenames@v2.0.0
+      - uses: scheduleonce/lint-filenames@v3.0.0
         name: Validating filenames
         with:
           path: '!(*.schema.json|README*|.gitignore)'
