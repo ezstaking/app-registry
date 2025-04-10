@@ -7,8 +7,8 @@
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.svg"
   },
-  "rpcUrl": "https://rpc-assetmantle.ezstaking.dev",
-  "restUrl": "https://lcd-assetmantle.ezstaking.dev",
+  "rpcUrl": "https://rpc.cosmos.directory/assetmantle",
+  "restUrl": "https://rest.cosmos.directory/assetmantle",
   "chainId": "mantle-1",
   "bech32": "mantle",
   "denom": "mntl",
