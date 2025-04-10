@@ -7,8 +7,8 @@
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.svg"
   },
-  "rpcUrl": "https://rpc-ixo.ezstaking.dev",
-  "restUrl": "https://lcd-ixo.ezstaking.dev",
+  "rpcUrl": "https://rpc.cosmos.directory/impacthub",
+  "restUrl": "https://rest.cosmos.directory/impacthub",
   "chainId": "ixo-5",
   "bech32": "ixo",
   "denom": "ixo",
