@@ -16,9 +16,9 @@
   "sdenom": "ukyve",
   "coinType": 118,
   "gasPriceStep": {
-    "low": 0.02,
-    "average": 0.03,
-    "high": 0.06
+    "low": 2,
+    "average": 3,
+    "high": 6
   },
   "gasModifier": 1.8,
   "coinDecimals": 6,

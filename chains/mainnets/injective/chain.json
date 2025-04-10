@@ -21,9 +21,9 @@
   ],
   "coinGeckoId": "injective-protocol",
   "gasPriceStep": {
-    "low": 500000000,
-    "average": 700000000,
-    "high": 900000000
+    "low": 160000000,
+    "average": 160000000,
+    "high": 160000000
   },
   "chainInfo": {
     "cosmosSdkVersion": "0.50.9",
