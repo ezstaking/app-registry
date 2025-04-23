@@ -21,9 +21,9 @@
   ],
   "coinGeckoId": "xpla",
   "gasPriceStep": {
-    "low": 850000000000,
-    "average": 1147500000000,
-    "high": 1487500000000
+    "low": 280000000000,
+    "average": 280000000000,
+    "high": 280000000000
   },
   "chainInfo": {
     "cosmosSdkVersion": "0.47.13",

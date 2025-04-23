@@ -14,9 +14,9 @@
   "sdenom": "upasg",
   "coinType": 118,
   "gasPriceStep": {
-    "low": 0.001,
-    "average": 0.0025,
-    "high": 0.01
+    "low": 12.5,
+    "average": 12.5,
+    "high": 12.5
   },
   "coinDecimals": 6,
   "features": [
