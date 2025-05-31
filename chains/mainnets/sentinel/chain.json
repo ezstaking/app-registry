@@ -12,7 +12,7 @@
   "chainId": "sentinelhub-2",
   "bech32": "sent",
   "denom": "dvpn",
-  "denomUpper": "DVPN",
+  "denomUpper": "P2P",
   "sdenom": "udvpn",
   "coinType": 118,
   "coinDecimals": 6,
