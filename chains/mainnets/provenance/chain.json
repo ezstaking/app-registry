@@ -19,7 +19,7 @@
   "features": [
     "ibc-transfer"
   ],
-  "coinGeckoId": "provenance-blockchain",
+  "coinGeckoId": "hash-2",
   "gasPriceStep": {
     "low": 1905,
     "average": 2100,
