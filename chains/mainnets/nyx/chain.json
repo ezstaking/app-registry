@@ -7,8 +7,8 @@
     "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_light.png",
     "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nym_token_light.svg"
   },
-  "rpcUrl": "https://rpc-nyx.ezstaking.dev",
-  "restUrl": "https://lcd-nyx.ezstaking.dev",
+  "rpcUrl": "https://rpc.nymtech.net",
+  "restUrl": "https://api.nymtech.net",
   "chainId": "nyx",
   "bech32": "n",
   "denom": "nyx",
